@@ -22,7 +22,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "linear-gradient-btn": "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
-        "redchilli":"url('/assets/images/client-says/red-chilli-bg.webp')",
+        "redchilli": "url('/assets/images/client-says/red-chilli-bg.webp')",
+        "slider": "url('/assets/images/client-says/slider-bg.png')",
       },
       colors: {
         "Rich-Black": "#0c0800",
@@ -32,7 +33,9 @@ module.exports = {
       boxShadow: {
         navbarShadow: "0px 4px 0px -1px #0c0800",
       },
-
+      padding: {
+        4.5: "18px",
+      },
     },
   },
   plugins: [],
