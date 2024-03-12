@@ -117,7 +117,6 @@ export const Copy = () => {
 export const Headingdesign = () => {
   return (
     <svg
-      className="absolute right-[4%] -bottom-[13%]"
       width="104"
       height="67"
       viewBox="0 0 104 67"
@@ -148,6 +147,37 @@ export const Headingdesign = () => {
         stroke-width="3"
         stroke-linecap="round"
       />
+    </svg>
+  );
+};
+export const Bgelipse = () => {
+  return (
+    <svg
+      className="relative"
+      width="144"
+      height="143"
+      viewBox="0 0 144 143"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        opacity="0.1"
+        d="M71.9013 0.920937C93.2876 2.14139 110.325 16.8748 123.324 33.9182C136.577 51.2941 147.837 72.1188 142.342 93.2767C136.83 114.497 117.129 127.906 96.7955 136.057C77.4677 143.805 55.9456 144.866 37.4331 135.33C18.766 125.714 6.08327 107.728 1.84425 87.145C-2.46348 66.2288 1.8159 44.3203 15.2774 27.7523C29.1403 10.6902 49.9665 -0.330813 71.9013 0.920937Z"
+        fill="url(#paint0_linear_2001_23)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_2001_23"
+          x1="72"
+          y1="0.824341"
+          x2="72"
+          y2="142.176"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FFE14E" />
+          <stop offset="1" stop-color="#FFB93F" />
+        </linearGradient>
+      </defs>
     </svg>
   );
 };
