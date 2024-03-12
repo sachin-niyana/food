@@ -4,7 +4,7 @@ import OurChef from "@/components/OurChef";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <OurChef />
     </div>
   );

@@ -32,9 +32,7 @@ module.exports = {
       boxShadow: {
         greenShadow: "0px 0px 10px 4px #13292b",
       },
-      padding: {
-        4.5: "18px",
-      },
+
     },
   },
   plugins: [],
