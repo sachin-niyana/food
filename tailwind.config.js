@@ -21,11 +21,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "header-bg": "url('/assets/background/header-bg.webp')",
-        "Expertise-bg": "url('/assets/background/expertise-bg.webp')",
-        "choose-bg": "url('/assets/background/choose-bg.webp')",
-        "reviews-bg": "url('/assets/background/reviews-bg.webp')",
-        "contact-bg": "url('/assets/background/contact-bg.webp')",
+        "client-bg": "url('../../public/assets/images/client-says/red-chilli-bg.webp')",
       },
       colors: {
         "Rich-Black": "#0c0800",

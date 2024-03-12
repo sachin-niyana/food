@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
 @font-face {
   font-family: "ClashDisplay";
   font-weight: 500;
   src: url(../../public/assets/font/ClashDisplay-Medium.otf);
 }
+
 @font-face {
   font-family: "ClashDisplay";
   font-weight: 600;
@@ -24,7 +26,4 @@
   .text-balance {
     text-wrap: balance;
   }
-}
-.imgpath{
-  background-image: url();
 }
