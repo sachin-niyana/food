@@ -117,7 +117,7 @@ export const Copy = () => {
 export const Headingdesign = () => {
   return (
     <svg
-      className="absolute right-[9%] -bottom-[13%]"
+      className="absolute right-[4%] -bottom-[13%]"
       width="104"
       height="67"
       viewBox="0 0 104 67"
