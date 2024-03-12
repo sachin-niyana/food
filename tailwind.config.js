@@ -21,13 +21,18 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "client-bg": "url('../../public/assets/images/client-says/red-chilli-bg.webp')",
+        "linear-gradient-btn": "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
       },
       colors: {
         "Rich-Black": "#0c0800",
+        "light-white": "#f4f3f1",
+        yellow: "#ffaa00",
       },
       boxShadow: {
-        greenShadow: "0px 0px 10px 4px #13292b",
+        navbarShadow: "0px 4px 0px -1px #0c0800",
+      },
+      padding: {
+        4.5: "18px",
       },
     },
   },
