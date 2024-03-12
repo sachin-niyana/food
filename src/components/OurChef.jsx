@@ -19,15 +19,15 @@ const OurChef = () => {
                         </p>
                     </div>
                     <div className="mt-3 lg:mt-0">
-                        <button className="bg-linear-gradient-btn flex items-center transition-shadow duration-300 hover:shadow-[5px_5px_0px_0px_#0c0800] font-ClashDisplay text-sm font-medium px-5 py-3 rounded-full gap-1.5">
+                        <button className="bg-linear-gradient-btn flex items-center transition-shadow duration-300 hover:shadow-[3px_3px_0px_0px_#0c0800] font-ClashDisplay text-sm font-medium px-5 py-3 rounded-full gap-1.5">
                             <RightArrow /> See All
                         </button>
                     </div>
                 </div>
-                <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-3 lg:gap-3 ">
+                <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-3 lg:gap-6 ">
                     {ourChef.map((value, index) => (
                         <div className="max-w-[364px]">
-                            <div className="rounded-2xl group  p-6 border max-w-[364px] bg-white  border-black cursor-pointer" key={index}>
+                            <div className="rounded-2xl group  p-4 md:p-6 border max-w-[360px] bg-white  border-black cursor-pointer" key={index}>
                                 <Image
                                     className="rounded-2xl transition-all group-hover:scale-[1.1]"
                                     width={316}
