@@ -21,7 +21,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "header-bg": "url('/assets/background/header-bg.webp')",
+        "linear-gradient-btn":
+          "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
       },
       colors: {
         "Rich-Black": "#0c0800",
@@ -30,6 +31,9 @@ module.exports = {
       },
       boxShadow: {
         greenShadow: "0px 0px 10px 4px #13292b",
+      },
+      padding: {
+        4.5: "18px",
       },
     },
   },
