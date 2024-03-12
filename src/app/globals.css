@@ -16,14 +16,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.Slider_arrow_hover:hover {
+.slider_arrow_hover:hover circle {
+  fill: black;
+}
+
+.slider_arrow_hover:hover path {
+  fill: black;
+}
+
+.slider_arrow_hover:hover rect {
   fill: #FFAA00;
 }
 
-.Slider_arrow_hover:hover path {
-  fill: black;
-}
-
-.Slider_arrow_hover:hover circle {
-  fill: black;
+.slider_arrow_hover:hover path {
+  stroke: black;
 }

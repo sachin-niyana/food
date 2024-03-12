@@ -50,9 +50,9 @@ const ClientSays = () => {
     };
     return (
         <div className='bg-redchilli bg-cover bg-no-repeat bg-center mt-40 overflow-hidden'>
-            <div className='container max-w-[1152px] mx-auto px-3  py-[220px]'>
+            <div className='container max-w-[1152px] mx-auto px-3  py-[150px]'>
                 <div className='flex flex-col justify-center text-center items-center'>
-                    <h2 className='font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-white text-center pt-10'>What’s Our Client Say</h2>
+                    <h2 className='font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-white text-center'>What’s Our Client Say</h2>
                     <p className='text-sm text-cnter text-white opacity-70 mt-[8px] leading-[150%] xl:max-w-[532px] '>Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum accumsan odio tellus integer scelerisque.</p>
                 </div>
                 <Slider {...settings} className='flex justify-center items-center text-center mt-5 sm:mt-[63px]'>
