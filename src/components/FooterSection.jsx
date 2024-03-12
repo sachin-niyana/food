@@ -8,9 +8,9 @@ const FooterSection = () => {
     return (
         <div className='bg-footer-cartoon-bg bg-center bg-no-repeat bg-auto'>
             <div className='container mx-auto max-w-[1152px] px-3'>
-                <div className='pt-[51px] pb-[38px] flex flex-wrap flex-col md:flex-row items-center justify-between'>
+                <div className='pt-[38px] md:pt-[51px] pb-[38px] flex flex-wrap flex-col md:flex-row items-center justify-between'>
                     <Link href="#" target='_blank'>
-                        <Image width={171} height={74} src="/assets/images/footer/footer-logo.png" />
+                        <Image width={171} height={74} src="/assets/images/footer/footer-logo.png" alt='company-logo' />
                     </Link>
                     <ul className="flex gap-2 sm:gap-[30px] py-5 md:py-0 ">
                         {navLink.map((value, index) => {
