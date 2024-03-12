@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="z-10 pt-[37px] flex-grow-0 bg-light-white">
+    <nav className="z-10 lg:pt-[37px] pt-6 flex-grow-0 bg-light-white">
       <div className="container max-w-[1152px] mx-auto px-3">
         <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] py-[18px] bg-white rounded-full shadow-navbarShadow">
           <Image
@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul className="hidden lg:flex gap-[30px] ">
             {navLink.map((value, index) => {
               return (
-                <li key={index} className="flex flex-col items-center group">
+                <li key={index} className="relative group">
                   <Link
                     aria-label={value.title}
                     className="text-Rich-Black text-opacity-70 group-hover:text-opacity-100 font-Syne font-normal sm:text-sm text-xsm transition-all ease-in-out duration-300"
@@ -35,7 +35,7 @@ const Navbar = () => {
                   >
                     {value.title}
                   </Link>
-                  <span>
+                  <span className="absolute bottom-[-20%] left-[50%] translate-x-[-50%]">
                     <div className="w-[7px] h-[7px] bg-yellow rounded-full group-hover:opacity-100 opacity-0 transition-all ease-in-out duration-300"></div>
                   </span>
                 </li>

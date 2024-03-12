@@ -61,6 +61,30 @@ export const Search = () => {
     </svg>
   );
 };
+export const Watch = () => {
+  return (
+    <svg
+      width="20"
+      height="21"
+      viewBox="0 0 20 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="0.5"
+        y="1.01831"
+        width="19"
+        height="19"
+        rx="9.5"
+        stroke="black"
+      />
+      <path
+        d="M7.09082 7.19119C7.0909 7.01206 7.1391 6.83623 7.23038 6.6821C7.32166 6.52796 7.45267 6.40118 7.6097 6.31499C7.76674 6.22881 7.94405 6.18639 8.12309 6.19217C8.30213 6.19795 8.47633 6.25172 8.62749 6.34786L13.0982 9.19252C13.2401 9.28284 13.3569 9.4075 13.4379 9.55498C13.5188 9.70245 13.5613 9.86796 13.5613 10.0362C13.5613 10.2044 13.5188 10.3699 13.4379 10.5174C13.3569 10.6649 13.2401 10.7895 13.0982 10.8799L8.62749 13.7252C8.47629 13.8214 8.30202 13.8751 8.12293 13.8809C7.94383 13.8866 7.76647 13.8442 7.60941 13.7579C7.45235 13.6716 7.32136 13.5447 7.23013 13.3905C7.1389 13.2363 7.09078 13.0604 7.09082 12.8812V7.19119Z"
+        fill="black"
+      />
+    </svg>
+  );
+};
 export const Login = () => {
   return (
     <svg
@@ -174,6 +198,42 @@ export const LinkedInIcon = () => {
           <stop offset="1" stop-color="#FFB93F" />
         </linearGradient>
       </defs>
+    </svg>
+  );
+};
+export const Headingdesign = () => {
+  return (
+    <svg
+      width="104"
+      height="67"
+      viewBox="0 0 104 67"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M75.7617 15.5743C77.3848 10.8005 80.9685 6.537 83.6953 2.35156"
+        stroke="#FFAA00"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <path
+        d="M76.7617 22.3516C84.9788 23.716 93.232 24.0723 101.524 24.7557"
+        stroke="#FFAA00"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <path
+        d="M74.8506 28.8691C76.1652 32.9512 77.6421 36.8963 79.178 40.8898"
+        stroke="#FFAA00"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <path
+        d="M2 65.4533C18.5487 61.1141 35.0544 56.4848 52.0845 54.4141C65.3898 52.7964 78.735 52.8272 92.1047 52.6489"
+        stroke="#FFAA00"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
     </svg>
   );
 };

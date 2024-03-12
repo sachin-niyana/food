@@ -28,11 +28,11 @@ module.exports = {
         "Rich-Black": "#0c0800",
         "light-white": "#f4f3f1",
         yellow: "#ffaa00",
+        "light-brown": "#f6e4c1",
       },
       boxShadow: {
         navbarShadow: "0px 4px 0px -1px #0c0800",
       },
-
     },
   },
   plugins: [],
