@@ -23,7 +23,7 @@ const Header = () => {
             Fastest and Flavourful Food Delivering at your{" "}
             <span className="relative">
               Doorstep{" "}
-              <span className="absolute right-[-16%] top-[15%]">
+              <span className="absolute lg:right-[-16%] right-[-23%] lg:top-[15%] animate-pulse">
                 <Headingdesign />
               </span>
             </span>
@@ -45,13 +45,15 @@ const Header = () => {
           </div>
         </div>
         <div className="md:w-6/12 w-full flex justify-center md:mt-0 mt-10">
-          <Image
-            className="max-w-[565px] w-full animate-pulse"
-            src="/assets/images/header/scooter.png"
-            width={565}
-            height={518}
-            alt="delivery"
-          />
+          <div className="image-2">
+            <Image
+              className="max-w-[565px] w-full"
+              src="/assets/images/header/scooter.png"
+              width={565}
+              height={518}
+              alt="delivery"
+            />
+          </div>
         </div>
       </div>
     </div>

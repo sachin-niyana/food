@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import FooterSection from "@/components/FooterSection";
 import Demo from "@/components/Demo";
 import Navbar from "@/components/Navbar";
 import OurChef from "@/components/OurChef";
@@ -8,8 +9,9 @@ export default function Home() {
     <div>
       <Navbar />
       <Header />
-      <OurChef />
       <Demo />
+      <OurChef />
+      <FooterSection />
     </div>
   );
 }

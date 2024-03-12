@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const OurChef = () => {
     return (
-        <div>
+        <div className="py-[130px]">
             <div className="container max-w-[1152px] mx-auto px-3">
                 <div className="flex flex-col lg:flex-row items-center lg:justify-between pb-10">
                     <div className="w-11/12 sm:w-8/12 md:w-7/12 lg:w-6/12">
