@@ -23,7 +23,8 @@ module.exports = {
       backgroundImage: {
         "linear-gradient-btn":
           "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
-        "footer-cartoon-bg": "url('/assets/images/footer/footer-bg.png')"
+        "footer-cartoon-bg": "url('/assets/images/footer/footer-bg.png')",
+        "limited-bg": "url('/assets/images/background/limited-offers.png')",
       },
       colors: {
         "Rich-Black": "#0c0800",

@@ -45,7 +45,7 @@ const Header = () => {
           </div>
         </div>
         <div className="md:w-6/12 w-full flex justify-center md:mt-0 mt-10">
-          <div className="image-2">
+          <div className="bubble">
             <Image
               className="max-w-[565px] w-full"
               src="/assets/images/header/scooter.png"
