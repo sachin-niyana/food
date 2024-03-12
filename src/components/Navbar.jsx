@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navbar = () => {
-  return <div className="font-ClashDispla font-Syne">and</div>;
+  return <div className="font-ClashDispla font-Syne"></div>;
 };
 
 export default Navbar;
