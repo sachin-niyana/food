@@ -18,7 +18,7 @@ const FooterSection = () => {
                                 <li key={index} className="flex flex-col  items-center ">
                                     <Link
                                         aria-label={value.title}
-                                        className="text-Rich-Black   font-Syne font-medium sm:text-sm text-sm relative after:absolute after:bottom-0 after:bg-black after:h-[2px] after:w-0 after:transition-all after:duration-500 after:left-0 after:rounded-md after:hover:w-full "
+                                        className="text-Rich-Black   font-Syne font-normal sm:text-sm text-sm relative after:absolute after:bottom-0 after:bg-black after:h-[2px] after:w-0 after:transition-all after:duration-500 after:left-0 after:rounded-md after:hover:w-full "
                                         href={value.path}
                                     >
                                         {value.title}
@@ -43,7 +43,7 @@ const FooterSection = () => {
                     </div>
                 </div>
                 <div className='bg-[#55524D] h-[2px] w-full rounded-md'></div>
-                <p className='text-center text-Rich-Black pt-[38px] pb-12 font-syne text-sm font-medium '>©Copyright 2024. All Rights Reserved</p>
+                <p className='text-center text-Rich-Black pt-[38px] pb-12 font-syne text-sm font-normal '>©Copyright 2024. All Rights Reserved</p>
             </div>
         </div>
     )
