@@ -5,7 +5,7 @@ import Image from "next/image";
 const LimitedOffers = () => {
   return (
     <div className="bg-limited-bg bg-cover bg-no-repeat">
-      <div className="container max-w-[1152px] mx-auto px-3 py-[60px] md:py-[80px] lg:py-[137px]">
+      <div className="container max-w-[1152px] mx-auto px-3 py-[60px] md:py-[80px] lg:py-[160px]">
         <div className="flex flex-wrap justify-center text-center md:justify-start md:text-start">
           <div className="w-full md:w-2/4 flex flex-col justify-center items-center md:items-start md:justify-start">
             <h2 className="max-w-[555px] font-semibold text-[32px] lg:text-2xl text-white font-ClashDisplay !leading-[123%]">
@@ -23,7 +23,7 @@ const LimitedOffers = () => {
               dictum accumsan odio tellus integer scelerisque.
             </p>
             <div className="flex gap-3 mt-4 md:mt-6 lg:mt-10">
-              <p className="text-white font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm bg-[#2c2c2d] rounded-full py-0 md:py-4 ps-5 pe-5 md:pe-10 lg:pe-20 items-center flex justify-center md:items-start md:justify-start">
+              <p className="text-white font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm bg-[#2c2c2d] rounded-full py-0 md:py-2 h-[44px] ps-5 pe-5 md:pe-10 lg:pe-20 items-center flex justify-center md:items-start md:justify-start">
                 #burger10gy2ygv3y
               </p>
               <button className=" bg-linear-gradient-btn flex items-center gap-1 font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm text-black py-3.5 px-5 rounded-full">
