@@ -21,21 +21,20 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "header-bg": "url('/assets/background/header-bg.webp')",
-        "limited-bg":"url('/assets/images/background/limited-offers.webp')",
-        'copy-bttn-bg': 'linear-gradient(180deg, #ffe14e 0%, #ffb93f 100%)',
+        "linear-gradient-btn":
+          "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
+        "footer-cartoon-bg": "url('/assets/images/footer/footer-bg.png')",
+        "limited-bg": "url('/assets/images/background/limited-offers.png')",
       },
       colors: {
         "Rich-Black": "#0c0800",
         "light-white": "#f4f3f1",
         yellow: "#ffaa00",
+        "light-brown": "#f6e4c1",
       },
       boxShadow: {
-        greenShadow: "0px 0px 10px 4px #13292b",
+        navbarShadow: "0px 4px 0px -1px #0c0800",
       },
-    },
-    backgroundSize: {
-      'custom-size': '100% 100%',
     },
   },
   plugins: [],

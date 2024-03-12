@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const OurChef = () => {
     return (
-        <div>
+        <div className="py-12 md:py-[130px]">
             <div className="container max-w-[1152px] mx-auto px-3">
                 <div className="flex flex-col lg:flex-row items-center lg:justify-between pb-10">
                     <div className="w-11/12 sm:w-8/12 md:w-7/12 lg:w-6/12">
@@ -19,17 +19,17 @@ const OurChef = () => {
                         </p>
                     </div>
                     <div className="mt-3 lg:mt-0">
-                        <button className="bg-linear-gradient-btn flex items-center font-ClashDisplay text-sm font-medium px-5 py-3 rounded-full gap-1.5">
+                        <button className="bg-linear-gradient-btn flex items-center transition-shadow duration-300 hover:shadow-[5px_5px_0px_0px_#0c0800] font-ClashDisplay text-sm font-medium px-5 py-3 rounded-full gap-1.5">
                             <RightArrow /> See All
                         </button>
                     </div>
                 </div>
-                <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-3 lg:gap-0 lg:justify-between">
+                <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-3 lg:gap-3 ">
                     {ourChef.map((value, index) => (
-                        <div className="sm:w-5/12 lg:w-[32%]">
-                            <div className="rounded-2xl p-6 border bg-white  border-black cursor-pointer" key={index}>
+                        <div className="max-w-[364px]">
+                            <div className="rounded-2xl group  p-6 border max-w-[364px] bg-white  border-black cursor-pointer" key={index}>
                                 <Image
-                                    className="rounded-2xl"
+                                    className="rounded-2xl transition-all group-hover:scale-[1.1]"
                                     width={316}
                                     height={315}
                                     src={value.image}
@@ -37,14 +37,14 @@ const OurChef = () => {
                                 />
                                 <div className="flex justify-between pr-4 items-center pt-[18px] ">
                                     <div>
-                                        <h3 className="text-lg font-medium font-ClashDisplay text-Rich-Black">
+                                        <h3 className="text-md md:text-lg font-medium font-ClashDisplay text-Rich-Black">
                                             {value.title}
                                         </h3>
                                         <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
                                             {value.master}
                                         </p>
                                     </div>
-                                    <Link className="" href="https://www.linkedin.com/" target="_blank" >{value.icon}</Link>
+                                    <Link className="transition-all duration-500 hover:scale-110" href="https://www.linkedin.com/" target="_blank" >{value.icon}</Link>
                                 </div>
                             </div>
                         </div>

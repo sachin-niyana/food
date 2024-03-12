@@ -12,7 +12,7 @@ export const ourChef = [
     image: "/assets/images/ourchef/john-doe-chef-master.webp",
     title: "John Doe",
     master: "Chef Master",
-    icon: <LinkedInIcon />,
+    icon: <LinkedInIcon  />,
   },
   {
     image: "/assets/images/ourchef/bessie-cooper-chef-master.webp",

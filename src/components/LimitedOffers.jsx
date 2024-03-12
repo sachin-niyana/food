@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const LimitedOffers = () => {
   return (
-    <div className=" bg-limited-bg bg-custom-size bg-no-repeat">
+    <div className="bg-limited-bg bg-cover bg-no-repeat">
       <div className="container max-w-[1152px] mx-auto px-3 py-[60px] md:py-[80px] lg:py-[137px]">
         <div className="flex flex-wrap justify-center text-center md:justify-start md:text-start">
           <div className="w-full md:w-2/4 flex flex-col justify-center items-center md:items-start md:justify-start">
@@ -26,14 +26,14 @@ const LimitedOffers = () => {
               <p className="text-white font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm bg-[#2c2c2d] rounded-full py-0 md:py-4 ps-5 pe-5 md:pe-10 lg:pe-20 items-center flex justify-center md:items-start md:justify-start">
                 #burger10gy2ygv3y
               </p>
-              <button className=" bg-copy-bttn-bg flex items-center gap-1 font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm text-black py-3.5 px-5 rounded-full">
+              <button className=" bg-linear-gradient-btn flex items-center gap-1 font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm text-black py-3.5 px-5 rounded-full">
                 <Copy /> Copy
               </button>
             </div>
           </div>
           <div className="w-full md:w-2/4 flex justify-center md:justify-start mt-5 md:mt-0">
             <Image
-              src="/assets/images/Limited-Offers/Limited-burger.webp"
+              src="/assets/images/lemted/burger.png"
               width={604}
               height={513}
               className="!max-w-[280px] md:!max-w-[604px] w-full"
