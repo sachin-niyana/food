@@ -27,9 +27,9 @@ const OurChef = () => {
                 <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-3 lg:gap-0 lg:justify-between">
                     {ourChef.map((value, index) => (
                         <div className="sm:w-5/12 md:w-[38%] lg:w-[32%]">
-                            <div className="rounded-2xl p-6 border max-w-[364px] bg-white  border-black cursor-pointer" key={index}>
+                            <div className="rounded-2xl group  p-6 border max-w-[364px] bg-white  border-black cursor-pointer" key={index}>
                                 <Image
-                                    className="rounded-2xl"
+                                    className="rounded-2xl transition-all group-hover:scale-[0.9]"
                                     width={316}
                                     height={315}
                                     src={value.image}
