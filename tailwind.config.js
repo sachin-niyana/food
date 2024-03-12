@@ -30,7 +30,7 @@ module.exports = {
         yellow: "#ffaa00",
       },
       boxShadow: {
-        greenShadow: "0px 0px 10px 4px #13292b",
+        navbarShadow: "0px 4px 0px -1px #0c0800",
       },
       padding: {
         4.5: "18px",
