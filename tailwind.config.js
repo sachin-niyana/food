@@ -25,6 +25,8 @@ module.exports = {
       },
       colors: {
         "Rich-Black": "#0c0800",
+        "light-white": "#f4f3f1",
+        yellow: "#ffaa00",
       },
       boxShadow: {
         greenShadow: "0px 0px 10px 4px #13292b",
