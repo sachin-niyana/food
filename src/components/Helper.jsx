@@ -15,14 +15,14 @@ export const ourChef = [
     icon: <LinkedInIcon />,
   },
   {
-    image: "/assets/images/ourchef/john-doe-chef-master.webp",
-    title: "John Doe",
+    image: "/assets/images/ourchef/bessie-cooper-chef-master.webp",
+    title: "Bessie Cooper",
     master: "Chef Master",
     icon: <LinkedInIcon />,
   },
   {
-    image: "/assets/images/ourchef/john-doe-chef-master.webp",
-    title: "John Doe",
+    image: "/assets/images/ourchef/albert-flores-chef-master.webp",
+    title: "Albert Flores",
     master: "Chef Master",
     icon: <LinkedInIcon />,
   },

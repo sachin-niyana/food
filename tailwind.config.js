@@ -32,9 +32,7 @@ module.exports = {
       boxShadow: {
         navbarShadow: "0px 4px 0px -1px #0c0800",
       },
-      padding: {
-        4.5: "18px",
-      },
+
     },
   },
   plugins: [],
