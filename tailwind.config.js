@@ -16,8 +16,8 @@ module.exports = {
       "3xl": "50px",
     },
     fontFamily: {
-      Inter: ["Inter", "sans-serif"],
-      Oswald: ["Oswald", "sans-serif"],
+      Syne: ["Syne", "sans-serif"],
+      ClashDisplay: ["ClashDisplay", "sans-serif"],
     },
     extend: {
       backgroundImage: {

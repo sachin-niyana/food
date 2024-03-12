@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
-/* @font-face {
-  font-family: "NoFlickingThanks";
-  src: url(../../public/assets/font/NoFlickingThanks.ttf);
-} */
+@font-face {
+  font-family: "ClashDisplay";
+  font-weight: 500;
+  src: url(../../public/assets/font/ClashDisplay-Medium.otf);
+}
+@font-face {
+  font-family: "ClashDisplay";
+  font-weight: 600;
+  src: url(../../public/assets/font/ClashDisplay-Semibold.otf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
