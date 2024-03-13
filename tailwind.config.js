@@ -21,17 +21,23 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "linear-gradient-btn": "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
-        "redchilli": "url('/assets/images/client-says/red-chilli-bg.webp')",
-        "slider": "url('/assets/images/client-says/slider-bg.png')",
+        "linear-gradient-btn":
+          "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
+        redchilli: "url('/assets/images/client-says/red-chilli-bg.webp')",
+        slider: "url('/assets/images/client-says/slider-bg.png')",
+        "footer-cartoon-bg": "url('/assets/images/footer/footer-bg.png')",
+        "limited-bg": "url('/assets/images/background/limited-offers.png')",
       },
       colors: {
         "Rich-Black": "#0c0800",
         "light-white": "#f4f3f1",
         yellow: "#ffaa00",
+        "light-brown": "#f6e4c1",
       },
       boxShadow: {
         navbarShadow: "0px 4px 0px -1px #0c0800",
+        buttonShadow: "3px 3px 0px 0px #0c0800",
+        buttonShadow2: "3px 3px 0px 0px #ffffff",
       },
       padding: {
         4.5: "18px",
