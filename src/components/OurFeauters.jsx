@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Bgelipse } from "./Icon";
+import { ourFeatures } from "./Helper";
 
 const OurFeauters = () => {
   return (
@@ -15,49 +16,27 @@ const OurFeauters = () => {
             accumsan odio tellus integer scelerisque.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center items-center lg:justify-between md:gap-5 lg:gap-0 mt-5 md:mt-10">
-          <div className="bg-light-white border border-black hover:shadow-[0px_3px_0px_0px#000000] w-[360px] lg:w-[320px] xl:w-[360px] h-[238px] rounded-2xl duration-300 ease-in-out flex justify-center items-center flex-col">
-            <div className=" relative">
-              <Bgelipse />
-              <Image
-                src="/assets/images/Our/Svg/Hand.svg"
-                width={100}
-                height={100}
-                className="absolute -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%]"
-              />
+        <div className="grid md:grid-cols-3 min-[576px]:grid-cols-2 grid-cols-1 gap-6 mt-5 md:mt-10">
+          {ourFeatures.map((value, index) => (
+            <div
+              key={index}
+              className="bg-light-white border border-black py-7 rounded-2xl duration-300 ease-in-out flex justify-center items-center flex-col"
+            >
+              <div className=" relative">
+                <Bgelipse />
+                <Image
+                  src={value.image}
+                  width={100}
+                  height={100}
+                  className="absolute -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%]"
+                  alt="Hand"
+                />
+              </div>
+              <p className=" font-ClashDisplay font-medium text-lg !leading-[123%] text-[#0C0800] mt-3">
+                {value.title}
+              </p>
             </div>
-            <p className=" font-ClashDisplay font-medium text-lg !leading-[123%] text-[#0C0800] mt-3">
-              Easy To Order
-            </p>
-          </div>
-          <div className="bg-light-white border border-black hover:shadow-[0px_3px_0px_0px#000000] w-[360px] lg:w-[320px] xl:w-[360px] h-[238px] rounded-2xl duration-300 ease-in-out flex justify-center items-center flex-col mt-4 md:mt-0">
-            <div className=" relative">
-              <Bgelipse />
-              <Image
-                src="/assets/images/Our/Svg/Truck.svg"
-                width={100}
-                height={100}
-                className="absolute -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%]"
-              />
-            </div>
-            <p className=" font-ClashDisplay font-medium text-lg !leading-[123%] text-[#0C0800] mt-3">
-              Fastest Delivery
-            </p>
-          </div>
-          <div className="bg-light-white border border-black hover:shadow-[0px_3px_0px_0px#000000] w-[360px] lg:w-[320px] xl:w-[360px] h-[238px] rounded-2xl duration-300 ease-in-out flex justify-center items-center flex-col mt-4 md:mt-0">
-            <div className=" relative">
-              <Bgelipse />
-              <Image
-                src="/assets/images/Our/Svg/Medal.svg"
-                width={100}
-                height={100}
-                className="absolute -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%]"
-              />
-            </div>
-            <p className=" font-ClashDisplay font-medium text-lg !leading-[123%] text-[#0C0800] mt-3">
-              Best Quality
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </div>

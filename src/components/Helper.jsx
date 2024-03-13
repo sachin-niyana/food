@@ -27,6 +27,20 @@ export const ourChef = [
     icon: <LinkedInIcon />,
   },
 ];
+export const ourFeatures = [
+  {
+    image: "/assets/images/Our/Svg/Hand.svg",
+    title: "Easy To Order",
+  },
+  {
+    image: "/assets/images/Our/Svg/Truck.svg",
+    title: "Fastest Delivery",
+  },
+  {
+    image: "/assets/images/Our/Svg/Medal.svg",
+    title: "Best Quality",
+  },
+];
 export const topCollection = [
   {
     image: "/assets/images/topcollections/burger.png",
@@ -70,5 +84,4 @@ export const topCollection = [
     icon: <LikeIcon />,
     price: "$32.99",
   },
-
 ];

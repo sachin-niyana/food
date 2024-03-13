@@ -39,6 +39,7 @@ const LimitedOffers = () => {
               width={604}
               height={513}
               className="!max-w-[280px] md:!max-w-[604px] w-full"
+              alt="burger"
             />
           </div>
         </div>

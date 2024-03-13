@@ -23,7 +23,7 @@ const LittleInformantion = () => {
             ></Image>
           </div>
           <div className="lg:w-1/2 px-3 lg:px-0 relative">
-            <h3 className="font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold mt-14 md:mt-24 lg:mt-[141px] text-Rich-Black text-center lg:text-start lg:leading-[59.04px] xl:pr-[40px]">
+            <h3 className="font-ClashDisplay text-xl md:text-2xl leading-[123%] font-semibold mt-14 md:mt-24 lg:mt-[141px] text-Rich-Black text-center lg:text-start lg:leading-[59.04px] xl:pr-[40px]">
               A Little Information For Our Guest
             </h3>
             <p className="text-sm font-normal mt-2 font-Syne text-Rich-Black opacity-70 text-center lg:text-start">

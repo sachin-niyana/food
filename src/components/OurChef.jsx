@@ -26,7 +26,7 @@ const OurChef = () => {
         </div>
         <div className="grid md:grid-cols-3 grid-cols-1 min-[576px]:grid-cols-2 gap-6 items-center justify-center">
           {ourChef.map((value, index) => (
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center" key={index}>
               <div
                 className="rounded-2xl lg:p-6 p-5 border bg-white  border-black cursor-pointer"
                 key={index}
