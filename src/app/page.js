@@ -6,14 +6,16 @@ import OurChef from "@/components/OurChef";
 import Footer from "@/components/Footer";
 import OurFeauters from "@/components/OurFeauters";
 import LimitedOffers from "@/components/LimitedOffer";
+import TopCollections from "@/components/TopCollections";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Header />
-      <OurFeauters/>
-      <LimitedOffers/>
+      <OurFeauters />
+      <LimitedOffers />
+      <TopCollections />
       <LittleInformantion />
       <ClientSays />
       <OurChef />

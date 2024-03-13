@@ -1,6 +1,7 @@
 import React from "react";
 import { Copy, Headingdesign } from "./Icon";
-import Image from "next/image";
+import Image from "next/image";import TopCollections from "./TopCollections";
+TopCollections
 
 const LimitedOffers = () => {
     return (

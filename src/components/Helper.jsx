@@ -1,4 +1,4 @@
-import { LinkedInIcon } from "./Icon";
+import { LikeIcon, LinkedInIcon } from "./Icon";
 
 export const navLink = [
   { title: "About", path: "#About" },
@@ -26,4 +26,49 @@ export const ourChef = [
     master: "Chef Master",
     icon: <LinkedInIcon />,
   },
+];
+export const topCollection = [
+  {
+    image: "/assets/images/topcollections/burger.png",
+    title: "Burger",
+    burger: "Chicken Burger",
+    icon: <LikeIcon />,
+    price: "$32.99",
+  },
+  {
+    image: "/assets/images/topcollections/burger.png",
+    title: "Burger",
+    burger: "Chicken Burger",
+    icon: <LikeIcon />,
+    price: "$32.99",
+  },
+  {
+    image: "/assets/images/topcollections/burger.png",
+    title: "Burger",
+    burger: "Chicken Burger",
+    icon: <LikeIcon />,
+    price: "$32.99",
+  },
+  {
+    image: "/assets/images/topcollections/burger.png",
+    title: "Burger",
+    burger: "Chicken Burger",
+    icon: <LikeIcon />,
+    price: "$32.99",
+  },
+  {
+    image: "/assets/images/topcollections/burger.png",
+    title: "Burger",
+    burger: "Chicken Burger",
+    icon: <LikeIcon />,
+    price: "$32.99",
+  },
+  {
+    image: "/assets/images/topcollections/burger.png",
+    title: "Burger",
+    burger: "Chicken Burger",
+    icon: <LikeIcon />,
+    price: "$32.99",
+  },
+
 ];
