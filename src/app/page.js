@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <LittleInformantion/>
-      <ClientSays/>
+      <LittleInformantion />
+      <ClientSays />
       <Header />
       <OurChef />
       <Demo />
