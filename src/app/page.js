@@ -1,21 +1,19 @@
+import ClientSays from "@/components/ClientSays";
+import LittleInformantion from "@/components/LittleInformantion";
 import Header from "@/components/Header";
-import FooterSection from "@/components/FooterSection";
+import Demo from "@/components/Demo";
 import Navbar from "@/components/Navbar";
 import OurChef from "@/components/OurChef";
-import OurFeauters from "@/components/OurFeauters";
-import LimitedOffers from "@/components/LimitedOffers";
-import ClientSays from "@/components/ClientSays";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
+      <LittleInformantion/>
+      <ClientSays/>
       <Header />
-      <OurFeauters />
-      <LimitedOffers />
-      <ClientSays />
       <OurChef />
-      <FooterSection />
+      <Demo />
     </div>
   );
 }

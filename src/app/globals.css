@@ -3,54 +3,19 @@
 @font-face {
   font-family: "ClashDisplay";
   font-weight: 500;
-  src: url("/assets/font/ClashDisplay-Medium.otf");
+  src: url(/assets/font/ClashDisplay-Medium.otf);
 }
 
 @font-face {
   font-family: "ClashDisplay";
   font-weight: 600;
-  src: url("/assets/font/ClashDisplay-Semibold.otf");
+  src: url(/assets/font/ClashDisplay-Semibold.otf);
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.bubble {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  background-color: #fbf3e5;
-  background-image: linear-gradient(#fbf3e5);
-  border-radius: 40% 70% 70% 30% / 40% 30% 70% 70%;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
-  animation: shadow 10s ease-in-out;
-}
-
-@keyframes shadow {
-  0% {
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important;
-  }
-
-  25% {
-    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24% !important;
-  }
-
-  50% {
-    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45% !important;
-  }
-
-  75% {
-    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37% !important;
-  }
-  100% {
-    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37% !important;
-  }
-}
 .slider_arrow_hover:hover circle {
   fill: black;
 }
@@ -60,7 +25,7 @@
 }
 
 .slider_arrow_hover:hover rect {
-  fill: #ffaa00;
+  fill: #FFCD46;
 }
 
 .slider_arrow_hover:hover path {
