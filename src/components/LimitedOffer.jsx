@@ -25,10 +25,10 @@ const LimitedOffers = () => {
               dictum accumsan odio tellus integer scelerisque.
             </p>
             <div className="flex gap-3 mt-4 md:mt-6 lg:mt-10">
-              <p className="text-white font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm bg-[#2c2c2d] rounded-full py-0 md:py-4 ps-5 pe-5 md:pe-10 lg:pe-20 items-center flex justify-center md:items-start md:justify-start">
+              <p className="text-white font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm bg-[#2c2c2d] rounded-full py-0 md:py-3.5 ps-5 pe-5 md:pe-10 lg:pe-20 items-center flex justify-center md:items-start md:justify-start">
                 #burger10gy2ygv3y
               </p>
-              <button className=" bg-linear-gradient-btn hover:shadow-buttonShadow2 transition-all ease-in-out duration-300 flex items-center gap-1 font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm text-black py-3.5 px-5 rounded-full">
+              <button className="bg-linear-gradient-btn hover:shadow-buttonShadow2 transition-all ease-in-out duration-300 flex items-center gap-1 font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm text-black py-2 px-5 rounded-full">
                 <Copy /> Copy
               </button>
             </div>

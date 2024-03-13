@@ -35,10 +35,10 @@ const Header = () => {
             accumsan odio tellus integer scelerisque.
           </p>
           <div className="flex md:justify-start justify-center items-center gap-[15px] mt-[30px]">
-            <button className="text-Rich-Black hover:shadow-buttonShadow bg-linear-gradient-btn transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay font-medium sm:text-sm text-xsm">
+            <button className="text-Rich-Black hover:shadow-buttonShadow bg-linear-gradient-btn transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay font-medium sm:text-sm text-xsm">
               Order Now
             </button>
-            <button className="text-Rich-Black border-2 hover:shadow-buttonShadow border-Rich-Black transition-all ease-in-out duration-300 py-2.5 px-[18px] rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+            <button className="text-Rich-Black border-[1px] hover:shadow-buttonShadow border-Rich-Black transition-all ease-in-out duration-300 py-[9px] px-[18px] rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
               <span>
                 <Watch />
               </span>
@@ -48,14 +48,14 @@ const Header = () => {
         </div>
         <div className="md:w-6/12 w-full flex justify-center md:mt-0 mt-10 relative">
           <Image
-            className="max-w-[565px] w-full xl:translate-x-10"
+            className="max-w-[565px] w-full xl:translate-x-10 z-10"
             src="/assets/images/header/scooter.png"
             width={565}
             height={518}
             alt="delivery"
           />
           <Image
-            className="max-w-[565px] w-full xl:translate-x-10 absolute sm:top-7"
+            className="max-w-[565px] w-full xl:translate-x-10 absolute sm:top-16"
             src="/assets/images/header/scooter-shadow.png"
             width={565}
             height={518}

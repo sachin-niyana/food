@@ -43,42 +43,42 @@ export const ourFeatures = [
 ];
 export const topCollection = [
   {
-    image: "/assets/images/topcollections/burger.png",
+    image: "/assets/images/top-collections/burger.png",
     title: "Burger",
     burger: "Chicken Burger",
     icon: <LikeIcon />,
     price: "$32.99",
   },
   {
-    image: "/assets/images/topcollections/burger.png",
+    image: "/assets/images/top-collections/burger.png",
     title: "Burger",
     burger: "Chicken Burger",
     icon: <LikeIcon />,
     price: "$32.99",
   },
   {
-    image: "/assets/images/topcollections/burger.png",
+    image: "/assets/images/top-collections/burger.png",
     title: "Burger",
     burger: "Chicken Burger",
     icon: <LikeIcon />,
     price: "$32.99",
   },
   {
-    image: "/assets/images/topcollections/burger.png",
+    image: "/assets/images/top-collections/burger.png",
     title: "Burger",
     burger: "Chicken Burger",
     icon: <LikeIcon />,
     price: "$32.99",
   },
   {
-    image: "/assets/images/topcollections/burger.png",
+    image: "/assets/images/top-collections/burger.png",
     title: "Burger",
     burger: "Chicken Burger",
     icon: <LikeIcon />,
     price: "$32.99",
   },
   {
-    image: "/assets/images/topcollections/burger.png",
+    image: "/assets/images/top-collections/burger.png",
     title: "Burger",
     burger: "Chicken Burger",
     icon: <LikeIcon />,

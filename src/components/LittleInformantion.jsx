@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const LittleInformantion = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="Menu">
       <Image
         src="/assets/images/little-information/yellow-bg.webp"
         className="absolute left-0"

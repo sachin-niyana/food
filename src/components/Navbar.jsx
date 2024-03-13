@@ -15,9 +15,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="z-10 pt-[37px] flex-grow-0 bg-light-white">
+    <nav className="z-10 lg:pt-[37px] pt-6 flex-grow-0 bg-light-white">
       <div className="container max-w-[1164px] px-3 mx-auto">
-        <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] py-[18px] bg-white rounded-full shadow-navbarShadow">
+        <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] lg:py-[18px] py-3 bg-white rounded-full shadow-navbarShadow">
           <Image
             src="/assets/images/header/logo.png"
             width={90}
@@ -64,7 +64,7 @@ const Navbar = () => {
                 </form>
               </div>
             </div>
-            <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+            <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
               <span>
                 <Login />
               </span>
@@ -93,7 +93,7 @@ const Navbar = () => {
       >
         <div className="p-4 min-h-screen flex flex-col justify-center items-center">
           <button
-            className="text-Rich-Black text-sm absolute top-6 right-5"
+            className="text-Rich-Black text-sm absolute top-10 right-7"
             onClick={sidebarHandler}
           >
             <RxCross1 className="sm:w-10 sm:h-10 w-7 h-7" />
