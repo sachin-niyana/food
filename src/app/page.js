@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import OurChef from "@/components/OurChef";
 import OurFeauters from "@/components/OurFeauters";
 import LimitedOffers from "@/components/LimitedOffers";
+import ClientSays from "@/components/ClientSays";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <OurFeauters />
       <LimitedOffers />
+      <ClientSays />
       <OurChef />
       <FooterSection />
     </div>
