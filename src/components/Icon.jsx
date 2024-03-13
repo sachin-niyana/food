@@ -199,6 +199,26 @@ export const SliderNextArrow = () => {
     </svg>
   )
 }
+export const SliderNextArrow2 = () => {
+  return (
+    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.746324" y="0.942369" width="35.8983" height="35.8983" rx="17.4932" fill="white"/>
+    <rect x="0.746324" y="0.942369" width="35.8983" height="35.8983" rx="17.4932" fill="url(#paint0_linear_0_900)"/>
+    <rect x="0.746324" y="0.942369" width="35.8983" height="35.8983" rx="17.4932" stroke="url(#paint1_linear_0_900)" stroke-width="1.49265"/>
+    <path d="M14.9964 26.5186C14.8491 26.3713 14.7664 26.1715 14.7664 25.9631C14.7664 25.7548 14.8491 25.5549 14.9964 25.4076L21.5126 18.8915L14.9964 12.3753C14.8533 12.2271 14.7741 12.0286 14.7759 11.8226C14.7777 11.6166 14.8603 11.4195 15.006 11.2738C15.1517 11.1282 15.3488 11.0455 15.5548 11.0437C15.7608 11.0419 15.9593 11.1211 16.1075 11.2643L23.1791 18.3359C23.3264 18.4833 23.4092 18.6831 23.4092 18.8915C23.4092 19.0998 23.3264 19.2996 23.1791 19.447L16.1075 26.5186C15.9601 26.6659 15.7603 26.7487 15.5519 26.7487C15.3436 26.7487 15.1438 26.6659 14.9964 26.5186Z" fill="black"/>
+    <defs>
+    <linearGradient id="paint0_linear_0_900" x1="18.6955" y1="0.196045" x2="18.6955" y2="37.587" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFE14E"/>
+    <stop offset="1" stop-color="#FFB93F"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_0_900" x1="18.6955" y1="0.196045" x2="18.6955" y2="37.587" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFE14E"/>
+    <stop offset="1" stop-color="#FFB93F"/>
+    </linearGradient>
+    </defs>
+    </svg>    
+  )
+};
 export const RattingStars = () => {
   return (
     <svg width="104" height="21" viewBox="0 0 104 21" fill="none" xmlns="http://www.w3.org/2000/svg">

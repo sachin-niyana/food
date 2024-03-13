@@ -8,7 +8,7 @@ const LittleInformantion = () => {
             <div className='container max-w-[1152px] mx-auto px-3'>
                 <div className='flex flex-wrap justify-center'>
                     <div className='lg:w-1/2 px-3 lg:px-0'>
-                        <Image src="/assets/images/little-information/chef-img.webp" className='relative mt-12 ml-[-25px]' width={631.89} height={631.89} alt='chef-img'></Image>
+                        <Image src="/assets/images/little-information/chef-img.webp" className='relative mt-12 xl:ml-[-25px]' width={631.89} height={631.89} alt='chef-img'></Image>
                     </div>
                     <div className='lg:w-1/2 px-3 lg:px-0 relative'>
                         <h3 className='font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold mt-14 md:mt-24 lg:mt-[141px] text-Rich-Black text-center lg:text-start lg:leading-[59.04px] xl:pr-[40px]'>A Little Information For Our Guest</h3>
