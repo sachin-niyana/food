@@ -43,9 +43,13 @@ const Navbar = () => {
             })}
           </ul>
           <div className="hidden lg:flex items-center gap-4">
-            <Shoping />
-            <Search />
-            <button className="text-Rich-Black bg-linear-gradient-btn transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+            <div className="cursor-pointer">
+              <Shoping />
+            </div>
+            <div className="cursor-pointer">
+              <Search />
+            </div>
+            <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
               <span>
                 <Login />
               </span>

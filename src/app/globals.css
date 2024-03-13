@@ -16,7 +16,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.bubble {
+.bg-size {
+  background-size: 100% 100%;
+}
+
+/* .bubble {
   display: flex;
   align-content: center;
   align-items: center;
@@ -51,7 +55,7 @@
   100% {
     border-radius: 33% 67% 58% 42% / 63% 68% 32% 37% !important;
   }
-}
+} */
 
 .slider_arrow_hover:hover circle {
   fill: black;
@@ -62,7 +66,7 @@
 }
 
 .slider_arrow_hover:hover rect {
-  fill: #FFCD46;
+  fill: #ffcd46;
 }
 
 .slider_arrow_hover:hover path {
