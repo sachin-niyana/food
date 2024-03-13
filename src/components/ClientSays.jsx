@@ -55,11 +55,11 @@ const ClientSays = () => {
                     <h2 className='font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-white text-center'>What’s Our Client Say</h2>
                     <p className='text-sm text-cnter text-white opacity-70 mt-[8px] leading-[150%] xl:max-w-[532px] '>Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum accumsan odio tellus integer scelerisque.</p>
                 </div>
-                <Slider {...settings} className='flex justify-center items-center text-center mt-5 sm:mt-[63px]'>
+                <Slider {...settings} className='flex justify-center items-center text-center mt-5 sm:mt-8 lg:mt-[63px]'>
                     <div className=' w-[50%] px-3'>
                         <div className='max-w-[558px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[16px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-black rounded-[16px]  py-[25px]'>
                             <div className='flex justify-center items-center'>
-                                <Image src="/assets/images/client-says/kristin-ellips.png" className='' width={103.11} height={103.11} alt='kristin'></Image>
+                                <Image src="/assets/images/client-says/kristin-ellips.png" className='' width={103.11} height={103.11} alt='kristin' />
                             </div>
                             <h3 className='font-ClashDisplay text-center text-md text-white mt-[14px]'>Kristin Watson</h3>
                             <p className='text-sm text-white opacity-70 mt-2 text-center leading-[150%]'>Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum accumsan odio tellus integer scelerisque. Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum accumsan odio tellus integer scelerismmodo pharetra sit odio.</p>
@@ -70,7 +70,7 @@ const ClientSays = () => {
                     <div className=' w-[50%] px-3'>
                         <div className='max-w-[558px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[16px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-black rounded-[16px]  py-[25px]'>
                             <div className='flex justify-center items-center'>
-                                <Image src="/assets/images/client-says/darrell-ellips.png" className='' width={103.11} height={103.11} alt='kristin'></Image>
+                                <Image src="/assets/images/client-says/darrell-ellips.png" className='' width={103.11} height={103.11} alt='kristin' />
                             </div>
                             <h3 className='font-ClashDisplay text-center text-md text-white mt-[14px]'>Darrell Steward</h3>
                             <p className='text-sm text-white opacity-70 mt-2 text-center leading-[150%]'>Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum accumsan odio tellus integer scelerisque. Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum accumsan odio tellus integer scelerismmodo pharetra sit odio.</p>

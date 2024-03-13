@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="z-10 pt-[37px] flex-grow-0 bg-light-white">
-      <div className="container max-w-[1152px] mx-auto px-3">
+    <nav className="z-10 lg:pt-[37px] pt-6 flex-grow-0 bg-light-white">
+      <div className="container max-w-[1164px] px-3 mx-auto">
         <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] py-[18px] bg-white rounded-full shadow-navbarShadow">
           <Image
             src="/assets/images/header/logo.png"
@@ -27,7 +27,7 @@ const Navbar = () => {
           <ul className="hidden lg:flex gap-[30px] ">
             {navLink.map((value, index) => {
               return (
-                <li key={index} className="flex flex-col items-center group">
+                <li key={index} className="relative group">
                   <Link
                     aria-label={value.title}
                     className="text-Rich-Black text-opacity-70 group-hover:text-opacity-100 font-Syne font-normal sm:text-sm text-xsm transition-all ease-in-out duration-300"
@@ -35,7 +35,7 @@ const Navbar = () => {
                   >
                     {value.title}
                   </Link>
-                  <span>
+                  <span className="absolute bottom-[-20%] left-[50%] translate-x-[-50%]">
                     <div className="w-[7px] h-[7px] bg-yellow rounded-full group-hover:opacity-100 opacity-0 transition-all ease-in-out duration-300"></div>
                   </span>
                 </li>
@@ -43,9 +43,13 @@ const Navbar = () => {
             })}
           </ul>
           <div className="hidden lg:flex items-center gap-4">
-            <Shoping />
-            <Search />
-            <button className="text-Rich-Black bg-linear-gradient-btn transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+            <div className="cursor-pointer">
+              <Shoping />
+            </div>
+            <div className="cursor-pointer">
+              <Search />
+            </div>
+            <button className="text-Rich-Black hover:shadow-buttonShadow bg-linear-gradient-btn transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
               <span>
                 <Login />
               </span>
