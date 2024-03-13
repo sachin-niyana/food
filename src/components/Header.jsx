@@ -33,10 +33,10 @@ const Header = () => {
             accumsan odio tellus integer scelerisque.
           </p>
           <div className="flex md:justify-start justify-center items-center gap-[15px] mt-[30px]">
-            <button className="text-Rich-Black bg-linear-gradient-btn transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay font-medium sm:text-sm text-xsm">
+            <button className="text-Rich-Black hover:shadow-buttonShadow bg-linear-gradient-btn transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay font-medium sm:text-sm text-xsm">
               Order Now
             </button>
-            <button className="text-Rich-Black border-2 border-Rich-Black transition-all ease-in-out duration-300 py-2.5 px-[18px] rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+            <button className="text-Rich-Black border-2 hover:shadow-buttonShadow border-Rich-Black transition-all ease-in-out duration-300 py-2.5 px-[18px] rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
               <span>
                 <Watch />
               </span>
