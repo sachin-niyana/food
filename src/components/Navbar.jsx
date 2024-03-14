@@ -47,7 +47,12 @@ const Navbar = () => {
               <Shoping />
             </div>
             <div className="cursor-pointer">
-              <Search />
+              <div className="search-container">
+                <form action="/search" method="get">
+                  <input className="search" id="searchleft" type="search" name="q" placeholder="Search" />
+                  <label className="button searchbutton" for="searchleft"><span><Search /> </span></label>
+                </form>
+              </div>
             </div>
             <button className="text-Rich-Black hover:shadow-buttonShadow bg-linear-gradient-btn transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
               <span>
@@ -72,9 +77,8 @@ const Navbar = () => {
         ></div>
       )}
       <div
-        className={`lg:hidden fixed inset-y-0 left-0 w-full bg-white z-50 transform ${
-          isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } transition duration-300 ease-in-out`}
+        className={`lg:hidden fixed inset-y-0 left-0 w-full bg-white z-50 transform ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+          } transition duration-300 ease-in-out`}
       >
         <div className="p-4 min-h-screen flex flex-col justify-center items-center">
           <button

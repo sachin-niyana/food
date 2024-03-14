@@ -5,6 +5,7 @@ import { RightArrow } from "./Icon";
 import Link from "next/link";
 
 const OurChef = () => {
+
     return (
         <div>
             <div className="container max-w-[1152px] mx-auto px-3">
@@ -24,6 +25,7 @@ const OurChef = () => {
                         </button>
                     </div>
                 </div>
+
                 <div className="flex flex-wrap items-center justify-center gap-5 sm:gap-3 lg:gap-0 lg:justify-between">
                     {ourChef.map((value, index) => (
                         <div className="sm:w-5/12 lg:w-[32%]">
@@ -50,6 +52,7 @@ const OurChef = () => {
                         </div>
                     ))}
                 </div>
+
             </div>
         </div>
     );

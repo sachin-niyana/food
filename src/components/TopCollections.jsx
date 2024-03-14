@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import { topCollection } from './Helper';
 import { LikeIcon } from './Icon';
+import { topCollection } from './Helper';
 
 const TopCollections = () => {
     return (
@@ -15,8 +15,8 @@ const TopCollections = () => {
                     {topCollection.map((value, index) => (
                         <div className='w-full' key={index}>
                             <div className='border-[1px] mx-auto bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[364px] border-black rounded-[16px]'>
-                                <div className='border-[1px] bg-white like_icon p-2 md:p-4 border-black rounded-[16px] relative'>
-                                    <span className='absolute right-3'>{value.icon} </span>
+                                <div className='border-[1px] bg-white p-2 md:p-4 border-black rounded-[16px] relative'>
+                                    <span className='absolute right-3'> {value.icon} </span>
                                     <Image src={value.image} width={284} height={189} alt='burger' />
                                 </div>
                                 <div className='flex items-center justify-between'>

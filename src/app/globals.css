@@ -16,6 +16,43 @@
 @tailwind components;
 @tailwind utilities;
 
+.bubble {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: #fbf3e5;
+  background-image: linear-gradient(#fbf3e5);
+  border-radius: 40% 70% 70% 30% / 40% 30% 70% 70%;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  animation: shadow 10s ease-in-out;
+}
+
+@keyframes shadow {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important;
+  }
+
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24% !important;
+  }
+
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45% !important;
+  }
+
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37% !important;
+  }
+
+  100% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37% !important;
+  }
+}
+
 .slider_arrow_hover:hover circle {
   fill: black;
 }
@@ -30,4 +67,74 @@
 
 .slider_arrow_hover:hover path {
   stroke: black;
+}
+
+
+
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin: 4px 2px;
+  height: 30px;
+  width: 30px;
+  vertical-align: bottom;
+}
+
+.searchbutton {
+  position: absolute;
+  font-size: 22px;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.search:focus+.searchbutton {
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+}
+
+.search {
+  position: absolute;
+  left: 0px;
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 0;
+  height: 100%;
+  z-index: 10;
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+}
+
+.search:focus {
+  border-radius: 35px;
+  border: 1px solid black;
+  margin-top: -10.4px;
+  height: 50px;
+  width: 153px;
+  padding: 0 16px 0 10px;
+}
+
+.expandright {
+  left: auto;
+  right: 49px;
+}
+
+.expandright:focus {
+  padding: 0 0 0 16px;
+}
+
+.like_icon:hover path {
+  fill: red;
+}
+
+.like_icon:hover path {
+  stroke: red;
 }
