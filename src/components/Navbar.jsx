@@ -107,7 +107,7 @@ const Navbar = () => {
                 <li key={index}>
                   <Link
                     aria-label={value.title}
-                    className="text-Richblack font-Inter font-normal text-md  transition-all ease-in-out duration-300"
+                    className="text-Richblack font-Inter font-normal text-md transition-all ease-in-out duration-300"
                     key={index}
                     href={value.path}
                     onClick={sidebarHandler}
