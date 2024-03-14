@@ -55,7 +55,7 @@ const Header = () => {
             alt="delivery"
           />
           <Image
-            className="max-w-[565px] w-full xl:translate-x-10 absolute sm:top-16"
+            className="max-w-[565px] w-full xl:translate-x-28 translate-y-[-8%] absolute sm:top-16"
             src="/assets/images/header/scooter-shadow.png"
             width={565}
             height={518}
