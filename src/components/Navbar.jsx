@@ -42,6 +42,44 @@ const Navbar = () => {
               );
             })}
           </ul>
+          <div className="lg:hidden flex items-center gap-4">
+            <div className="cursor-pointer">
+              <Shoping />
+            </div>
+            <div className="cursor-pointer">
+              <div className="search-container">
+                <form action="/search" method="get">
+                  <input
+                    className="search"
+                    id="searchleft"
+                    type="search"
+                    name="q"
+                    placeholder="Search"
+                  />
+                  <label
+                    className="button searchbutton cursor-pointer"
+                    for="searchleft"
+                  >
+                    <span>
+                      <Search />{" "}
+                    </span>
+                  </label>
+                </form>
+              </div>
+            </div>
+            <button
+              className="block lg:hidden text-Rich-Black text-3xl"
+              onClick={sidebarHandler}
+            >
+              <HiOutlineBars4 className="sm:w-10 sm:h-10 w-7 h-7" />
+            </button>
+            <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+              <span>
+                <Login />
+              </span>
+              Login
+            </button>
+          </div>
           <div className="hidden lg:flex items-center gap-4">
             <div className="cursor-pointer">
               <Shoping />
@@ -74,12 +112,6 @@ const Navbar = () => {
               Login
             </button>
           </div>
-          <button
-            className="block lg:hidden text-Rich-Black text-3xl"
-            onClick={sidebarHandler}
-          >
-            <HiOutlineBars4 className="sm:w-10 sm:h-10 w-7 h-7" />
-          </button>
         </div>
       </div>
       {/* Sidebar */}
@@ -118,6 +150,12 @@ const Navbar = () => {
               );
             })}
           </ul>
+          <button className="text-Rich-Black sm:hidden bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+            <span>
+              <Login />
+            </span>
+            Login
+          </button>
         </div>
       </div>
     </nav>
