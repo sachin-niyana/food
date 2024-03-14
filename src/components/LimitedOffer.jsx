@@ -21,7 +21,7 @@ const LimitedOffers = () => {
                 </span>
               </span>
             </h2>
-            <h2 className="lg:hidden block sm:max-w-full max-w-[400px] font-semibold md:text-xl sm:text-2xl text-llg xl:text-2xl text-white font-ClashDisplay !leading-[123%]">
+            <h2 className="lg:hidden block sm:max-w-[600px] max-w-[300px] font-semibold md:text-xl sm:text-2xl text-llg xl:text-2xl text-white font-ClashDisplay !leading-[123%]">
               Limited Offers By Using Promocode Only{" "}
               <span className="relative">
                 {" "}
@@ -52,7 +52,7 @@ const LimitedOffers = () => {
               src="/assets/images/lemted/burger.png"
               width={604}
               height={513}
-              className="!max-w-[604px] w-full xl:translate-x-[10%] md:translate-x-[5%] md:mt-0 mt-10"
+              className="!sm:max-w-[604px] w-full xl:translate-x-[10%] md:translate-x-[5%] md:mt-0 mt-10"
               alt="burger"
             />
           </div>
