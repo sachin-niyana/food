@@ -1,11 +1,11 @@
 import ClientSays from "@/components/ClientSays";
-import LittleInformantion from "@/components/LittleInformantion";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import LimitedOffers from "@/components/LimitedOffer";
+import LittleInformantion from "@/components/LittleInformantion";
 import Navbar from "@/components/Navbar";
 import OurChef from "@/components/OurChef";
-import Footer from "@/components/Footer";
 import OurFeauters from "@/components/OurFeauters";
-import LimitedOffers from "@/components/LimitedOffer";
 import TopCollections from "@/components/TopCollections";
 
 export default function Home() {

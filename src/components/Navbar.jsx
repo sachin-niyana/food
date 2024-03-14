@@ -118,35 +118,6 @@ const Navbar = () => {
               );
             })}
           </ul>
-          <div className="items-center gap-4">
-            <div className="flex justify-center items-center gap-2 mb-5">
-              <Shoping />
-              <div className="cursor-pointer">
-                <div className="search-container">
-                  <form action="/search" method="get">
-                    <input
-                      className="search"
-                      id="searchleft"
-                      type="search"
-                      name="q"
-                      placeholder="Search"
-                    />
-                    <label className="button searchbutton" for="searchleft">
-                      <span>
-                        <Search />
-                      </span>
-                    </label>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <button className="text-Rich-Black bg-linear-gradient-btn transition-all ease-in-out duration-300 py-3 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-md">
-              <span>
-                <Login />
-              </span>
-              Login
-            </button>
-          </div>
         </div>
       </div>
     </nav>

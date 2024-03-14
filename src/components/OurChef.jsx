@@ -26,9 +26,12 @@ const OurChef = () => {
           </button>
         </div>
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-1 min-[576px]:grid-cols-2 gap-6 items-center justify-center">
+      <div className="flex flex-wrap lg:grid md:grid-cols-3 grid-cols-1 min-[576px]:grid-cols-2 gap-6 items-center justify-center">
         {ourChef.map((value, index) => (
-          <div className="w-full flex justify-center" key={index}>
+          <div
+            className="w-full flex justify-center lg:max-w-[400px] max-w-[350px]"
+            key={index}
+          >
             <div className="rounded-2xl lg:p-6 p-5 border bg-white  border-black">
               <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
                 <Image
