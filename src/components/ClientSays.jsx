@@ -10,7 +10,7 @@ const ClientSays = () => {
   // ================== Slider Left Arrow ======================= //
   const CustomNextArrow = ({ onClick }) => (
     <button
-      className="absolute top-[108%] sm:top-[110%] left-[53%]  xl:top-[45%] xl:right-[-4.8%] transform rotate-[180deg] z-10"
+      className="absolute top-[108%] left-[53%] md:top-[45%] md:right-[5%] lg:top-[108%] lg:right-[43%]  xl:top-[45%] xl:right-[-4.8%] transform rotate-[180deg] z-10"
       onClick={onClick}
     >
       <SliderNextArrow />
@@ -19,7 +19,7 @@ const ClientSays = () => {
   // ================== Slider Right Arrow ======================= //
   const CustomPrevArrow = ({ onClick }) => (
     <button
-      className="absolute  top-[108%] sm:top-[110%] right-[53%]  xl:top-[45%] xl:left-[-4.8%] z-10"
+      className="absolute  top-[108%] right-[53%]  md:top-[45%] md:left-[5%] lg:top-[108%] lg:left-[43%]   xl:top-[45%] xl:left-[-4.8%] z-10"
       onClick={onClick}
     >
       <SliderNextArrow />
@@ -38,32 +38,26 @@ const ClientSays = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
           slidesToShow: 1,
         },
       },
     ],
   };
   return (
-    <div className="bg-redchilli bg-cover bg-no-repeat bg-center lg:mt-40 mt-20 overflow-hidden">
-      <div className="container max-w-[1152px] mx-auto px-3 py-[150px]">
+    <div className="bg-redchilli bg-cover bg-no-repeat bg-center lg:mt-28 mt-16 overflow-hidden">
+      <div className="container max-w-[1152px] mx-auto pb-[180px] sm:pb-[150px] px-3 py-[150px]">
         <div className="flex flex-col justify-center text-center items-center">
           <h2 className="font-ClashDisplay text-[30px] md:text-2xl leading-[40px] font-semibold text-white text-center">
             What’s Our Client Say
           </h2>
-          <p className="text-sm font-Syne text-cnter text-white opacity-70 mt-[8px] px-2 leading-[150%] xl:max-w-[532px] ">
+          <p className="text-sm font-Syne text-cnter md:max-w-[522px] text-white opacity-70 mt-[8px] px-2 leading-[150%] xl:max-w-[532px] ">
             Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
             accumsan odio tellus integer scelerisque.
           </p>
         </div>
         <Slider
           {...settings}
-          className="flex justify-center items-center text-center mt-5 sm:mt-[63px]"
+          className="flex justify-center items-center text-center mt-5 lg:mt-[63px]"
         >
           <div className=" w-[50%] px-3 lg:pe-3">
             <div className="max-w-[558px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[36px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
