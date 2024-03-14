@@ -10,6 +10,7 @@ import {
 } from "./Icon";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="bg-footer-cartoon-bg bg-cover bg-no-repeat" id="About">
       <div className="container mx-auto max-w-[1152px] px-3">
@@ -40,27 +41,27 @@ const Footer = () => {
           <div className="flex gap-2.5">
             <Link
               className="transition-all duration-500 hover:-translate-y-1"
-              href="#"
+              href="https://www.linkedin.com/"
               target="_blank"
             >
               <FooterLinkedInIcon />
             </Link>
             <Link
-              href="#"
+              href="https://twitter.com/"
               target="_blank"
               className="transition-all duration-500 hover:-translate-y-1"
             >
               <FooterTwitterIcon />
             </Link>
             <Link
-              href="#"
+              href="https://www.facebook.com/"
               target="_blank"
               className="transition-all duration-500 hover:-translate-y-1"
             >
               <FooterFacebookIcon />
             </Link>
             <Link
-              href="#"
+              href="https://www.instagram.com/"
               target="_blank"
               className="transition-all duration-500 hover:-translate-y-1"
             >
@@ -69,8 +70,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-[#55524D] h-[2px] w-full rounded-md"></div>
-        <p className="text-center text-Rich-Black pt-[38px] pb-12 font-syne text-sm font-normal ">
-          ©Copyright 2024. All Rights Reserved
+        <p className="text-center text-Rich-Black pt-[38px] pb-12 font-Syne text-sm font-normal ">
+          ©Copyright {currentYear}. All Rights Reserved
         </p>
       </div>
     </div>

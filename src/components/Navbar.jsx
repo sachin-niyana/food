@@ -56,7 +56,10 @@ const Navbar = () => {
                     name="q"
                     placeholder="Search"
                   />
-                  <label className="button searchbutton" for="searchleft">
+                  <label
+                    className="button searchbutton cursor-pointer"
+                    for="searchleft"
+                  >
                     <span>
                       <Search />{" "}
                     </span>

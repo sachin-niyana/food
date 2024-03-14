@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="container max-w-[1152px] mx-auto px-3 pt-[71px] md:pb-[65px] sm:pb-16 pb-12 sm:overflow-visible overflow-hidden">
+    <div className="container max-w-[1152px] mx-auto px-3 pt-[71px] md:pb-[65px] sm:pb-16 pb-12 md:overflow-visible overflow-hidden">
       <div className="flex flex-row flex-wrap items-center">
         <div className="md:w-6/12 w-full flex justify-center flex-col">
           <div className="flex md:justify-start justify-center">
@@ -25,7 +25,7 @@ const Header = () => {
             Fastest and Flavourful Food Delivering at your{" "}
             <span className="relative">
               Doorstep{" "}
-              <span className="absolute lg:right-[-16%] right-[-13%] lg:top-[15%] animate-pulse sm:w-[104px] :h-[67px] w-[90px] h-[55px]">
+              <span className="absolute lg:right-[-16%] right-[-25%] lg:top-[15%] animate-pulse sm:w-[104px] :h-[67px] w-[90px] h-[55px]">
                 <Headingdesign />
               </span>
             </span>

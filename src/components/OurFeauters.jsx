@@ -6,11 +6,11 @@ import { ourFeatures } from "./Helper";
 const OurFeauters = () => {
   return (
     <div
-      className="container max-w-[1152px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:py-[130px]"
+      className="container max-w-[1152px] mx-auto px-3 py-[130px]"
       id="Services"
     >
       <div className="flex justify-center flex-col items-center text-center">
-        <h2 className="font-semibold text-lg md:text-xl lg:text-2xl text-black font-ClashDisplay !leading-[123%]">
+        <h2 className="font-semibold text-llg sm:text-2xl text-black font-ClashDisplay !leading-[123%]">
           Our Features
         </h2>
         <p className="font-Syne font-normal text-xsm md:text-sm !leading-[150%] text-black opacity-70 max-w-[400px] md:max-w-[522px] mt-0 md:mt-2">
@@ -22,7 +22,7 @@ const OurFeauters = () => {
         {ourFeatures.map((value, index) => (
           <div className="flex justify-center" key={index}>
             <div className="bg-light-white border border-black cursor-pointer w-full max-w-[400px] rounded-2xl flex-col">
-              <div className="border-b-4 border-Rich-Black py-7 rounded-xl top-[1px] border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+              <div className="border-b-4 border-Rich-Black py-7 rounded-xl top-[1px] border-opacity-0 hover:border-opacity-100 duration-700 ease-in-out">
                 <div className="relative flex justify-center">
                   <Bgelipse />
                   <Image

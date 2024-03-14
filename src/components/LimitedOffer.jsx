@@ -2,20 +2,21 @@ import React from "react";
 import { Copy, Headingdesign } from "./Icon";
 import Image from "next/image";
 import TopCollections from "./TopCollections";
+import Link from "next/link";
 TopCollections;
 
 const LimitedOffers = () => {
   return (
-    <div className="bg-limited-bg bg-size bg-cover bg-no-repeat">
-      <div className="container max-w-[1152px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:py-[137px] xl:overflow-visible overflow-hidden">
+    <div className="bg-limited-bg bg-center bg-cover bg-no-repeat">
+      <div className="container max-w-[1152px] mx-auto px-3 pt-[161px] pb-[143px] md:py-[137px] xl:overflow-visible overflow-hidden">
         <div className="flex flex-wrap justify-center text-center md:justify-start md:text-start my-10">
           <div className="w-full md:w-2/4 flex flex-col justify-center items-center md:items-start md:justify-start md:mt-[23px]">
-            <h2 className="max-w-[555px] font-semibold text-llg lg:text-2xl text-white font-ClashDisplay !leading-[123%]">
+            <h2 className="max-w-[555px] font-semibold text-llg sm:text-2xl text-white font-ClashDisplay !leading-[123%]">
               Limited Offers By Using Promocode Only{" "}
               <span className="relative">
                 {" "}
                 $20{" "}
-                <span className=" absolute -bottom-6 !-right-[50%] lg:!-right-[40%] lg:-bottom-4">
+                <span className=" absolute -bottom-6 !-right-[70%] lg:!-right-[40%] lg:-bottom-4 animate-pulse">
                   <Headingdesign />
                 </span>
               </span>
@@ -25,9 +26,12 @@ const LimitedOffers = () => {
               dictum accumsan odio tellus integer scelerisque.
             </p>
             <div className="flex gap-3 mt-4 md:mt-6 lg:mt-10">
-              <p className="text-white font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm bg-[#2c2c2d] rounded-full py-0 md:py-3.5 ps-5 pe-5 md:pe-10 lg:pe-20 items-center flex justify-center md:items-start md:justify-start">
+              <Link
+                href="#"
+                className="text-white font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm bg-[#2c2c2d] rounded-full py-0 md:py-3.5 ps-5 pe-5 md:pe-10 lg:pe-20 items-center flex justify-center md:items-start md:justify-start"
+              >
                 #burger10gy2ygv3y
-              </p>
+              </Link>
               <button className="bg-linear-gradient-btn hover:shadow-buttonShadow2 transition-all ease-in-out duration-300 flex items-center gap-1 font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm text-black py-2 px-5 rounded-full">
                 <Copy /> Copy
               </button>
