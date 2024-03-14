@@ -19,6 +19,7 @@ const OurFeauters = () => {
         </p>
       </div>
       <div className="grid md:grid-cols-3 min-[576px]:grid-cols-2 grid-cols-1 lg:gap-6 gap-4 mt-5 md:mt-10">
+
         {ourFeatures.map((value, index) => (
           <div className="flex justify-center" key={index}>
             <div className="bg-light-white border border-black cursor-pointer w-full max-w-[400px] rounded-2xl flex-col">
@@ -40,6 +41,7 @@ const OurFeauters = () => {
             </div>
           </div>
         ))}
+
       </div>
     </div>
   );
