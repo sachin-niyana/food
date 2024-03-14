@@ -4,6 +4,7 @@ import { ourChef } from "./Helper";
 import { RightArrow } from "./Icon";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
+import MarqueeSlider from "./MarqueeSlider";
 
 const OurChef = () => {
   return (
@@ -27,15 +28,14 @@ const OurChef = () => {
           </button>
         </div>
       </div>
-
-      <div className="flex items-center justify-center">
-        <Marquee
-          speed={100}
-          className="mt-5 md:mt-10 w-full md:animation-none marquee md:transition-none"
-        >
+      <div className="lg:hidden">
+        <MarqueeSlider />
+      </div>
+      <div className="hidden lg:block">
+        <div className="flex lg:grid grid-cols-3 items-center justify-center">
           {ourChef.map((value, index) => (
-            <div className="w-full flex  justify-center" key={index}>
-              <div className="rounded-2xl me-6 lg:p-6 p-5 border group bg-white  border-black">
+            <div className="" key={index}>
+              <div className="rounded-2xl me-6 lg:p-6 p-5 border group bg-white max-w-[352px]  border-black">
                 <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
                   <Image
                     className="rounded-2xl group-hover:scale-[1.04]  duration-300"
@@ -65,10 +65,9 @@ const OurChef = () => {
               </div>
             </div>
           ))}
-        </Marquee>
-
+        </div>
       </div>
-    </div>
+    </div >
   );
 };
 
