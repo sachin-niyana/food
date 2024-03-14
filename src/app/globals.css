@@ -100,16 +100,3 @@
   transition: all 3ms linear !important;
   stroke: red;
 }
-
-.marquee {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: marquee 5s linear infinite;
-}
-
-@media (min-width: 1024px) {
-  .marquee {
-    animation: none !important;
-    transition: none !important;
-  }
-}
