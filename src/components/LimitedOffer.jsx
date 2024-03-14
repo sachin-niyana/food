@@ -11,7 +11,7 @@ const LimitedOffers = () => {
       <div className="container max-w-[1152px] mx-auto px-3 pt-[161px] pb-[143px] md:py-[137px] xl:overflow-visible overflow-hidden">
         <div className="flex flex-wrap justify-center text-center md:justify-start md:text-start my-10">
           <div className="w-full md:w-2/4 flex flex-col justify-center items-center md:items-start md:justify-start md:mt-[23px]">
-            <h2 className="lg:block hidden max-w-[555px] font-semibold text-llg sm:text-2xl text-white font-ClashDisplay !leading-[123%]">
+            <h2 className="lg:block hidden max-w-[555px] font-semibold text-xl xl:text-2xl text-white font-ClashDisplay !leading-[123%]">
               Limited Offers By Using Promocode Only{" "}
               <span className="relative">
                 {" "}
@@ -21,7 +21,7 @@ const LimitedOffers = () => {
                 </span>
               </span>
             </h2>
-            <h2 className="lg:hidden block max-w-[555px] font-semibold text-llg sm:text-2xl text-white font-ClashDisplay !leading-[123%]">
+            <h2 className="lg:hidden block sm:max-w-full max-w-[400px] font-semibold md:text-xl sm:text-2xl text-llg xl:text-2xl text-white font-ClashDisplay !leading-[123%]">
               Limited Offers By Using Promocode Only{" "}
               <span className="relative">
                 {" "}
@@ -47,12 +47,12 @@ const LimitedOffers = () => {
               </button>
             </div>
           </div>
-          <div className="w-full lg:w-2/4 flex justify-center md:justify-start mt-5 md:mt-0">
+          <div className="w-full md:w-2/4 flex justify-center md:justify-start mt-5 md:mt-0">
             <Image
               src="/assets/images/lemted/burger.png"
               width={604}
               height={513}
-              className="!max-w-[280px] md:!max-w-[604px] w-full lg:translate-x-[10%]"
+              className="!max-w-[604px] w-full xl:translate-x-[10%] md:translate-x-[5%] md:mt-0 mt-10"
               alt="burger"
             />
           </div>
