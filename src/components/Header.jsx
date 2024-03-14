@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="container max-w-[1152px] mx-auto px-3 pt-[71px] md:pb-[65px] sm:pb-16 pb-12 overflow-hiddenx`">
+    <div className="container max-w-[1152px] mx-auto px-3 pt-[71px] md:pb-[65px] sm:pb-16 pb-12 sm:overflow-visible overflow-hidden">
       <div className="flex flex-row flex-wrap items-center">
         <div className="md:w-6/12 w-full flex justify-center flex-col">
           <div className="flex md:justify-start justify-center">
@@ -21,16 +21,16 @@ const Header = () => {
               <div className="w-[42px] h-[2px] bg-yellow rounded-full mt-1"></div>
             </div>
           </div>
-          <h1 className="font-ClashDisplay font-semibold xl:text-3xl lg:text-2xl text-xl leading-[121%] text-Rich-Black mt-1.5 md:text-start text-center">
+          <h1 className="font-ClashDisplay font-semibold xl:text-3xl lg:text-2xl md:max-w-full max-w-[600px] mx-auto sm:text-xl text-[30px] leading-[121%] text-Rich-Black mt-1.5 md:text-start text-center">
             Fastest and Flavourful Food Delivering at your{" "}
             <span className="relative">
               Doorstep{" "}
-              <span className="absolute lg:right-[-16%] right-[-23%] lg:top-[15%] animate-pulse">
+              <span className="absolute lg:right-[-16%] right-[-23%] lg:top-[15%] animate-pulse sm:w-[104px] :h-[67px] w-[90px] h-[55px]">
                 <Headingdesign />
               </span>
             </span>
           </h1>
-          <p className="font-Syne font-normal text-md text-Rich-Black opacity-70 max-w-[520px] mt-[19px] md:text-start text-center md:mx-0 mx-auto">
+          <p className="font-Syne font-normal sm:text-md text-sm text-Rich-Black opacity-70 max-w-[520px] mt-[19px] md:text-start text-center md:mx-0 mx-auto">
             Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
             accumsan odio tellus integer scelerisque.
           </p>

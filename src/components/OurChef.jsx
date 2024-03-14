@@ -12,7 +12,7 @@ const OurChef = () => {
     >
       <div className="flex flex-col md:flex-row items-center md:justify-between pb-10">
         <div className="w-11/12 sm:w-8/12 md:w-7/12 lg:w-6/12">
-          <h1 className="font-ClashDisplay text-center md:text-start text-2xl text-Rich-Black font-semibold">
+          <h1 className="font-ClashDisplay text-center md:text-start lg:text-2xl md:text-xl text-lg text-Rich-Black font-semibold">
             Our Chef
           </h1>
           <p className="font-Syne text-xsm sm:text-sm font-normal text-Rich-Black text-center md:text-start opacity-70">
@@ -29,10 +29,7 @@ const OurChef = () => {
       <div className="grid md:grid-cols-3 grid-cols-1 min-[576px]:grid-cols-2 gap-6 items-center justify-center">
         {ourChef.map((value, index) => (
           <div className="w-full flex justify-center" key={index}>
-            <div
-              className="rounded-2xl lg:p-6 p-5 border bg-white  border-black cursor-pointer"
-              key={index}
-            >
+            <div className="rounded-2xl lg:p-6 p-5 border bg-white  border-black cursor-pointer">
               <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
                 <Image
                   className="rounded-2xl hover:scale-110 duration-300"

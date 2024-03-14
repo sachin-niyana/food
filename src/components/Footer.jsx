@@ -11,10 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <div
-      className="bg-footer-cartoon-bg bg-center bg-no-repeat bg-auto"
-      id="About"
-    >
+    <div className="bg-footer-cartoon-bg bg-cover bg-no-repeat" id="About">
       <div className="container mx-auto max-w-[1152px] px-3">
         <div className="pt-[38px] md:pt-[51px] pb-[38px] flex flex-wrap flex-col lg:flex-row items-center justify-between">
           <Link href="#" target="_blank">

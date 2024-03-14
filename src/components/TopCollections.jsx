@@ -23,6 +23,7 @@ const TopCollections = () => {
               <div className="border-[1px] bg-white p-2 md:p-4 border-black rounded-[16px] relative">
                 <span className="absolute right-3"> {value.icon} </span>
                 <Image
+                  className="hover:scale-110 transition-all ease-in-out duration-300"
                   src={value.image}
                   width={284}
                   height={189}
