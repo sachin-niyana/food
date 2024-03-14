@@ -10,12 +10,22 @@ const LimitedOffers = () => {
     <div className="bg-limited-bg bg-center bg-cover bg-no-repeat">
       <div className="container max-w-[1152px] mx-auto px-3 pt-[161px] pb-[143px] md:py-[137px] xl:overflow-visible overflow-hidden">
         <div className="flex flex-wrap justify-center text-center md:justify-start md:text-start my-10">
-          <div className="w-full lg:w-2/4 flex flex-col justify-center items-center md:items-start md:justify-start md:mt-[23px]">
-            <h2 className="max-w-[555px] font-semibold text-llg sm:text-2xl text-white font-ClashDisplay !leading-[123%]">
+          <div className="w-full md:w-2/4 flex flex-col justify-center items-center md:items-start md:justify-start md:mt-[23px]">
+            <h2 className="lg:block hidden max-w-[555px] font-semibold text-llg sm:text-2xl text-white font-ClashDisplay !leading-[123%]">
               Limited Offers By Using Promocode Only{" "}
               <span className="relative">
                 {" "}
                 $20{" "}
+                <span className=" absolute -bottom-6 !-right-[70%] lg:!-right-[40%] lg:-bottom-4 animate-pulse">
+                  <Headingdesign />
+                </span>
+              </span>
+            </h2>
+            <h2 className="lg:hidden block max-w-[555px] font-semibold text-llg sm:text-2xl text-white font-ClashDisplay !leading-[123%]">
+              Limited Offers By Using Promocode Only{" "}
+              <span className="relative">
+                {" "}
+                $10{" "}
                 <span className=" absolute -bottom-6 !-right-[70%] lg:!-right-[40%] lg:-bottom-4 animate-pulse">
                   <Headingdesign />
                 </span>

@@ -6,7 +6,6 @@ import Link from "next/link";
 import Marquee from "react-fast-marquee";
 
 const OurChef = () => {
-
   return (
     <div
       className="container max-w-[1152px] mx-auto px-3 lg:py-[130px] md:py-20 sm:py-16 py-12"
@@ -30,7 +29,10 @@ const OurChef = () => {
       </div>
 
       <div className="flex items-center justify-center">
-        <Marquee speed={100} className="mt-5 md:mt-10 w-full md:animation-none marquee md:transition-none">
+        <Marquee
+          speed={100}
+          className="mt-5 md:mt-10 w-full md:animation-none marquee md:transition-none"
+        >
           {ourChef.map((value, index) => (
             <div className="w-full flex  justify-center" key={index}>
               <div className="rounded-2xl me-6 lg:p-6 p-5 border group bg-white  border-black">
@@ -66,7 +68,6 @@ const OurChef = () => {
         </Marquee>
 
       </div>
-
     </div>
   );
 };

@@ -11,15 +11,18 @@ const TopCollections = () => {
         <h2 className="font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-Rich-Black text-center">
           Top Collections
         </h2>
-        <p className="text-sm text-center text-Rich-Black  opacity-70 mt-[8px] leading-[150%] xl:max-w-[532px] ">
+        <p className="text-sm text-center text-Rich-Black  opacity-70 mt-[8px] leading-[150%] max-w-[532px] ">
           Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
           accumsan odio tellus integer scelerisque.
         </p>
       </div>
-      <div className="grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px]">
+      <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
         {topCollection.map((value, index) => (
-          <div className="w-full group" key={index}>
-            <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[364px] border-black rounded-[16px]">
+          <div
+            className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
+            key={index}
+          >
+            <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
               <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
                 <span className="absolute right-3"> {value.icon} </span>
                 <Image
