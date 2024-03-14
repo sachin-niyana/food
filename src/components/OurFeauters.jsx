@@ -21,7 +21,7 @@ const OurFeauters = () => {
       <div className="grid md:grid-cols-3 min-[576px]:grid-cols-2 grid-cols-1 lg:gap-6 gap-4 mt-5 md:mt-10">
         {ourFeatures.map((value, index) => (
           <div className="flex justify-center" key={index}>
-            <div className="bg-light-white border border-black  w-full max-w-[400px] rounded-2xl flex-col">
+            <div className="bg-light-white border border-black cursor-pointer w-full max-w-[400px] rounded-2xl flex-col">
               <div className="border-b-4 border-Rich-Black py-7 rounded-xl top-[1px] border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
                 <div className="relative flex justify-center">
                   <Bgelipse />

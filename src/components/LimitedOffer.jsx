@@ -7,10 +7,10 @@ TopCollections;
 const LimitedOffers = () => {
   return (
     <div className="bg-limited-bg bg-size bg-cover bg-no-repeat">
-      <div className="container max-w-[1152px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:py-[137px]">
+      <div className="container max-w-[1152px] mx-auto px-3 py-12 sm:py-16 md:py-20 lg:py-[137px] xl:overflow-visible overflow-hidden">
         <div className="flex flex-wrap justify-center text-center md:justify-start md:text-start my-10">
           <div className="w-full md:w-2/4 flex flex-col justify-center items-center md:items-start md:justify-start md:mt-[23px]">
-            <h2 className="max-w-[555px] font-semibold text-[32px] lg:text-2xl text-white font-ClashDisplay !leading-[123%]">
+            <h2 className="max-w-[555px] font-semibold text-llg lg:text-2xl text-white font-ClashDisplay !leading-[123%]">
               Limited Offers By Using Promocode Only{" "}
               <span className="relative">
                 {" "}
@@ -38,7 +38,7 @@ const LimitedOffers = () => {
               src="/assets/images/lemted/burger.png"
               width={604}
               height={513}
-              className="!max-w-[280px] md:!max-w-[604px] w-full"
+              className="!max-w-[280px] md:!max-w-[604px] w-full lg:translate-x-[10%]"
               alt="burger"
             />
           </div>
