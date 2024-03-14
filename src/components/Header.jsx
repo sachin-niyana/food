@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="container max-w-[1152px] mx-auto px-3 pt-[71px] md:pb-[65px] sm:pb-16 pb-12 sm:overflow-visible overflow-hidden">
+    <div className="container max-w-[1152px] mx-auto px-3 pt-[71px] md:pb-[65px] sm:pb-16 pb-12 md:overflow-visible overflow-hidden">
       <div className="flex flex-row flex-wrap items-center">
         <div className="md:w-6/12 w-full flex justify-center flex-col">
           <div className="flex md:justify-start justify-center">
@@ -18,14 +18,14 @@ const Header = () => {
               <p className="font-Syne font-normal text-xsm text-Rich-Black">
                 More than faster
               </p>
-              <div className="w-[42px] h-[2px] bg-yellow rounded-full mt-1"></div>
+              <div className="w-[42px] h-[1px] bg-yellow rounded-full mt-1"></div>
             </div>
           </div>
-          <h1 className="font-ClashDisplay font-semibold xl:text-3xl lg:text-2xl md:max-w-full max-w-[600px] mx-auto sm:text-xl text-[30px] leading-[121%] text-Rich-Black mt-1.5 md:text-start text-center">
+          <h1 className="font-ClashDisplay font-semibold xl:text-3xl lg:text-xxl md:text-llg sm:text-3xl text-llg mx-auto leading-[121%] text-Rich-Black mt-1.5 md:text-start text-center">
             Fastest and Flavourful Food Delivering at your{" "}
             <span className="relative">
               Doorstep{" "}
-              <span className="absolute lg:right-[-16%] right-[-23%] lg:top-[15%] animate-pulse sm:w-[104px] :h-[67px] w-[90px] h-[55px]">
+              <span className="absolute lg:right-[-16%] right-[-25%] lg:top-[15%] animate-pulse sm:w-[104px] :h-[67px] w-[90px] h-[55px]">
                 <Headingdesign />
               </span>
             </span>
@@ -46,7 +46,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-6/12 w-full flex justify-center md:mt-0 mt-10 relative">
+        <div className="md:w-6/12 w-full flex justify-center xl:ps-0 ps-5 md:mt-0 sm:mt-32 !mt-[61px] relative">
           <Image
             className="max-w-[565px] w-full xl:translate-x-10 z-10"
             src="/assets/images/header/scooter.png"
@@ -55,7 +55,7 @@ const Header = () => {
             alt="delivery"
           />
           <Image
-            className="max-w-[565px] w-full xl:translate-x-28 translate-y-[-8%] absolute sm:top-16"
+            className="max-w-[565px] w-full xl:translate-x-24 translate-y-[-7%] absolute sm:top-16"
             src="/assets/images/header/scooter-shadow.png"
             width={565}
             height={518}

@@ -4,7 +4,7 @@ import { topCollection } from "./Helper";
 const TopCollections = () => {
   return (
     <div
-      className="container max-w-[1152px] mx-auto px-3 lg:py-[130px] md:py-20 sm:py-16 py-12"
+      className="container max-w-[1152px] mx-auto px-3 py-[130px]"
       id="Offers"
     >
       <div className="flex justify-center flex-col items-center">
@@ -20,7 +20,7 @@ const TopCollections = () => {
         {topCollection.map((value, index) => (
           <div className="w-full group" key={index}>
             <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[364px] border-black rounded-[16px]">
-              <div className="border-[1px] bg-white p-2 md:p-4 border-black rounded-[16px] relative">
+              <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
                 <span className="absolute right-3"> {value.icon} </span>
                 <Image
                   className="group-hover:scale-110 transition-all ease-in-out duration-300"

@@ -56,7 +56,10 @@ const Navbar = () => {
                     name="q"
                     placeholder="Search"
                   />
-                  <label className="button searchbutton" for="searchleft">
+                  <label
+                    className="button searchbutton cursor-pointer"
+                    for="searchleft"
+                  >
                     <span>
                       <Search />{" "}
                     </span>
@@ -104,7 +107,7 @@ const Navbar = () => {
                 <li key={index}>
                   <Link
                     aria-label={value.title}
-                    className="text-Richblack font-Inter font-normal sm:text-sm text-md  transition-all ease-in-out duration-300"
+                    className="text-Richblack font-Inter font-normal text-md  transition-all ease-in-out duration-300"
                     key={index}
                     href={value.path}
                     onClick={sidebarHandler}
