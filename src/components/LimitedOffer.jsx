@@ -47,7 +47,7 @@ const LimitedOffers = () => {
               </button>
             </div>
           </div>
-          <div className="w-full md:w-2/4 flex justify-center md:justify-start mt-5 md:mt-0">
+          <div className="w-full lg:w-2/4 flex justify-center md:justify-start mt-5 md:mt-0">
             <Image
               src="/assets/images/lemted/burger.png"
               width={604}

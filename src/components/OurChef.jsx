@@ -3,6 +3,7 @@ import Image from "next/image";
 import { ourChef } from "./Helper";
 import { RightArrow } from "./Icon";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 const OurChef = () => {
   return (
@@ -26,42 +27,45 @@ const OurChef = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-wrap lg:grid md:grid-cols-3 grid-cols-1 min-[576px]:grid-cols-2 gap-6 items-center justify-center">
-        {ourChef.map((value, index) => (
-          <div
-            className="w-full flex justify-center lg:max-w-[400px] max-w-[350px]"
-            key={index}
-          >
-            <div className="rounded-2xl lg:p-6 p-5 border bg-white  border-black">
-              <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
-                <Image
-                  className="rounded-2xl hover:scale-110 duration-300"
-                  width={316}
-                  height={315}
-                  src={value.image}
-                  alt="john-doe-chef-master"
-                />
-              </div>
-              <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
-                <div>
-                  <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
-                    {value.title}
-                  </h3>
-                  <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
-                    {value.master}
-                  </p>
+
+      <div className="flex items-center justify-center">
+        <Marquee
+          speed={100}
+          className="mt-5 md:mt-10 w-full md:animation-none marquee md:transition-none"
+        >
+          {ourChef.map((value, index) => (
+            <div className="w-full flex  justify-center" key={index}>
+              <div className="rounded-2xl me-6 lg:p-6 p-5 border group bg-white  border-black">
+                <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+                  <Image
+                    className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                    width={316}
+                    height={315}
+                    src={value.image}
+                    alt="john-doe-chef-master"
+                  />
                 </div>
-                <Link
-                  className=""
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                >
-                  {value.icon}
-                </Link>
+                <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                  <div>
+                    <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                      {value.title}
+                    </h3>
+                    <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                      {value.master}
+                    </p>
+                  </div>
+                  <Link
+                    className=""
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                  >
+                    {value.icon}
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </Marquee>
       </div>
     </div>
   );
