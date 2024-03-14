@@ -60,7 +60,7 @@ const ClientSays = () => {
           className="flex justify-center items-center text-center mt-5 lg:mt-[63px]"
         >
           <div className=" w-[50%] px-3 lg:pe-3">
-            <div className="max-w-[558px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[36px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
+            <div className="max-w-[558px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[30px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
               <div className="flex justify-center items-center">
                 <Image
                   src="/assets/images/client-says/kristin-ellips.png"
@@ -86,7 +86,7 @@ const ClientSays = () => {
             </div>
           </div>
           <div className=" w-[50%] px-3 lg:ps-3">
-            <div className="max-w-[558px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[36px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
+            <div className="max-w-[558px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[30px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
               <div className="flex justify-center items-center">
                 <Image
                   src="/assets/images/client-says/darrell-ellips.png"
