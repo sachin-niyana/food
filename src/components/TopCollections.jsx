@@ -18,12 +18,12 @@ const TopCollections = () => {
       </div>
       <div className="grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px]">
         {topCollection.map((value, index) => (
-          <div className="w-full" key={index}>
-            <div className="border-[1px] mx-auto bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[364px] border-black rounded-[16px]">
+          <div className="w-full group" key={index}>
+            <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[364px] border-black rounded-[16px]">
               <div className="border-[1px] bg-white p-2 md:p-4 border-black rounded-[16px] relative">
                 <span className="absolute right-3"> {value.icon} </span>
                 <Image
-                  className="hover:scale-110 transition-all ease-in-out duration-300"
+                  className="group-hover:scale-110 transition-all ease-in-out duration-300"
                   src={value.image}
                   width={284}
                   height={189}

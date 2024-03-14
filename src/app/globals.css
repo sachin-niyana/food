@@ -95,3 +95,8 @@
 .slider_arrow_hover:hover path {
   stroke: black;
 }
+
+.like_icon:hover path {
+  transition: all 3ms linear !important;
+  stroke: red;
+}
