@@ -43,16 +43,16 @@ const LimitedOffers = () => {
             </h2>
             <p
               className="font-Syne font-normal text-sm !leading-[150%] text-white opacity-70 max-w-[300px] sm:max-w-[522px] mt-8 lg:text-start text-center"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-easing="linear"
-              data-aos-duration="500"
+              data-aos-duration="800"
             >
               Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec
               dictum accumsan odio tellus integer scelerisque.
             </p>
             <div
               className="flex gap-3 mt-4 md:mt-6 lg:mt-10"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="800"
             >

@@ -33,13 +33,16 @@ const OurChef = () => {
         </div>
         <div
           className="mt-3 hidden md:block lg:mt-0"
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="800"
         >
           <div className=" mt-[30px] sm:mt-[60px] mb-[82px] hidden lg:block  lg:mt-0">
             <button className="text-Rich-Black hover:shadow-buttonShadow flex items-center bg-linear-gradient-btn transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay font-medium sm:text-sm text-xsm">
-              <span className="pe-[4.6px]"><RightArrow /></span> See All
+              <span className="pe-[4.6px]">
+                <RightArrow />
+              </span>{" "}
+              See All
             </button>
           </div>
         </div>
@@ -124,7 +127,6 @@ const OurChef = () => {
         </div>
       </div>
 
-
       {/* MD SHOW MORE BTN CARDS  */}
       <div className="hidden md:block mt-6 lg:hidden">
         <div className="flex flex-wrap lg:grid grid-cols-3 gap-6 items-center justify-center">
@@ -174,7 +176,8 @@ const OurChef = () => {
                     data-aos="zoom-in"
                     data-aos-easing="linear"
                     data-aos-duration="800"
-                    key={index} >
+                    key={index}
+                  >
                     <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
                       <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
                         <Image
@@ -201,7 +204,6 @@ const OurChef = () => {
                     </div>
                   </div>
                 ))}
-
               </div>
             </div>
           }
@@ -217,7 +219,8 @@ const OurChef = () => {
                     data-aos="zoom-in"
                     data-aos-easing="linear"
                     data-aos-duration="800"
-                    key={index} >
+                    key={index}
+                  >
                     <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
                       <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
                         <Image
@@ -244,14 +247,11 @@ const OurChef = () => {
                     </div>
                   </div>
                 ))}
-
               </div>
             </div>
           }
         />
       </div>
-
-
     </div>
   );
 };

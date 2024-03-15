@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="z-10 lg:pt-[37px] pt-6 flex-grow-0 bg-light-white">
       <div className="container max-w-[1164px] px-3 mx-auto">
-        <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] lg:py-[18px] py-3 bg-white rounded-full shadow-navbarShadow">
+        <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] sm:py-[18px] py-5 bg-white rounded-full shadow-navbarShadow">
           <Image
             src="/assets/images/header/logo.webp"
             width={90}
@@ -27,7 +27,10 @@ const Navbar = () => {
           <ul className="hidden lg:flex gap-[30px] ps-24">
             {navLink.map((value, index) => {
               return (
-                <li key={index} className="flex flex-col items-center group">
+                <li
+                  key={index}
+                  className="flex flex-col items-center group relative"
+                >
                   <Link
                     aria-label={value.title}
                     className="text-Rich-Black text-opacity-70 group-hover:text-opacity-100 font-Syne font-normal sm:text-sm text-xsm transition-all ease-in-out duration-300"
@@ -35,7 +38,7 @@ const Navbar = () => {
                   >
                     {value.title}
                   </Link>
-                  <span>
+                  <span className="absolute bottom-[-20%] left-[50%] translate-x-[-50%]">
                     <div className="w-[7px] h-[7px] bg-yellow rounded-full group-hover:opacity-100 opacity-0 transition-all ease-in-out duration-300"></div>
                   </span>
                 </li>
@@ -46,23 +49,8 @@ const Navbar = () => {
             <div className="cursor-pointer">
               <Shoping />
             </div>
-            <div className="cursor-pointer sm:block hidden">
-              <div className="search-container">
-                <form action="/search" method="get">
-                  <input
-                    className="search"
-                    id="searchleft"
-                    type="search"
-                    name="q"
-                    placeholder="Search"
-                  />
-                  <label className="button searchbutton" for="searchleft">
-                    <span>
-                      <Search />{" "}
-                    </span>
-                  </label>
-                </form>
-              </div>
+            <div className="cursor-pointer">
+              <Search />
             </div>
             <button
               className="block lg:hidden text-Rich-Black opacity-70 text-3xl"
@@ -84,22 +72,7 @@ const Navbar = () => {
               <Shoping />
             </div>
             <div className="cursor-pointer">
-              <div className="search-container">
-                <form action="/search" method="get">
-                  <input
-                    className="search"
-                    id="searchleft"
-                    type="search"
-                    name="q"
-                    placeholder="Search"
-                  />
-                  <label className="button searchbutton" for="searchleft">
-                    <span>
-                      <Search />
-                    </span>
-                  </label>
-                </form>
-              </div>
+              <Search />
             </div>
             <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
               <span>
@@ -124,7 +97,7 @@ const Navbar = () => {
       >
         <div className="p-4 min-h-screen flex flex-col justify-center items-center">
           <button
-            className="text-Rich-Black text-sm absolute top-10 right-7"
+            className="text-Rich-Black text-sm absolute top-12 right-7"
             onClick={sidebarHandler}
           >
             <RxCross1 className="sm:w-10 sm:h-10 w-7 h-7" />

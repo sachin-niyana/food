@@ -53,7 +53,7 @@ const ClientSays = () => {
             className="font-ClashDisplay text-[30px] md:text-2xl leading-[40px] font-semibold text-white text-center"
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="600"
+            data-aos-duration="800"
           >
             What’s Our Client Say
           </h2>
