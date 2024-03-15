@@ -13,15 +13,30 @@ const OurChef = () => {
     >
       <div className="flex flex-col md:flex-row items-center md:justify-between pb-10 md:pb-4 lg:pb-10">
         <div className="w-11/12 sm:w-8/12 md:w-9/12 lg:w-6/12">
-          <h1 className="font-ClashDisplay text-center md:text-start lg:text-2xl md:text-xl text-lg text-Rich-Black font-semibold">
+          <h1
+            className="font-ClashDisplay text-center md:text-start lg:text-2xl md:text-xl text-lg text-Rich-Black font-semibold"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="600"
+          >
             Our Chef
           </h1>
-          <p className="font-Syne px-3 sm:px-0 text-xsm sm:text-sm font-normal text-Rich-Black text-center md:text-start opacity-70">
+          <p
+            className="font-Syne px-3 sm:px-0 text-xsm sm:text-sm font-normal text-Rich-Black text-center md:text-start opacity-70"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="800"
+          >
             Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
             accumsan odio tellus integer scelerisque.
           </p>
         </div>
-        <div className="mt-3 hidden md:block lg:mt-0">
+        <div
+          className="mt-3 hidden md:block lg:mt-0"
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+        >
           <button className="bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 flex items-center font-ClashDisplay text-sm font-medium px-5 py-3 rounded-full gap-1.5">
             <RightArrow /> See All
           </button>
@@ -33,7 +48,12 @@ const OurChef = () => {
       <div className="hidden lg:block">
         <div className="flex lg:grid grid-cols-3 gap-6 items-center justify-center">
           {ourChef.map((value, index) => (
-            <div className="" key={index}>
+            <div
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+              key={index}
+            >
               <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
                 <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
                   <Image

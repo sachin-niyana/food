@@ -25,14 +25,18 @@ const Header = () => {
             Fastest and Flavourful Food Delivering at your{" "}
             <span className="relative">
               Doorstep{" "}
-              <span className="absolute lg:right-[-16%] right-[-25%] lg:top-[15%] animate-pulse sm:w-[104px] :h-[67px] w-[90px] h-[55px]">
+              <span className="absolute lg:right-[-16%] right-[-25%] lg:top-[15%] animate-pulse sm:w-[104px] sm:h-[67px] w-[90px] h-[55px]">
                 <Headingdesign />
               </span>
             </span>
           </h1>
-          <p className="font-Syne font-normal sm:text-md text-sm text-Rich-Black opacity-70 max-w-[520px] mt-[19px] lg:text-start text-center lg:mx-0 mx-auto">
+          <p className="sm:block hidden font-Syne font-normal sm:text-md text-sm text-Rich-Black opacity-70 max-w-[520px] mt-[19px] lg:text-start text-center lg:mx-0 mx-auto">
             Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
             accumsan odio tellus integer scelerisque.
+          </p>
+          <p className="sm:hidden block font-Syne font-normal sm:text-md text-sm text-Rich-Black opacity-70 sm:max-w-[520px] max-w-[300px] mt-[23px] lg:text-start text-center lg:mx-0 mx-auto">
+            Dictum commodo pharetra sit odio nulla aliquamctum accusaus
+            integerelerisque.
           </p>
           <div className="flex lg:justify-start justify-center items-center gap-[15px] mt-[30px]">
             <button className="text-Rich-Black hover:shadow-buttonShadow bg-linear-gradient-btn transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay font-medium sm:text-sm text-xsm">

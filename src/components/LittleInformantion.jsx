@@ -13,6 +13,9 @@ const LittleInformantion = () => {
               width={631.89}
               height={631.89}
               alt="chef-img"
+              data-aos="zoom-out"
+              data-aos-easing="linear"
+              data-aos-duration="800"
             />
             <Image
               src="/assets/images/little-information/yellow-bg.webp"
@@ -23,17 +26,32 @@ const LittleInformantion = () => {
             />
           </div>
           <div className=" lg:w-1/2 px-3 md:mt-[60px] lg:px-0 relative">
-            <h3 className="font-ClashDisplay text-[30px] sm:text-xl md:text-2xl leading-[123%] lg:max-w-full mx-auto md:max-w-[500px] max-w-[400px] font-semibold text-Rich-Black text-center lg:text-start lg:leading-[59.04px] xl:pr-[40px]">
+            <h3
+              className="font-ClashDisplay text-[30px] sm:text-xl md:text-2xl leading-[123%] lg:max-w-full mx-auto md:max-w-[500px] max-w-[400px] font-semibold text-Rich-Black text-center lg:text-start lg:leading-[59.04px] xl:pr-[40px]"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="600"
+            >
               A Little Information For Our Guest
             </h3>
-            <p className="text-sm font-normal mt-2 font-Syne md:max-w-[552px] text-Rich-Black opacity-70 text-center lg:text-start">
+            <p
+              className="text-sm font-normal mt-2 font-Syne md:max-w-[552px] text-Rich-Black opacity-70 text-center lg:text-start"
+              data-aos="fade-left"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
               Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec
               dictum accumsan odio tellus integer scelerisque. Dictum commodo
               pharetra sit odio nulla aliquam sit mor diio tellus integer
               scelerisque.
             </p>
-            <div className="mt-6 mb-3 lg:mt-3 md:mt-[40px] xl:mt-[40px] sm:flex  xl:flex-row gap-[24px] justify-center  lg:justify-start">
-              <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer rounded-[8px] shadow-[0px_3px_0px_0px_#000000] border-[1px] border-[#000000] mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
+            <div
+              className="mt-6 mb-3 lg:mt-3 md:mt-[40px] xl:mt-[40px] sm:flex  xl:flex-row gap-[24px] justify-center lg:justify-start"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer rounded-[8px] shadow-cardShadow border-[1px] border-black mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
                 <Image
                   src="/assets/images/little-information/hand-stars.webp"
                   className=""
@@ -50,7 +68,7 @@ const LittleInformantion = () => {
                   </p>
                 </div>
               </div>
-              <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer mt-4 sm:mt-0 rounded-[8px] shadow-[0px_3px_0px_0px_#000000] border-[1px] border-[#000000] mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
+              <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer mt-4 sm:mt-0 rounded-[8px] shadow-cardShadow border-[1px] border-black mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
                 <Image
                   src="/assets/images/little-information/trophy-img.webp"
                   className=""
