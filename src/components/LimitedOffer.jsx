@@ -77,7 +77,7 @@ const LimitedOffers = () => {
               src="/assets/images/lemted/burger.webp"
               width={604}
               height={513}
-              className="max-w-[604px] w-full xl:translate-x-[10%] lg:translate-x-[5%] lg:mt-0 sm:mt-[75px] mt-16"
+              className="max-w-[604px] w-full xl:translate-x-[10%] lg:translate-x-[4%] lg:mt-0 sm:mt-[75px] mt-16"
               alt="burger"
             />
           </div>
