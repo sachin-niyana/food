@@ -48,21 +48,21 @@ const ClientSays = () => {
   return (
     <div className="bg-redchilli bg-cover bg-no-repeat bg-center lg:mt-28 mt-16 overflow-hidden">
       <div className="container max-w-[1152px] mx-auto pb-[180px] sm:pb-[150px] px-3 py-[150px]">
-        <div
-          className="flex flex-col justify-center text-center items-center"
-          data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="800"
-        >
+        <div className="flex flex-col justify-center text-center items-center">
           <h2
             className="font-ClashDisplay text-[30px] md:text-2xl leading-[40px] font-semibold text-white text-center"
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="800"
+            data-aos-duration="600"
           >
             What’s Our Client Say
           </h2>
-          <p className="text-sm font-Syne text-cnter md:max-w-[522px] text-white opacity-70 mt-[8px] px-2 leading-[150%] xl:max-w-[532px] ">
+          <p
+            className="text-sm font-Syne text-cnter md:max-w-[522px] text-white opacity-70 mt-[8px] px-2 leading-[150%] xl:max-w-[532px] "
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="800"
+          >
             Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
             accumsan odio tellus integer scelerisque.
           </p>
