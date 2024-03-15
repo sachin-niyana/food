@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { topCollection } from "./common/Helper";
+import ShowMoreBtn from "./ShowMoreBtn";
 
 const TopCollections = () => {
   return (
@@ -26,42 +27,219 @@ const TopCollections = () => {
           accumsan odio tellus integer scelerisque.
         </p>
       </div>
-      <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
-        {topCollection.map((value, index) => (
-          <div
-            className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
-            key={index}
-            data-aos="zoom-in"
-            data-aos-easing="linear"
-            data-aos-duration="800"
-          >
-            <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
-              <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                <span className="absolute right-3"> {value.icon} </span>
-                <Image
-                  className="group-hover:scale-110 transition-all ease-in-out duration-300"
-                  src={value.image}
-                  width={284}
-                  height={189}
-                  alt="burger"
-                />
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="mt-[20px]">
-                  <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
-                    {value.title}
-                  </h2>
-                  <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
-                    {value.burger}
-                  </p>
+
+      {/* lg screen burger cards */}
+      <div className="hidden lg:block">
+        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
+          {topCollection.map((value, index) => (
+            <div
+              className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
+              key={index}
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+                <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
+                  <span className="absolute right-3"> {value.icon} </span>
+                  <Image
+                    className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                    src={value.image}
+                    width={284}
+                    height={189}
+                    alt="burger"
+                  />
                 </div>
-                <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
-                  {value.price}
-                </h3>
+                <div className="flex items-center justify-between">
+                  <div className="mt-[20px]">
+                    <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                      {value.title}
+                    </h2>
+                    <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                      {value.burger}
+                    </p>
+                  </div>
+                  <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                    {value.price}
+                  </h3>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+      </div>
+
+      {/* small screen cards show  1*/}
+      <div className="md:hidden">
+        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
+          {topCollection.slice(0, 1, 2).map((value, index) => (
+            <div
+              className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
+              key={index}
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+                <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
+                  <span className="absolute right-3"> {value.icon} </span>
+                  <Image
+                    className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                    src={value.image}
+                    width={284}
+                    height={189}
+                    alt="burger"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <div className="mt-[20px]">
+                    <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                      {value.title}
+                    </h2>
+                    <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                      {value.burger}
+                    </p>
+                  </div>
+                  <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                    {value.price}
+                  </h3>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Md screen cards shoew  4*/}
+      <div className="lg:hidden">
+        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
+          {topCollection.slice(0, 4).map((value, index) => (
+            <div
+              className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
+              key={index}
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+                <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
+                  <span className="absolute right-3"> {value.icon} </span>
+                  <Image
+                    className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                    src={value.image}
+                    width={284}
+                    height={189}
+                    alt="burger"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <div className="mt-[20px]">
+                    <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                      {value.title}
+                    </h2>
+                    <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                      {value.burger}
+                    </p>
+                  </div>
+                  <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                    {value.price}
+                  </h3>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+
+      {/* show button small screen */}
+      <div className="justify-center items-center mt-[30px] sm:mt-[60px] mb-[82px] md:mt-6 md:mb-10 md:hidden  lg:mt-0">
+        <ShowMoreBtn
+          data={
+            <div className="lg:hidden">
+              <div className="flex flex-wrap lg:grid grid-cols-3 gap-6  items-center justify-center">
+                {topCollection.slice(0, 5).map((value, index) => (
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                    key={index} >
+                    <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
+                      <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+                        <Image
+                          className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                          width={316}
+                          height={315}
+                          src={value.image}
+                          alt="john-doe-chef-master"
+                        />
+                      </div>
+                      <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                        <div>
+                          <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                            {value.title}
+                          </h3>
+                          <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                            {value.master}
+                          </p>
+                        </div>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                          {value.icon}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+              </div>
+            </div>
+          }
+        />
+      </div>
+
+      {/* show button md screen */}
+      <div className="justify-center items-center mt-[30px] sm:mt-[60px] mb-[82px] md:mt-6 md:mb-10 hidden md:block lg:hidden  lg:mt-0">
+        <ShowMoreBtn
+          data={
+            <div className="lg:hidden">
+              <div className="flex flex-wrap lg:grid grid-cols-3 gap-6  items-center justify-center">
+                {topCollection.slice(0, 2).map((value, index) => (
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                    key={index} >
+                    <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
+                      <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+                        <Image
+                          className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                          width={316}
+                          height={315}
+                          src={value.image}
+                          alt="john-doe-chef-master"
+                        />
+                      </div>
+                      <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                        <div>
+                          <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                            {value.title}
+                          </h3>
+                          <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                            {value.master}
+                          </p>
+                        </div>
+                        <a href="https://www.linkedin.com/" target="_blank">
+                          {value.icon}
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+
+              </div>
+            </div>
+          }
+        />
       </div>
     </div>
   );
