@@ -19,7 +19,7 @@ const OurFeauters = () => {
           Our Features
         </h2>
         <p
-          className="font-Syne font-normal text-xsm md:text-sm !leading-[150%] text-black opacity-70 sm:max-w-[522px] max-w-[300px] mt-0 md:mt-2"
+          className="font-Syne font-normal text-sm !leading-[150%] text-black opacity-70 sm:max-w-[522px] max-w-[300px] mt-0 md:mt-2"
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="800"
@@ -31,7 +31,7 @@ const OurFeauters = () => {
       <div className="flex flex-wrap lg:grid lg:grid-cols-3 gap-6 mt-5 md:mt-10 justify-center items-center">
         {ourFeatures.map((value, index) => (
           <div
-            className="flex justify-center w-full max-w-[364px]"
+            className="flex justify-center w-full max-w-[364px] md:max-w-[360px] lg:max-w-[364px]"
             key={index}
             data-aos="zoom-in"
             data-aos-easing="linear"

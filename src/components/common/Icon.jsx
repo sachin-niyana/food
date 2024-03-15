@@ -1,3 +1,4 @@
+/* Shopping icon */
 export const Shoping = () => {
   return (
     <svg
@@ -41,6 +42,7 @@ export const Shoping = () => {
     </svg>
   );
 };
+/* Search icon */
 export const Search = () => {
   return (
     <svg
@@ -61,6 +63,7 @@ export const Search = () => {
     </svg>
   );
 };
+/* Login icon */
 export const Login = () => {
   return (
     <svg
@@ -94,6 +97,7 @@ export const Login = () => {
     </svg>
   );
 };
+/* Watch icon */
 export const Watch = () => {
   return (
     <svg
@@ -118,6 +122,7 @@ export const Watch = () => {
     </svg>
   );
 };
+/* RightArrow icon */
 export const RightArrow = () => {
   return (
     <svg
@@ -134,6 +139,7 @@ export const RightArrow = () => {
     </svg>
   );
 };
+/* Headingdesign icon */
 export const Headingdesign = () => {
   return (
     <svg
@@ -171,6 +177,7 @@ export const Headingdesign = () => {
     </svg>
   );
 };
+/* LinkedInIcon icon */
 export const LinkedInIcon = () => {
   return (
     <svg
@@ -236,6 +243,7 @@ export const LinkedInIcon = () => {
     </svg>
   );
 };
+/* SliderPrevArrow icon */
 export const SliderPrevArrow = () => {
   return (
     <svg
@@ -295,6 +303,7 @@ export const SliderPrevArrow = () => {
     </svg>
   );
 };
+/* SliderNextArrow icon */
 export const SliderNextArrow = () => {
   return (
     <svg
@@ -354,6 +363,7 @@ export const SliderNextArrow = () => {
     </svg>
   );
 };
+/* RattingStars icon */
 export const RattingStars = () => {
   return (
     <svg
@@ -387,6 +397,7 @@ export const RattingStars = () => {
     </svg>
   );
 };
+/* FooterLinkedInIcon icon */
 export const FooterLinkedInIcon = () => {
   return (
     <svg
@@ -416,6 +427,7 @@ export const FooterLinkedInIcon = () => {
     </svg>
   );
 };
+/* FooterTwitterIcon icon */
 export const FooterTwitterIcon = () => {
   return (
     <svg
@@ -445,6 +457,7 @@ export const FooterTwitterIcon = () => {
     </svg>
   );
 };
+/* FooterFacebookIcon icon */
 export const FooterFacebookIcon = () => {
   return (
     <svg
@@ -476,6 +489,7 @@ export const FooterFacebookIcon = () => {
     </svg>
   );
 };
+/* FooterInstagramIcon icon */
 export const FooterInstagramIcon = () => {
   return (
     <svg
@@ -525,6 +539,7 @@ export const FooterInstagramIcon = () => {
     </svg>
   );
 };
+/* Bgelipse icon */
 export const Bgelipse = () => {
   return (
     <svg
@@ -556,6 +571,7 @@ export const Bgelipse = () => {
     </svg>
   );
 };
+/* Copy icon */
 export const Copy = () => {
   return (
     <svg
@@ -576,6 +592,7 @@ export const Copy = () => {
     </svg>
   );
 };
+/* LikeIcon icon */
 export const LikeIcon = () => {
   return (
     <svg
