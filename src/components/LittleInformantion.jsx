@@ -33,7 +33,7 @@ const LittleInformantion = () => {
               scelerisque.
             </p>
             <div className="mt-6 mb-3 lg:mt-3 md:mt-[40px] xl:mt-[40px] sm:flex  xl:flex-row gap-[24px] justify-center  lg:justify-start">
-              <div className="py-[14.2px] md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer rounded-[8px] shadow-[0px_3px_0px_0px_#000000] border-[1px] border-[#000000] mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
+              <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer rounded-[8px] shadow-[0px_3px_0px_0px_#000000] border-[1px] border-[#000000] mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
                 <Image
                   src="/assets/images/little-information/hand-stars.webp"
                   className=""
@@ -50,7 +50,7 @@ const LittleInformantion = () => {
                   </p>
                 </div>
               </div>
-              <div className="py-[14.2px] md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer mt-4 sm:mt-0 rounded-[8px] shadow-[0px_3px_0px_0px_#000000] border-[1px] border-[#000000] mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
+              <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer mt-4 sm:mt-0 rounded-[8px] shadow-[0px_3px_0px_0px_#000000] border-[1px] border-[#000000] mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
                 <Image
                   src="/assets/images/little-information/trophy-img.webp"
                   className=""
