@@ -17,7 +17,7 @@ const Footer = () => {
       id="About"
     >
       <div className="container mx-auto max-w-[1152px] px-3">
-        <div className="pt-[38px] md:pt-[51px] pb-[38px] flex flex-wrap flex-col lg:flex-row items-center justify-between">
+        <div className="lg:pt-[51px] lg:pb-[38px] pb-[30px] sm:pt-[45px] pt-[65px] flex flex-wrap flex-col lg:flex-row items-center justify-between">
           <Link href="#" target="_blank">
             <Image
               className="sm:w-[171px] sm:h-[74px] w-[101px] h-[44px]"
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-[#55524D] h-[2px] w-full rounded-md"></div>
-        <p className="text-center text-Rich-Black pt-[38px] pb-12 font-Syne text-sm font-normal ">
+        <p className="text-center text-Rich-Black lg:pt-[38px] pt-[30px] lg:pb-12 pb-[30px] font-Syne text-sm font-normal ">
           ©Copyright {currentYear}. All Rights Reserved
         </p>
       </div>
