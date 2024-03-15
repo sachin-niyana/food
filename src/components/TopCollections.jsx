@@ -5,7 +5,7 @@ import ShowMoreBtn from "./ShowMoreBtn";
 const TopCollections = () => {
   return (
     <div
-      className="container max-w-[1152px] mx-auto px-3 py-[130px]"
+      className="container max-w-[1152px] mx-auto px-3 pb-[50px] sm:pb-[130px] pt-[130px]"
       id="Offers"
     >
       <div className="flex justify-center flex-col items-center">
