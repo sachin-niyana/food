@@ -18,7 +18,7 @@ const TopCollections = () => {
           Top Collections
         </h2>
         <p
-          className="text-sm text-center text-Rich-Black font-Syne opacity-70 mt-[8px] leading-[150%] sm:max-w-[532px] "
+          className="text-sm text-center text-Rich-Black font-Syne px-3 opacity-70 mt-[8px] leading-[150%] sm:max-w-[532px] "
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="800"
@@ -72,7 +72,7 @@ const TopCollections = () => {
       {/* small screen cards show  1*/}
       <div className="md:hidden">
         <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
-          {topCollection.slice(0, 1, 2).map((value, index) => (
+          {topCollection.slice(0, 1).map((value, index) => (
             <div
               className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
               key={index}
@@ -111,7 +111,7 @@ const TopCollections = () => {
       </div>
 
       {/* Md screen cards shoew  4*/}
-      <div className="lg:hidden">
+      <div className="hidden md:block lg:hidden">
         <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
           {topCollection.slice(0, 4).map((value, index) => (
             <div
@@ -156,41 +156,43 @@ const TopCollections = () => {
       <div className="justify-center items-center mt-[30px] sm:mt-[60px] mb-[82px] md:mt-6 md:mb-10 md:hidden  lg:mt-0">
         <ShowMoreBtn
           data={
-            <div className="lg:hidden">
-              <div className="flex flex-wrap lg:grid grid-cols-3 gap-6  items-center justify-center">
+            <div className="lg:hidden mt-[-22px] px-3">
+              <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
                 {topCollection.slice(0, 5).map((value, index) => (
                   <div
+                    className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
+                    key={index}
                     data-aos="zoom-in"
                     data-aos-easing="linear"
                     data-aos-duration="800"
-                    key={index} >
-                    <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
-                      <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+                  >
+                    <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+                      <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
+                        <span className="absolute right-3"> {value.icon} </span>
                         <Image
-                          className="rounded-2xl group-hover:scale-[1.04]  duration-300"
-                          width={316}
-                          height={315}
+                          className="group-hover:scale-110 transition-all ease-in-out duration-300"
                           src={value.image}
-                          alt="john-doe-chef-master"
+                          width={284}
+                          height={189}
+                          alt="burger"
                         />
                       </div>
-                      <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
-                        <div>
-                          <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                      <div className="flex items-center justify-between">
+                        <div className="mt-[20px]">
+                          <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
                             {value.title}
-                          </h3>
-                          <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
-                            {value.master}
+                          </h2>
+                          <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                            {value.burger}
                           </p>
                         </div>
-                        <a href="https://www.linkedin.com/" target="_blank">
-                          {value.icon}
-                        </a>
+                        <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                          {value.price}
+                        </h3>
                       </div>
                     </div>
                   </div>
                 ))}
-
               </div>
             </div>
           }
@@ -201,41 +203,43 @@ const TopCollections = () => {
       <div className="justify-center items-center mt-[30px] sm:mt-[60px] mb-[82px] md:mt-6 md:mb-10 hidden md:block lg:hidden  lg:mt-0">
         <ShowMoreBtn
           data={
-            <div className="lg:hidden">
-              <div className="flex flex-wrap lg:grid grid-cols-3 gap-6  items-center justify-center">
+            <div className="lg:hidden mt-[-22px]">
+              <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
                 {topCollection.slice(0, 2).map((value, index) => (
                   <div
+                    className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
+                    key={index}
                     data-aos="zoom-in"
                     data-aos-easing="linear"
                     data-aos-duration="800"
-                    key={index} >
-                    <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
-                      <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+                  >
+                    <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+                      <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
+                        <span className="absolute right-3"> {value.icon} </span>
                         <Image
-                          className="rounded-2xl group-hover:scale-[1.04]  duration-300"
-                          width={316}
-                          height={315}
+                          className="group-hover:scale-110 transition-all ease-in-out duration-300"
                           src={value.image}
-                          alt="john-doe-chef-master"
+                          width={284}
+                          height={189}
+                          alt="burger"
                         />
                       </div>
-                      <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
-                        <div>
-                          <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                      <div className="flex items-center justify-between">
+                        <div className="mt-[20px]">
+                          <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
                             {value.title}
-                          </h3>
-                          <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
-                            {value.master}
+                          </h2>
+                          <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                            {value.burger}
                           </p>
                         </div>
-                        <a href="https://www.linkedin.com/" target="_blank">
-                          {value.icon}
-                        </a>
+                        <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                          {value.price}
+                        </h3>
                       </div>
                     </div>
                   </div>
                 ))}
-
               </div>
             </div>
           }
