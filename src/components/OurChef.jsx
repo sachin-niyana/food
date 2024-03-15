@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { ourChef } from "./Helper";
-import { RightArrow } from "./Icon";
+import { ourChef } from "./common/Helper";
+import { RightArrow } from "./common/Icon";
 import Link from "next/link";
 import ShowMoreBtn from "./ShowMoreBtn";
 

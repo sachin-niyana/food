@@ -2,10 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { HiOutlineBars4 } from "react-icons/hi2";
+import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
-import { navLink } from "./Helper";
-import { Login, Search, Shoping } from "./Icon";
+import { navLink } from "./common/Helper";
+import { Login, Search, Shoping } from "./common/Icon";
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container max-w-[1164px] px-3 mx-auto">
         <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] lg:py-[18px] py-3 bg-white rounded-full shadow-navbarShadow">
           <Image
-            src="/assets/images/header/logo.png"
+            src="/assets/images/header/logo.webp"
             width={90}
             height={39}
             alt="Logo"
@@ -46,14 +46,29 @@ const Navbar = () => {
             <div className="cursor-pointer">
               <Shoping />
             </div>
-            <div className="cursor-pointer">
-              <Search />
+            <div className="cursor-pointer sm:block hidden">
+              <div className="search-container">
+                <form action="/search" method="get">
+                  <input
+                    className="search"
+                    id="searchleft"
+                    type="search"
+                    name="q"
+                    placeholder="Search"
+                  />
+                  <label className="button searchbutton" for="searchleft">
+                    <span>
+                      <Search />{" "}
+                    </span>
+                  </label>
+                </form>
+              </div>
             </div>
             <button
-              className="block lg:hidden text-Rich-Black text-3xl"
+              className="block lg:hidden text-Rich-Black opacity-70 text-3xl"
               onClick={sidebarHandler}
             >
-              <HiOutlineBars4 className="sm:w-10 sm:h-10 w-7 h-7" />
+              <FiMenu className="w-[30px] h-[30px]" />
             </button>
             <div className="sm:block hidden">
               <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
@@ -69,7 +84,22 @@ const Navbar = () => {
               <Shoping />
             </div>
             <div className="cursor-pointer">
-              <Search />{" "}
+              <div className="search-container">
+                <form action="/search" method="get">
+                  <input
+                    className="search"
+                    id="searchleft"
+                    type="search"
+                    name="q"
+                    placeholder="Search"
+                  />
+                  <label className="button searchbutton" for="searchleft">
+                    <span>
+                      <Search />
+                    </span>
+                  </label>
+                </form>
+              </div>
             </div>
             <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
               <span>
@@ -116,12 +146,17 @@ const Navbar = () => {
               );
             })}
           </ul>
-          <button className="text-Rich-Black sm:hidden bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+          <button className="text-Rich-Black sm:hidden bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm ">
             <span>
               <Login />
             </span>
             Login
           </button>
+          <input
+            type="text"
+            placeholder="Search"
+            className="border-[1px] rounded-full text-center p-2 mt-4 outline-none border-Rich-Black text-Rich-Black text-opacity-70 sm:hidden block"
+          />
         </div>
       </div>
     </nav>

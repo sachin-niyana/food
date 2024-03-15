@@ -1,16 +1,16 @@
 import React from "react";
-import { Headingdesign, Watch } from "./Icon";
+import { Headingdesign, Watch } from "./common/Icon";
 import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="container max-w-[1152px] mx-auto px-3 pt-[71px] md:pb-[65px] sm:pb-16 pb-12 xl:overflow-visible overflow-hidden">
+    <div className="container max-w-[1152px] mx-auto px-3 sm:pt-[71px] pt-[78px] xl:overflow-visible overflow-hidden">
       <div className="flex flex-row flex-wrap items-center">
         <div className="lg:w-6/12 w-full flex justify-center flex-col">
           <div className="flex lg:justify-start justify-center">
             <div className="bg-light-brown flex items-center gap-0.5 py-1.5 px-[19px] max-w-[202px] rounded-full">
               <Image
-                src="/assets/images/header/delivery.png"
+                src="/assets/images/header/delivery.webp"
                 width={15}
                 height={15}
                 alt="delivery"
@@ -25,7 +25,7 @@ const Header = () => {
             Fastest and Flavourful Food Delivering at your{" "}
             <span className="relative">
               Doorstep{" "}
-              <span className="absolute lg:right-[-16%] right-[-25%] lg:top-[15%] animate-pulse sm:w-[104px] sm:h-[67px] w-[90px] h-[55px]">
+              <span className="absolute xl:right-[-16%] lg:right-[-20%] sm:right-[-17%] right-[-30%] lg:top-[15%] top-[20%] animate-pulse sm:w-[104px] sm:h-[67px] w-[90px] h-[55px]">
                 <Headingdesign />
               </span>
             </span>
@@ -50,20 +50,13 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div className="lg:w-6/12 w-full flex justify-center xl:ps-0 lg:ps-5 md:mt-0 sm:mt-32 !mt-[61px] relative">
+        <div className="lg:w-6/12 w-full flex justify-center xl:ps-0 lg:ps-5 lg:mt-0 sm:mt-[128px] mt-[61px] relative">
           <Image
-            className="max-w-[563px] w-full xl:translate-x-10 z-10"
-            src="/assets/images/header/scooter.png"
+            className="max-w-[563px] w-full xl:translate-x-12 z-10"
+            src="/assets/images/header/scooter.webp"
             width={565}
             height={518}
-            alt="delivery"
-          />
-          <Image
-            className="max-w-[565px] w-full xl:translate-x-20 translate-y-[-7%] absolute sm:top-16"
-            src="/assets/images/header/scooter-shadow.png"
-            width={565}
-            height={518}
-            alt="delivery"
+            alt="scooter"
           />
         </div>
       </div>

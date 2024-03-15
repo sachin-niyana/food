@@ -1,5 +1,5 @@
 import React from "react";
-import { Copy, Headingdesign } from "./Icon";
+import { Copy, Headingdesign } from "./common/Icon";
 import Image from "next/image";
 import TopCollections from "./TopCollections";
 import Link from "next/link";
@@ -21,13 +21,13 @@ const LimitedOffers = () => {
               <span className="relative">
                 {" "}
                 $20{" "}
-                <span className=" absolute -bottom-6 !-right-[70%] lg:!-right-[40%] lg:-bottom-4 animate-pulse">
+                <span className=" absolute -bottom-6 xl:right-[-40%] lg:right-[-50%] sm:top-0 right-[20%] lg:-bottom-4 animate-pulse">
                   <Headingdesign />
                 </span>
               </span>
             </h2>
             <h2
-              className="lg:hidden block sm:max-w-[555px] max-w-[300px] font-semibold lg:text-xl sm:text-2xl xl:text-2xl text-llg  text-white font-ClashDisplay !leading-[123%]"
+              className="lg:hidden block sm:max-w-[555px] max-w-[300px] font-semibold lg:text-xl text-center sm:text-2xl xl:text-2xl text-llg  text-white font-ClashDisplay !leading-[123%]"
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="800"
@@ -36,13 +36,13 @@ const LimitedOffers = () => {
               <span className="relative">
                 {" "}
                 $10{" "}
-                <span className=" absolute -bottom-6 !-right-[70%] lg:!-right-[40%] lg:-bottom-4 animate-pulse">
+                <span className=" absolute -bottom-6 xl:right-[-70%] lg:right-[-70%] right-[-50%] sm:top-0 top-[-5%] lg:-bottom-4 animate-pulse">
                   <Headingdesign />
                 </span>
               </span>
             </h2>
             <p
-              className="font-Syne font-normal text-xsm md:text-sm !leading-[150%] text-white opacity-70 max-w-[400px] lg:max-w-[522px] mt-8"
+              className="font-Syne font-normal text-sm !leading-[150%] text-white opacity-70 max-w-[300px] sm:max-w-[522px] mt-8 lg:text-start text-center"
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="500"
@@ -74,10 +74,10 @@ const LimitedOffers = () => {
             data-aos-duration="800"
           >
             <Image
-              src="/assets/images/lemted/burger.png"
+              src="/assets/images/lemted/burger.webp"
               width={604}
               height={513}
-              className="max-w-[604px] w-full xl:translate-x-[10%] lg:translate-x-[5%] lg:mt-0 sm:mt-[75px] mt-16"
+              className="max-w-[604px] w-full xl:translate-x-[10%] lg:translate-x-[4%] lg:mt-0 sm:mt-[75px] mt-16"
               alt="burger"
             />
           </div>

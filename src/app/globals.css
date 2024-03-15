@@ -16,23 +16,85 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-size {
-  background-size: 100% 100%;
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin: 4px 2px;
+  height: 30px;
+  width: 30px;
+  vertical-align: bottom;
 }
 
-.slider_arrow_hover:hover circle {
+.searchbutton {
+  position: absolute;
+  font-size: 22px;
+  width: 10%;
+  margin: 0;
+  padding: 0;
+}
+
+.search:focus + .searchbutton {
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+}
+
+.search {
+  position: absolute;
+  left: 0px;
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 0;
+  height: 100%;
+  z-index: 10;
+  transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+}
+
+.search:focus {
+  border-radius: 35px;
+  border: 1px solid black;
+  margin-top: -10.4px;
+  height: 50px;
+  width: 153px;
+  padding: 0 16px 0 10px;
+}
+
+.slider_next_arrow:hover circle {
   fill: black;
 }
 
-.slider_arrow_hover:hover path {
+.slider_next_arrow:hover path {
   fill: black;
 }
 
-.slider_arrow_hover:hover rect {
+.slider_next_arrow:hover rect {
   fill: #ffcd46;
 }
 
-.slider_arrow_hover:hover path {
+.slider_next_arrow:hover path {
+  stroke: black;
+}
+.slider_prev_arrow:hover circle {
+  fill: black;
+}
+
+.slider_prev_arrow:hover path {
+  fill: black;
+}
+
+.slider_prev_arrow:hover rect {
+  fill: #ffcd46;
+}
+
+.slider_prev_arrow:hover path {
   stroke: black;
 }
 

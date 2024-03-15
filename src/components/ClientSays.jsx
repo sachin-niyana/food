@@ -4,27 +4,29 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { RattingStars, SliderNextArrow } from "./Icon";
+import { RattingStars, SliderNextArrow, SliderPrevArrow } from "./common/Icon";
 
 const ClientSays = () => {
+  const CustomPrevArrow = ({ onClick }) => (
+    <button
+      className="absolute top-[108%] right-[53%] md:top-[45%] md:left-[5%] lg:top-[108%] lg:left-[43%] xl:top-[45%] xl:left-[-4.8%] z-10"
+      onClick={onClick}
+    >
+      <SliderPrevArrow />
+    </button>
+  );
   // ================== Slider Left Arrow ======================= //
   const CustomNextArrow = ({ onClick }) => (
     <button
       className="absolute top-[108%] left-[53%] md:top-[45%] md:right-[5%] lg:top-[108%] lg:right-[43%] xl:top-[45%] xl:right-[-4.8%] transform rotate-[180deg] z-10"
       onClick={onClick}
     >
+      {" "}
       <SliderNextArrow />
     </button>
   );
   // ================== Slider Right Arrow ======================= //
-  const CustomPrevArrow = ({ onClick }) => (
-    <button
-      className="absolute top-[108%] right-[53%]  md:top-[45%] md:left-[5%] lg:top-[108%] lg:left-[43%] xl:top-[45%] xl:left-[-4.8%] z-10"
-      onClick={onClick}
-    >
-      <SliderNextArrow />
-    </button>
-  );
+
   // ================== Slider Settings =========================== //
   const settings = {
     dots: false,
@@ -46,21 +48,21 @@ const ClientSays = () => {
   return (
     <div className="bg-redchilli bg-cover bg-no-repeat bg-center lg:mt-28 mt-16 overflow-hidden">
       <div className="container max-w-[1152px] mx-auto pb-[180px] sm:pb-[150px] px-3 py-[150px]">
-        <div
-          className="flex flex-col justify-center text-center items-center"
-          data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="800"
-        >
+        <div className="flex flex-col justify-center text-center items-center">
           <h2
             className="font-ClashDisplay text-[30px] md:text-2xl leading-[40px] font-semibold text-white text-center"
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="800"
+            data-aos-duration="600"
           >
             What’s Our Client Say
           </h2>
-          <p className="text-sm font-Syne text-cnter md:max-w-[522px] text-white opacity-70 mt-[8px] px-2 leading-[150%] xl:max-w-[532px] ">
+          <p
+            className="text-sm font-Syne text-cnter md:max-w-[522px] text-white opacity-70 mt-[8px] px-2 leading-[150%] xl:max-w-[532px] "
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="800"
+          >
             Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
             accumsan odio tellus integer scelerisque.
           </p>
@@ -71,11 +73,11 @@ const ClientSays = () => {
         >
           <div
             className=" w-[50%] px-3 lg:pe-3"
-            data-aos="fade-right"
+            data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="800"
           >
-            <div className="max-w-[558px] backdrop-blur-[2px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[30px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
+            <div className="max-w-[558px] backdrop-blur-[2px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[30px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent sm:rounded-2xl rounded-[10px]  py-[25px]">
               <div className="flex justify-center items-center">
                 <Image
                   src="/assets/images/client-says/kristin-ellips.png"
@@ -102,11 +104,11 @@ const ClientSays = () => {
           </div>
           <div
             className=" w-[50%] px-3 lg:ps-3"
-            data-aos="fade-left"
+            data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="800"
           >
-            <div className="max-w-[558px] backdrop-blur-[2px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[30px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
+            <div className="max-w-[558px] backdrop-blur-[2px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[30px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent sm:rounded-2xl rounded-[10px] py-[25px]">
               <div className="flex justify-center items-center">
                 <Image
                   src="/assets/images/client-says/darrell-ellips.png"

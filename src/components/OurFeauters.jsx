@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { Bgelipse } from "./Icon";
-import { ourFeatures } from "./Helper";
+import { Bgelipse } from "./common/Icon";
+import { ourFeatures } from "./common/Helper";
 
 const OurFeauters = () => {
   return (
@@ -28,7 +28,7 @@ const OurFeauters = () => {
           accumsan odio tellus integer scelerisque.
         </p>
       </div>
-      <div className="flex flex-wrap lg:grid lg:grid-cols-3 lg:gap-6 gap-4 mt-5 md:mt-10 justify-center items-center">
+      <div className="flex flex-wrap lg:grid lg:grid-cols-3 gap-6 mt-5 md:mt-10 justify-center items-center">
         {ourFeatures.map((value, index) => (
           <div
             className="flex justify-center w-full max-w-[364px]"
