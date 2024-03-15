@@ -1,3 +1,7 @@
+"use client";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import BackToTop from "@/components/BackToTop";
 import ClientSays from "@/components/ClientSays";
 import Footer from "@/components/Footer";
@@ -10,6 +14,12 @@ import OurFeauters from "@/components/OurFeauters";
 import TopCollections from "@/components/TopCollections";
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    }); // Initialize AOS
+  }, []);
   return (
     <div>
       <BackToTop />

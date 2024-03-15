@@ -8,10 +8,20 @@ const TopCollections = () => {
       id="Offers"
     >
       <div className="flex justify-center flex-col items-center">
-        <h2 className="font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-Rich-Black text-center">
+        <h2
+          className="font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-Rich-Black text-center"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+        >
           Top Collections
         </h2>
-        <p className="text-sm text-center text-Rich-Black font-Syne opacity-70 mt-[8px] leading-[150%] sm:max-w-[532px] ">
+        <p
+          className="text-sm text-center text-Rich-Black font-Syne opacity-70 mt-[8px] leading-[150%] sm:max-w-[532px] "
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+        >
           Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
           accumsan odio tellus integer scelerisque.
         </p>
@@ -21,6 +31,9 @@ const TopCollections = () => {
           <div
             className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
             key={index}
+            data-aos="zoom-out"
+            data-aos-easing="linear"
+            data-aos-duration="800"
           >
             <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
               <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">

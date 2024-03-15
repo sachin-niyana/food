@@ -25,9 +25,9 @@ const BackToTop = () => {
       {isBackToTopVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-5 right-5 w-[54px] h-[54px] bg-green animate-bounce bg-linear-gradient-btn text-white p-4 rounded-full z-50 transition-all duration-300 "
+          className="fixed bottom-5 right-5 sm:w-[54px] sm:h-[54px] bg-green animate-bounce bg-linear-gradient-btn text-white p-4 rounded-full z-50 transition-all duration-300 "
         >
-          <FaArrowUp className="w-6 h-6" />
+          <FaArrowUp className="sm:w-6 sm:h-6" />
         </button>
       )}
     </>

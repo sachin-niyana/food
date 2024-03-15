@@ -37,7 +37,7 @@
   padding: 0;
 }
 
-.search:focus+.searchbutton {
+.search:focus + .searchbutton {
   transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
@@ -99,4 +99,12 @@
 .like_icon:hover path {
   transition: all 3ms linear !important;
   stroke: red;
+}
+
+.aos-init {
+  visibility: hidden;
+}
+
+.aos-animate {
+  visibility: visible;
 }

@@ -16,7 +16,7 @@ const LittleInformantion = () => {
             />
             <Image
               src="/assets/images/little-information/yellow-bg.webp"
-              className="absolute lg:left-[-28%] sm:left-[-45%] left-[-2%] hidden md:block top-0 max-h-[670px] max-w-[990px]  lg:max-w-[550px] xl:max-w-[670px] lg:max-h-[700px]"
+              className="absolute lg:left-[-28%] sm:left-[-45%] left-[-2%] hidden md:block top-0 md:max-h-[530px]  max-w-[670px] xl:max-h-[700px]"
               width={800}
               height={718}
               alt="yellow-bg"

@@ -46,8 +46,18 @@ const ClientSays = () => {
   return (
     <div className="bg-redchilli bg-cover bg-no-repeat bg-center lg:mt-28 mt-16 overflow-hidden">
       <div className="container max-w-[1152px] mx-auto pb-[180px] sm:pb-[150px] px-3 py-[150px]">
-        <div className="flex flex-col justify-center text-center items-center">
-          <h2 className="font-ClashDisplay text-[30px] md:text-2xl leading-[40px] font-semibold text-white text-center">
+        <div
+          className="flex flex-col justify-center text-center items-center"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+        >
+          <h2
+            className="font-ClashDisplay text-[30px] md:text-2xl leading-[40px] font-semibold text-white text-center"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="800"
+          >
             What’s Our Client Say
           </h2>
           <p className="text-sm font-Syne text-cnter md:max-w-[522px] text-white opacity-70 mt-[8px] px-2 leading-[150%] xl:max-w-[532px] ">
@@ -55,8 +65,16 @@ const ClientSays = () => {
             accumsan odio tellus integer scelerisque.
           </p>
         </div>
-        <Slider {...settings} className="flex justify-center items-center text-center mt-5 lg:mt-[63px]" >
-          <div className=" w-[50%] px-3 lg:pe-3">
+        <Slider
+          {...settings}
+          className="flex justify-center items-center text-center mt-5 lg:mt-[63px]"
+        >
+          <div
+            className=" w-[50%] px-3 lg:pe-3"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="800"
+          >
             <div className="max-w-[558px] backdrop-blur-[2px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[30px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
               <div className="flex justify-center items-center">
                 <Image
@@ -82,7 +100,12 @@ const ClientSays = () => {
               </div>
             </div>
           </div>
-          <div className=" w-[50%] px-3 lg:ps-3">
+          <div
+            className=" w-[50%] px-3 lg:ps-3"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="800"
+          >
             <div className="max-w-[558px] backdrop-blur-[2px] mx-auto bg-slider bg-no-repeat bg-cover bg-center px-[19px] sm:px-[35px] lg:px-[30px] border-[1px] hover:border-[#FFE14E] cursor-pointer transition-all ease-in-out duration-300 border-transparent rounded-[16px]  py-[25px]">
               <div className="flex justify-center items-center">
                 <Image
