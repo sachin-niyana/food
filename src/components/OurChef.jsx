@@ -85,6 +85,7 @@ const OurChef = () => {
       </div>
 
       {/* MD SCREEN CARDS  */}
+      
       <div className="hidden lg:block">
         <div className="flex flex-wrap lg:grid grid-cols-3 gap-6 items-center justify-center">
           {ourChef.map((value, index) => (
