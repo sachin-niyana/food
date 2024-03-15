@@ -28,6 +28,8 @@ module.exports = {
         redchilli: "url('/assets/images/client-says/red-chilli-bg.webp')",
         slider: "url('/assets/images/client-says/slider-bg.png')",
         "footer-cartoon-bg": "url('/assets/images/background/footer-bg.png')",
+        "footer-cartoon-bg-2":
+          "url('/assets/images/background/footer-bg-2.png')",
         "limited-bg": "url('/assets/images/background/limited-offers.png')",
       },
       colors: {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Copy, Headingdesign } from "./Icon";
+import { Copy, Headingdesign } from "./common/Icon";
 import Image from "next/image";
 import TopCollections from "./TopCollections";
 import Link from "next/link";

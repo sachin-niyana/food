@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { topCollection } from "./Helper";
+import { topCollection } from "./common/Helper";
 
 const TopCollections = () => {
   return (

@@ -137,6 +137,7 @@ export const RightArrow = () => {
 export const Headingdesign = () => {
   return (
     <svg
+      className="sm:w-[99px] sm:h-[63px] w-[72px] h-[46px]"
       width="104"
       height="67"
       viewBox="0 0 104 67"
@@ -389,8 +390,9 @@ export const RattingStars = () => {
 export const FooterLinkedInIcon = () => {
   return (
     <svg
-      width="41"
-      height="41"
+      className="sm:w-[40px] sm:h-[40px]"
+      width="31"
+      height="31"
       viewBox="0 0 41 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -417,8 +419,9 @@ export const FooterLinkedInIcon = () => {
 export const FooterTwitterIcon = () => {
   return (
     <svg
-      width="41"
-      height="41"
+      className="sm:w-[40px] sm:h-[40px]"
+      width="31"
+      height="31"
       viewBox="0 0 41 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -445,8 +448,9 @@ export const FooterTwitterIcon = () => {
 export const FooterFacebookIcon = () => {
   return (
     <svg
-      width="41"
-      height="41"
+      className="sm:w-[40px] sm:h-[40px]"
+      width="31"
+      height="31"
       viewBox="0 0 41 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -475,8 +479,9 @@ export const FooterFacebookIcon = () => {
 export const FooterInstagramIcon = () => {
   return (
     <svg
-      width="41"
-      height="41"
+      className="sm:w-[40px] sm:h-[40px]"
+      width="31"
+      height="31"
       viewBox="0 0 41 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
