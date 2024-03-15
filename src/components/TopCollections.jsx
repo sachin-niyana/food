@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { topCollection } from "./Helper";
+import { topCollection } from "./common/Helper";
 
 const TopCollections = () => {
   return (
@@ -12,13 +12,13 @@ const TopCollections = () => {
           className="font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-Rich-Black text-center"
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="800"
+          data-aos-duration="600"
         >
           Top Collections
         </h2>
         <p
           className="text-sm text-center text-Rich-Black font-Syne opacity-70 mt-[8px] leading-[150%] sm:max-w-[532px] "
-          data-aos="fade-right"
+          data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="800"
         >
@@ -31,7 +31,7 @@ const TopCollections = () => {
           <div
             className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
             key={index}
-            data-aos="zoom-out"
+            data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="800"
           >

@@ -1,5 +1,5 @@
 import React from "react";
-import { Copy, Headingdesign } from "./Icon";
+import { Copy, Headingdesign } from "./common/Icon";
 import Image from "next/image";
 import TopCollections from "./TopCollections";
 import Link from "next/link";
@@ -27,7 +27,7 @@ const LimitedOffers = () => {
               </span>
             </h2>
             <h2
-              className="lg:hidden block sm:max-w-[555px] max-w-[300px] font-semibold lg:text-xl sm:text-2xl xl:text-2xl text-llg  text-white font-ClashDisplay !leading-[123%]"
+              className="lg:hidden block sm:max-w-[555px] max-w-[300px] font-semibold lg:text-xl text-center sm:text-2xl xl:text-2xl text-llg  text-white font-ClashDisplay !leading-[123%]"
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="800"
@@ -42,7 +42,7 @@ const LimitedOffers = () => {
               </span>
             </h2>
             <p
-              className="font-Syne font-normal text-xsm md:text-sm !leading-[150%] text-white opacity-70 max-w-[400px] lg:max-w-[522px] mt-8"
+              className="font-Syne font-normal text-xsm md:text-sm !leading-[150%] text-white opacity-70 max-w-[400px] lg:max-w-[522px] mt-8 lg:text-start text-center"
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="500"

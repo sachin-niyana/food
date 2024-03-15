@@ -1,25 +1,26 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { navLink } from "./Helper";
+import { navLink } from "./common/Helper";
 import {
   FooterFacebookIcon,
   FooterInstagramIcon,
   FooterLinkedInIcon,
   FooterTwitterIcon,
-} from "./Icon";
+} from "./common/Icon";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div
-      className="bg-footer-cartoon-bg bg-center bg-cover bg-no-repeat"
+      className="min-[769px]:bg-footer-cartoon-bg bg-footer-cartoon-bg-2 sm:bg-center bg-right bg-cover bg-no-repeat"
       id="About"
     >
       <div className="container mx-auto max-w-[1152px] px-3">
         <div className="pt-[38px] md:pt-[51px] pb-[38px] flex flex-wrap flex-col lg:flex-row items-center justify-between">
           <Link href="#" target="_blank">
             <Image
+              className="sm:w-[171px] sm:h-[74px] w-[101px] h-[44px]"
               width={171}
               height={74}
               src={"/assets/images/footer/footer-logo.png"}

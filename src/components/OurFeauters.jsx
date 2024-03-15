@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { Bgelipse } from "./Icon";
-import { ourFeatures } from "./Helper";
+import { Bgelipse } from "./common/Icon";
+import { ourFeatures } from "./common/Helper";
 
 const OurFeauters = () => {
   return (
