@@ -16,23 +16,34 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-size {
-  background-size: 100% 100%;
-}
-
-.slider_arrow_hover:hover circle {
+.slider_next_arrow:hover circle {
   fill: black;
 }
 
-.slider_arrow_hover:hover path {
+.slider_next_arrow:hover path {
   fill: black;
 }
 
-.slider_arrow_hover:hover rect {
+.slider_next_arrow:hover rect {
   fill: #ffcd46;
 }
 
-.slider_arrow_hover:hover path {
+.slider_next_arrow:hover path {
+  stroke: black;
+}
+.slider_prev_arrow:hover circle {
+  fill: black;
+}
+
+.slider_prev_arrow:hover path {
+  fill: black;
+}
+
+.slider_prev_arrow:hover rect {
+  fill: #ffcd46;
+}
+
+.slider_prev_arrow:hover path {
   stroke: black;
 }
 

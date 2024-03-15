@@ -4,27 +4,29 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { RattingStars, SliderNextArrow } from "./Icon";
+import { RattingStars, SliderNextArrow, SliderPrevArrow } from "./Icon";
 
 const ClientSays = () => {
+  const CustomPrevArrow = ({ onClick }) => (
+    <button
+      className="absolute top-[108%] right-[53%] md:top-[45%] md:left-[5%] lg:top-[108%] lg:left-[43%] xl:top-[45%] xl:left-[-4.8%] z-10"
+      onClick={onClick}
+    >
+      <SliderPrevArrow />
+    </button>
+  );
   // ================== Slider Left Arrow ======================= //
   const CustomNextArrow = ({ onClick }) => (
     <button
       className="absolute top-[108%] left-[53%] md:top-[45%] md:right-[5%] lg:top-[108%] lg:right-[43%] xl:top-[45%] xl:right-[-4.8%] transform rotate-[180deg] z-10"
       onClick={onClick}
     >
+      {" "}
       <SliderNextArrow />
     </button>
   );
   // ================== Slider Right Arrow ======================= //
-  const CustomPrevArrow = ({ onClick }) => (
-    <button
-      className="absolute top-[108%] right-[53%]  md:top-[45%] md:left-[5%] lg:top-[108%] lg:left-[43%] xl:top-[45%] xl:left-[-4.8%] z-10"
-      onClick={onClick}
-    >
-      <SliderNextArrow />
-    </button>
-  );
+
   // ================== Slider Settings =========================== //
   const settings = {
     dots: false,
