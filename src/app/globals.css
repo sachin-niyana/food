@@ -110,3 +110,7 @@
 .aos-animate {
   visibility: visible;
 }
+
+:focus-visible {
+  outline: none !important;
+}
