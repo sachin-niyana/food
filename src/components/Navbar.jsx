@@ -24,7 +24,7 @@ const Navbar = () => {
             height={39}
             alt="Logo"
           />
-          <ul className="hidden lg:flex gap-[30px] ">
+          <ul className="hidden lg:flex gap-[30px] ps-24">
             {navLink.map((value, index) => {
               return (
                 <li key={index} className="flex flex-col items-center group">
@@ -73,12 +73,14 @@ const Navbar = () => {
             >
               <HiOutlineBars4 className="sm:w-10 sm:h-10 w-7 h-7" />
             </button>
-            <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
-              <span>
-                <Login />
-              </span>
-              Login
-            </button>
+            <div className="sm:block hidden">
+              <button className="text-Rich-Black bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay flex items-center gap-1 font-medium sm:text-sm text-xsm">
+                <span>
+                  <Login />
+                </span>
+                Login
+              </button>
+            </div>
           </div>
           <div className="hidden lg:flex items-center gap-4">
             <div className="cursor-pointer">

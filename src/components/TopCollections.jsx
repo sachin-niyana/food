@@ -11,7 +11,7 @@ const TopCollections = () => {
         <h2 className="font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-Rich-Black text-center">
           Top Collections
         </h2>
-        <p className="text-sm font-Syne text-center text-Rich-Black  opacity-70 mt-[8px] leading-[150%] max-w-[532px] ">
+        <p className="text-sm text-center text-Rich-Black font-Syne opacity-70 mt-[8px] leading-[150%] sm:max-w-[532px] ">
           Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
           accumsan odio tellus integer scelerisque.
         </p>

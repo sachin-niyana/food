@@ -6,14 +6,14 @@ import Marquee from "react-fast-marquee";
 const MarqueeSlider = () => {
     return (
         <div>
-            <div className='container max-w-[1152px] mx-auto px-3'>
+            <div className='container max-w-[1152px] mx-auto'>
                 <Marquee
                     speed={100}
-                    className="mt-5 md:mt-10 w-full"
+                    className="md:mt-10 md:mb-[50px] w-full"
                 >
                     {ourChef.map((value, index) => (
                         <div className="w-full flex  justify-center" key={index}>
-                            <div className="rounded-2xl me-6 lg:p-6 p-5 border max-w-[334px] group bg-white  border-black">
+                            <div className="rounded-2xl me-6 lg:p-6 p-5 border max-w-[334px] md:max-w-[310px] group bg-white  border-black">
                                 <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
                                     <Image
                                         className="rounded-2xl group-hover:scale-[1.04]  duration-300"

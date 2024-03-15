@@ -13,7 +13,7 @@ const OurFeauters = () => {
         <h2 className="font-semibold text-llg sm:text-2xl text-black font-ClashDisplay !leading-[123%]">
           Our Features
         </h2>
-        <p className="font-Syne font-normal text-xsm md:text-sm !leading-[150%] text-black opacity-70 max-w-[400px] md:max-w-[522px] mt-0 md:mt-2">
+        <p className="font-Syne font-normal text-xsm md:text-sm !leading-[150%] text-black opacity-70 sm:max-w-[522px] max-w-[300px] mt-0 md:mt-2">
           Dictum commodo pharetra sit odio nulla aliquam sit morbi. Nec dictum
           accumsan odio tellus integer scelerisque.
         </p>
