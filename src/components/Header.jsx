@@ -10,7 +10,7 @@ const Header = () => {
           <div className="flex lg:justify-start justify-center">
             <div className="bg-light-brown flex items-center gap-0.5 py-1.5 px-[19px] max-w-[202px] rounded-full">
               <Image
-                src="/assets/images/header/delivery.png"
+                src="/assets/images/header/delivery.webp"
                 width={15}
                 height={15}
                 alt="delivery"
@@ -53,7 +53,7 @@ const Header = () => {
         <div className="lg:w-6/12 w-full flex justify-center xl:ps-0 lg:ps-5 lg:mt-0 sm:mt-[128px] mt-[61px] relative">
           <Image
             className="max-w-[563px] w-full xl:translate-x-12 z-10"
-            src="/assets/images/header/scooter.png"
+            src="/assets/images/header/scooter.webp"
             width={565}
             height={518}
             alt="scooter"

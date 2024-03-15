@@ -27,9 +27,9 @@ module.exports = {
           "linear-gradient(180deg, #FFE14E 0%, #FFB93F 100%)",
         redchilli: "url('/assets/images/client-says/red-chilli-bg.webp')",
         slider: "url('/assets/images/client-says/slider-bg.png')",
-        "footer-cartoon-bg": "url('/assets/images/background/footer-bg.png')",
+        "footer-cartoon-bg": "url('/assets/images/background/footer-bg.webp')",
         "footer-cartoon-bg-2":
-          "url('/assets/images/background/footer-bg-2.png')",
+          "url('/assets/images/background/footer-bg-2.webp')",
         "limited-bg": "url('/assets/images/background/limited-offers.png')",
       },
       colors: {

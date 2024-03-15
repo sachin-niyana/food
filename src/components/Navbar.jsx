@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container max-w-[1164px] px-3 mx-auto">
         <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] lg:py-[18px] py-3 bg-white rounded-full shadow-navbarShadow">
           <Image
-            src="/assets/images/header/logo.png"
+            src="/assets/images/header/logo.webp"
             width={90}
             height={39}
             alt="Logo"

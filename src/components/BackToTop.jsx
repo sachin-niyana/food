@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { FaArrowUp } from "react-icons/fa";
+import { TiArrowUpThick } from "react-icons/ti";
 const BackToTop = () => {
   const [isBackToTopVisible, setIsBackToTopVisible] = useState(false);
   useEffect(() => {
@@ -25,9 +25,9 @@ const BackToTop = () => {
       {isBackToTopVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-5 right-5 sm:w-[54px] sm:h-[54px] bg-green animate-bounce bg-linear-gradient-btn text-white p-4 rounded-full z-50 transition-all duration-300 "
+          className="fixed bottom-5 right-5 sm:w-[54px] sm:h-[54px] w-[40px] h-[40px] bg-green animate-bounce bg-linear-gradient-btn text-white flex justify-center items-center rounded-full z-50 transition-all duration-300 "
         >
-          <FaArrowUp className="sm:w-6 sm:h-6" />
+          <TiArrowUpThick className="sm:w-6 sm:h-6" />
         </button>
       )}
     </>
