@@ -51,42 +51,42 @@ export const ourFeatures = [
 // Top collection items
 export const topCollection = [
   {
-    image: "/assets/images/top-collections/burger.png", // Image of a burger
+    image: "/assets/images/top-collections/burger.webp", // Image of a burger
     title: "Burger", // Item title
     burger: "Chicken Burger", // Type of burger
     icon: <LikeIcon />, // Like icon for the burger
     price: "$32.99", // Price of the burger
   },
   {
-    image: "/assets/images/top-collections/burger.png", // Image of a burger
+    image: "/assets/images/top-collections/burger.webp", // Image of a burger
     title: "Burger", // Item title
     burger: "Chicken Burger", // Type of burger
     icon: <LikeIcon />, // Like icon for the burger
     price: "$32.99", // Price of the burger
   },
   {
-    image: "/assets/images/top-collections/burger.png", // Image of a burger
+    image: "/assets/images/top-collections/burger.webp", // Image of a burger
     title: "Burger", // Item title
     burger: "Chicken Burger", // Type of burger
     icon: <LikeIcon />, // Like icon for the burger
     price: "$32.99", // Price of the burger
   },
   {
-    image: "/assets/images/top-collections/burger.png", // Image of a burger
+    image: "/assets/images/top-collections/burger.webp", // Image of a burger
     title: "Burger", // Item title
     burger: "Chicken Burger", // Type of burger
     icon: <LikeIcon />, // Like icon for the burger
     price: "$32.99", // Price of the burger
   },
   {
-    image: "/assets/images/top-collections/burger.png", // Image of a burger
+    image: "/assets/images/top-collections/burger.webp", // Image of a burger
     title: "Burger", // Item title
     burger: "Chicken Burger", // Type of burger
     icon: <LikeIcon />, // Like icon for the burger
     price: "$32.99", // Price of the burger
   },
   {
-    image: "/assets/images/top-collections/burger.png", // Image of a burger
+    image: "/assets/images/top-collections/burger.webp", // Image of a burger
     title: "Burger", // Item title
     burger: "Chicken Burger", // Type of burger
     icon: <LikeIcon />, // Like icon for the burger
