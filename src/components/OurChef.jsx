@@ -6,7 +6,6 @@ import Link from "next/link";
 import ShowMoreBtn from "./ShowMoreBtn";
 
 const OurChef = () => {
-  const [showOneCard, setShowOneCard] = useState(false);
   return (
     <div
       className="container max-w-[1152px] mx-auto px-3 lg:py-[130px] md:py-20 sm:py-16 py-12"
@@ -16,7 +15,7 @@ const OurChef = () => {
         <div className="w-full sm:w-8/12 md:w-9/12 lg:w-6/12">
           <h1
             className="font-ClashDisplay text-center md:text-start lg:text-2xl md:text-xl text-lg text-Rich-Black font-semibold"
-            data-aos="fade-right"
+            data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="600"
           >
@@ -24,7 +23,7 @@ const OurChef = () => {
           </h1>
           <p
             className="font-Syne px-3 sm:px-0 text-sm font-normal text-Rich-Black text-center md:text-start opacity-70"
-            data-aos="fade-right"
+            data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="800"
           >
@@ -127,7 +126,6 @@ const OurChef = () => {
 
 
       {/* MD SHOW MORE BTN CARDS  */}
-
       <div className="hidden md:block mt-6 lg:hidden">
         <div className="flex flex-wrap lg:grid grid-cols-3 gap-6 items-center justify-center">
           {ourChef.slice(0, 2).map((value, index) => (
