@@ -21,7 +21,7 @@ const LimitedOffers = () => {
               <span className="relative">
                 {" "}
                 $20{" "}
-                <span className=" absolute -bottom-6 !-right-[70%] lg:!-right-[40%] lg:-bottom-4 animate-pulse">
+                <span className=" absolute -bottom-6 xl:right-[-40%] lg:right-[-50%] sm:top-0 right-[20%] lg:-bottom-4 animate-pulse">
                   <Headingdesign />
                 </span>
               </span>
@@ -36,13 +36,13 @@ const LimitedOffers = () => {
               <span className="relative">
                 {" "}
                 $10{" "}
-                <span className=" absolute -bottom-6 !-right-[70%] lg:!-right-[40%] lg:-bottom-4 animate-pulse">
+                <span className=" absolute -bottom-6 xl:right-[-70%] lg:right-[-70%] right-[-50%] sm:top-0 top-[-5%] lg:-bottom-4 animate-pulse">
                   <Headingdesign />
                 </span>
               </span>
             </h2>
             <p
-              className="font-Syne font-normal text-xsm md:text-sm !leading-[150%] text-white opacity-70 max-w-[400px] lg:max-w-[522px] mt-8 lg:text-start text-center"
+              className="font-Syne font-normal text-sm !leading-[150%] text-white opacity-70 max-w-[300px] sm:max-w-[522px] mt-8 lg:text-start text-center"
               data-aos="fade-right"
               data-aos-easing="linear"
               data-aos-duration="500"
