@@ -4,6 +4,7 @@ import { ourChef } from "./Helper";
 import { RightArrow } from "./Icon";
 import Link from "next/link";
 import MarqueeSlider from "./MarqueeSlider";
+import ShowMoreBtn from "./ShowMoreBtn";
 
 const OurChef = () => {
   return (
@@ -42,11 +43,11 @@ const OurChef = () => {
           </button>
         </div>
       </div>
-      <div className="lg:hidden">
+      <div className="hidden sm:block lg:hidden">
         <MarqueeSlider />
       </div>
-      <div className="hidden lg:block">
-        <div className="flex lg:grid grid-cols-3 gap-6 items-center justify-center">
+      <div className="sm:hidden lg:block">
+        <div className="flex flex-wrap lg:grid grid-cols-3 gap-6 items-center justify-center">
           {ourChef.map((value, index) => (
             <div
               data-aos="zoom-in"
@@ -83,10 +84,49 @@ const OurChef = () => {
         </div>
       </div>
       <div className="flex justify-center items-center mt-[30px] sm:mt-[60px] mb-[82px] md:hidden  lg:mt-0">
-        <button className="bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 flex items-center font-ClashDisplay text-sm font-medium px-5 py-3 rounded-full gap-1.5">
-          <RightArrow /> See All
-        </button>
+       <ShowMoreBtn
+       data={
+        <div className="sm:hidden lg:block">
+        <div className="flex flex-wrap lg:grid grid-cols-3 gap-6 items-center justify-center">
+          {ourChef.map((value, index) => (
+            <div
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+              key={index}
+            >
+              <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
+                <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+                  <Image
+                    className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                    width={316}
+                    height={315}
+                    src={value.image}
+                    alt="john-doe-chef-master"
+                  />
+                </div>
+                <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                  <div>
+                    <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                      {value.title}
+                    </h3>
+                    <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                      {value.master}
+                    </p>
+                  </div>
+                  <Link href="https://www.linkedin.com/" target="_blank">
+                    {value.icon}
+                  </Link>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
+       }
+       />
+      </div>
+
     </div>
   );
 };
