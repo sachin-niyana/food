@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Food",
-  description: "WELCOME TO FOOD PAGE",
-  imageUrl: "assets/images/meta/meta-img.webp",
+  description: "Welcome To Food Page",
+  imageUrl: "/public/assets/images/meta/meta-img.webp",
 };
 
 export default function RootLayout({ children }) {
