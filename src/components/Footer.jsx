@@ -23,7 +23,7 @@ const Footer = () => {
               className="sm:w-[171px] sm:h-[74px] w-[101px] h-[44px]"
               width={171}
               height={74}
-              src={"/assets/images/footer/footer-logo.png"}
+              src={"/assets/images/footer/svg/footer-logo.svg"}
               alt="company-logo"
             />
           </Link>

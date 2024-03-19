@@ -1,7 +1,25 @@
-import React from "react";
+"usr client";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const LittleInformantion = () => {
+  const [counters, setCounters] = useState({
+    counter1: 0,
+    counter2: 0,
+  });
+
+  // useEffect hook to increment counters over time until a maximum value is reached
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCounters((prevCounters) => ({
+        counter1: Math.min(prevCounters.counter1 + 1, 15),
+        counter2: Math.min(prevCounters.counter2 + 1, 10),
+      }));
+    }, 2);
+
+    // Cleanup function to clear the interval
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div id="Menu">
       <div className="container max-w-[1152px] mx-auto px-3 md:overflow-visible overflow-hidden">
@@ -53,7 +71,7 @@ const LittleInformantion = () => {
             >
               <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer rounded-[8px] shadow-cardShadow border-[1px] border-black mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
                 <Image
-                  src="/assets/images/little-information/hand-stars.webp"
+                  src="/assets/images/little-information/svg/hand-stars.svg"
                   className=""
                   width={80}
                   height={80}
@@ -61,7 +79,7 @@ const LittleInformantion = () => {
                 />
                 <div className="ml-[19px]">
                   <h4 className="text-Rich-Black text-xl font-semibold font-ClashDisplay">
-                    15K
+                    {counters.counter1}K
                   </h4>
                   <p className="text-Rich-Black text-sm opacity-70 mt-[2px] whitespace-nowrap font-Syne  font-normal">
                     Happy Customer
@@ -70,7 +88,7 @@ const LittleInformantion = () => {
               </div>
               <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer mt-6 sm:mt-0 rounded-[8px] shadow-cardShadow border-[1px] border-black mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
                 <Image
-                  src="/assets/images/little-information/trophy-img.webp"
+                  src="/assets/images/little-information/svg/trophy.svg"
                   className=""
                   width={80}
                   height={80}
@@ -78,7 +96,7 @@ const LittleInformantion = () => {
                 />
                 <div className="ml-[27px] pr-[35.5px]">
                   <h4 className="text-Rich-Black font-ClashDisplay text-xl font-semibold">
-                    10+
+                    {counters.counter2}+
                   </h4>
                   <p className="text-Rich-Black text-sm opacity-70 mt-[2px] whitespace-nowrap  font-Syne font-normal">
                     Award Win
