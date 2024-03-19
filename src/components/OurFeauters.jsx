@@ -6,7 +6,7 @@ import { ourFeatures } from "./common/Helper";
 const OurFeauters = () => {
   return (
     <div
-      className="container max-w-[1152px] mx-auto px-3 py-[130px]"
+      className="container max-w-[1152px] mx-auto sm:px-6 px-5 py-[130px]"
       id="Services"
     >
       <div className="flex justify-center flex-col items-center text-center">
@@ -31,14 +31,14 @@ const OurFeauters = () => {
       <div className="flex flex-wrap lg:grid lg:grid-cols-3 gap-6 mt-5 md:mt-10 justify-center items-center">
         {ourFeatures.map((value, index) => (
           <div
-            className="flex justify-center w-full max-w-[364px] md:max-w-[360px] lg:max-w-[364px]"
+            className="flex justify-center w-full max-w-[400px] sm:max-w-[282px] md:max-w-[348px] lg:max-w-[364px]"
             key={index}
             data-aos="zoom-in"
             data-aos-easing="linear"
             data-aos-duration="800"
           >
             <div className="bg-light-white border border-black cursor-pointer w-full max-w-[400px] rounded-2xl flex-col">
-              <div className="border-b-4 border-Rich-Black py-7 rounded-xl top-[1px] border-opacity-0 hover:border-opacity-100 duration-700 ease-in-out">
+              <div className="border-b-4 border-Rich-Black py-7 rounded-xl top-[1px] border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
                 <div className="relative flex justify-center">
                   <Bgelipse />
                   <Image

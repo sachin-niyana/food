@@ -30,7 +30,9 @@ module.exports = {
         "footer-cartoon-bg": "url('/assets/images/background/footer-bg.webp')",
         "footer-cartoon-bg-2":
           "url('/assets/images/background/footer-bg-2.webp')",
-        "limited-bg": "url('/assets/images/background/limited-offers.png')",
+        "limited-bg": "url('/assets/images/background/limited-offers.webp')",
+        "limited-bg-2":
+          "url('/assets/images/background/limited-offers-2.webp')",
       },
       colors: {
         "Rich-Black": "#0c0800",

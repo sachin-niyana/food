@@ -10,7 +10,7 @@ const Header = () => {
           <div className="flex lg:justify-start justify-center">
             <div className="bg-light-brown flex items-center gap-0.5 py-1.5 px-[19px] max-w-[202px] rounded-full">
               <Image
-                src="/assets/images/header/delivery.webp"
+                src="/assets/images/header/svg/scooter.svg"
                 width={15}
                 height={15}
                 alt="delivery"
@@ -18,7 +18,7 @@ const Header = () => {
               <p className="font-Syne font-normal text-xsm text-Rich-Black">
                 More than faster
               </p>
-              <div className="w-[42px] h-[1px] bg-yellow rounded-full mt-1"></div>
+              <div className="w-[42px] h-[1px] bg-yellow rounded-full mt-2"></div>
             </div>
           </div>
           <h1 className="font-ClashDisplay font-semibold md:max-w-[728px] sm:max-w-[570px] max-w-[340px] xl:text-3xl lg:text-xxl md:text-3xl sm:text-3xl text-llg mx-auto leading-[121%] text-Rich-Black mt-1.5 lg:text-start text-center">
