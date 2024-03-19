@@ -19,7 +19,7 @@ const LittleInformantion = () => {
             />
             <Image
               src="/assets/images/little-information/yellow-bg.webp"
-              className="absolute lg:left-[-28%] sm:left-[-45%] left-[-2%] hidden md:block top-0 md:max-h-[530px]  max-w-[670px] xl:max-h-[700px]"
+              className="absolute lg:left-[-28%] sm:left-[-38%] left-[-2%] hidden md:block top-0 md:max-h-[660px] md:max-w-[850px] xl:max-h-[700px]"
               width={800}
               height={718}
               alt="yellow-bg"
@@ -35,7 +35,7 @@ const LittleInformantion = () => {
               A Little Information For Our Guest
             </h3>
             <p
-              className="text-sm font-normal mt-2 font-Syne md:max-w-[552px] text-Rich-Black opacity-70 text-center lg:text-start"
+              className="text-sm font-normal mt-2 font-Syne md:max-w-[552px] text-[#524f48] opacity-70 text-center lg:text-start"
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="800"
@@ -46,7 +46,7 @@ const LittleInformantion = () => {
               scelerisque.
             </p>
             <div
-              className="mt-6 mb-3 lg:mt-3 md:mt-[40px] xl:mt-[40px] sm:flex  xl:flex-row gap-[24px] justify-center lg:justify-start"
+              className="mb-3 lg:mt-3 mt-[40px] xl:mt-[40px] sm:flex  xl:flex-row gap-[24px] justify-center lg:justify-start"
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="800"
@@ -68,7 +68,7 @@ const LittleInformantion = () => {
                   </p>
                 </div>
               </div>
-              <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer mt-4 sm:mt-0 rounded-[8px] shadow-cardShadow border-[1px] border-black mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
+              <div className="py-[14.2px] px-6 md:px-[24px] lg:px-2 xl:px-[24px] transition-all duration-300 hover:scale-[1.02] cursor-pointer mt-6 sm:mt-0 rounded-[8px] shadow-cardShadow border-[1px] border-black mx-auto sm:mx-0 max-w-[267px]  xl:max-w-[267px] flex items-center">
                 <Image
                   src="/assets/images/little-information/trophy-img.webp"
                   className=""

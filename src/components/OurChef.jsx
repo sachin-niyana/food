@@ -37,7 +37,7 @@ const OurChef = () => {
           data-aos-easing="linear"
           data-aos-duration="800"
         >
-          <div className=" mt-[30px] sm:mt-[60px] mb-[82px] hidden lg:block  lg:mt-0">
+          <div className=" mt-[30px] sm:mt-[60px] mb-[82px] hidden lg:block lg:translate-y-[40px]  lg:mt-0">
             <button className="text-Rich-Black hover:shadow-buttonShadow flex items-center bg-linear-gradient-btn transition-all ease-in-out duration-300 py-2.5 px-5 rounded-full font-ClashDisplay font-medium sm:text-sm text-xsm">
               <span className="pe-[4.6px]">
                 <RightArrow />
@@ -59,7 +59,7 @@ const OurChef = () => {
               data-aos-duration="800"
               key={index}
             >
-              <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
+              <div className="rounded-2xl p-5  group border group bg-white max-w-[360px]  border-black">
                 <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
                   <Image
                     className="rounded-2xl group-hover:scale-[1.04]  duration-300"
@@ -78,7 +78,7 @@ const OurChef = () => {
                       {value.master}
                     </p>
                   </div>
-                  <Link href="https://www.linkedin.com/" target="_blank">
+                  <Link href="https://www.linkedin.com/" target="_blank" className="group-hover:scale-[1.2] hover:translate-y-[-8px] transition-all duration-300 ease-in-out">
                     {value.icon}
                   </Link>
                 </div>
@@ -166,7 +166,7 @@ const OurChef = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center md:hidden mt-[30px] sm:mt-[60px] mb-[82px] md:mt-6 md:mb-10 lg:hidden  lg:mt-0">
+      <div className="flex justify-center items-center md:hidden mt-[30px] sm:mt-[10px]  mb-[82px] sm:mb-[40px] md:mt-6 md:mb-10 lg:hidden  lg:mt-0">
         <ShowMoreBtn
           data={
             <div className="lg:hidden">
@@ -209,7 +209,7 @@ const OurChef = () => {
           }
         />
       </div>
-      <div className="justify-center items-center hidden md:block mt-[30px] sm:mt-[60px] mb-[82px] md:mt-6 md:mb-10 lg:hidden  lg:mt-0">
+      <div className="justify-center items-center hidden md:block mt-[30px] sm:mt-[10px]  mb-[82px] sm:mb-[40px] md:mt-6 md:mb-10 lg:hidden  lg:mt-0">
         <ShowMoreBtn
           data={
             <div className="lg:hidden">

@@ -5,12 +5,12 @@ import ShowMoreBtn from "./ShowMoreBtn";
 const TopCollections = () => {
   return (
     <div
-      className="container max-w-[1152px] mx-auto px-3 pb-[50px] sm:pb-[130px] pt-[130px]"
+      className="container max-w-[1152px] mx-auto px-3 pb-[130px] pt-[130px]"
       id="Offers"
     >
       <div className="flex justify-center flex-col items-center">
         <h2
-          className="font-ClashDisplay text-xl md:text-2xl leading-[40px] font-semibold text-Rich-Black text-center"
+          className="font-ClashDisplay text-xl md:text-2xl leading-[125%] font-semibold text-Rich-Black text-center"
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="600"
@@ -18,7 +18,7 @@ const TopCollections = () => {
           Top Collections
         </h2>
         <p
-          className="text-sm text-center text-Rich-Black font-Syne px-3 opacity-70 mt-[8px] leading-[150%] sm:max-w-[532px] "
+          className="text-sm text-center text-[#524f48] font-Syne px-3 opacity-70 mt-[8px] leading-[150%] sm:max-w-[532px] "
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="800"
@@ -30,7 +30,7 @@ const TopCollections = () => {
 
       {/* lg screen burger cards */}
       <div className="hidden lg:block">
-        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
+        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-6 mt-[40px] justify-center">
           {topCollection.map((value, index) => (
             <div
               className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
@@ -39,9 +39,9 @@ const TopCollections = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
             >
-              <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+              <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
                 <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                  <span className="absolute right-3"> {value.icon} </span>
+                  <span className="absolute right-[12px] top-[12px]"> {value.icon} </span>
                   <Image
                     className="group-hover:scale-110 transition-all ease-in-out duration-300"
                     src={value.image}
@@ -70,8 +70,8 @@ const TopCollections = () => {
       </div>
 
       {/* small screen cards show  1*/}
-      <div className="md:hidden">
-        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
+      <div className="sm:hidden">
+        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-6 mt-[40px] justify-center">
           {topCollection.slice(0, 1).map((value, index) => (
             <div
               className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
@@ -80,7 +80,46 @@ const TopCollections = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
             >
-              <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+              <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
+                <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
+                  <span className="absolute right-3"> {value.icon} </span>
+                  <Image
+                    className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                    src={value.image}
+                    width={284}
+                    height={189}
+                    alt="burger"
+                  />
+                </div>
+                <div className="flex items-center justify-between">
+                  <div className="mt-[20px]">
+                    <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                      {value.title}
+                    </h2>
+                    <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                      {value.burger}
+                    </p>
+                  </div>
+                  <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                    {value.price}
+                  </h3>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="hidden sm:block md:hidden">
+        <div className="flex flex-wrap sm:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-6 mt-[40px] justify-center">
+          {topCollection.slice(0, 2).map((value, index) => (
+            <div
+              className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
+              key={index}
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
+              <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
                 <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
                   <span className="absolute right-3"> {value.icon} </span>
                   <Image
@@ -110,9 +149,10 @@ const TopCollections = () => {
         </div>
       </div>
 
+
       {/* Md screen cards shoew  4*/}
       <div className="hidden md:block lg:hidden">
-        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
+        <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-6 mt-[40px] justify-center">
           {topCollection.slice(0, 4).map((value, index) => (
             <div
               className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
@@ -121,7 +161,7 @@ const TopCollections = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
             >
-              <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+              <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
                 <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
                   <span className="absolute right-3"> {value.icon} </span>
                   <Image
@@ -153,11 +193,11 @@ const TopCollections = () => {
 
 
       {/* show button small screen */}
-      <div className="justify-center items-center mt-[30px] sm:mt-[60px] mb-[82px] md:mt-6 md:mb-10 md:hidden  lg:mt-0">
+      <div className="justify-center items-center     md:mb-10 sm:hidden  lg:mt-0">
         <ShowMoreBtn
           data={
             <div className="lg:hidden mt-[-22px] px-3">
-              <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
+              <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-6 mt-[40px] justify-center">
                 {topCollection.slice(0, 5).map((value, index) => (
                   <div
                     className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
@@ -198,13 +238,58 @@ const TopCollections = () => {
           }
         />
       </div>
-
-      {/* show button md screen */}
-      <div className="justify-center items-center mt-[30px] sm:mt-[60px] mb-[82px] md:mt-6 md:mb-10 hidden md:block lg:hidden  lg:mt-0">
+      <div className="justify-center items-center   md:mb-10 hidden sm:block md:hidden  lg:mt-0">
         <ShowMoreBtn
           data={
-            <div className="lg:hidden mt-[-22px]">
-              <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-[40px] justify-center">
+            <div className="lg:hidden mt-[-22px] px-3">
+              <div className="flex flex-wrap sm:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-6 mt-[40px] justify-center">
+                {topCollection.slice(0, 4).map((value, index) => (
+                  <div
+                    className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
+                    key={index}
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
+                      <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
+                        <span className="absolute right-3"> {value.icon} </span>
+                        <Image
+                          className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                          src={value.image}
+                          width={284}
+                          height={189}
+                          alt="burger"
+                        />
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <div className="mt-[20px]">
+                          <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                            {value.title}
+                          </h2>
+                          <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                            {value.burger}
+                          </p>
+                        </div>
+                        <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                          {value.price}
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          }
+        />
+      </div>
+
+      {/* show button md screen */}
+      <div className="justify-center items-center   hidden md:block lg:hidden  lg:mt-0">
+        <ShowMoreBtn
+          data={
+            <div className="lg:hidden mt-[-16px]">
+              <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-6 mt-[40px] justify-center">
                 {topCollection.slice(0, 2).map((value, index) => (
                   <div
                     className="flex justify-center w-full lg:max-w-[364px] max-w-[340px] group"
@@ -213,7 +298,7 @@ const TopCollections = () => {
                     data-aos-easing="linear"
                     data-aos-duration="800"
                   >
-                    <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
+                    <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
                       <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
                         <span className="absolute right-3"> {value.icon} </span>
                         <Image

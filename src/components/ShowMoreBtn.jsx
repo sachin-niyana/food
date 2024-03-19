@@ -12,7 +12,7 @@ const ShowMoreBtn = ({ data }) => {
     <div>
       <div className={viewAll ? "block" : "hidden"}>{data}</div>
 
-      <div className="flex items-center justify-center mt-6 md:mt-8">
+      <div className="flex items-center justify-center mt-[30px] md:mt-[50px]">
         <button
           onClick={toggleShowMore}
           className="bg-linear-gradient-btn hover:shadow-buttonShadow transition-all ease-in-out duration-300 flex items-center font-ClashDisplay text-sm font-medium px-5 py-3 rounded-full gap-1.5"

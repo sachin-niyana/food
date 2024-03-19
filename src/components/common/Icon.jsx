@@ -247,7 +247,7 @@ export const LinkedInIcon = () => {
 export const SliderPrevArrow = () => {
   return (
     <svg
-      className="slider_prev_arrow"
+      className="slider_prev_arrow relative z-[1]"
       width="38"
       height="38"
       viewBox="0 0 38 38"
@@ -307,7 +307,7 @@ export const SliderPrevArrow = () => {
 export const SliderNextArrow = () => {
   return (
     <svg
-      className="slider_next_arrow"
+      className="slider_next_arrow relative z-[1]"
       width="38"
       height="38"
       viewBox="0 0 38 38"
