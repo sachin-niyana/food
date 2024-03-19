@@ -22,7 +22,7 @@ const LittleInformantion = () => {
   }, []);
   return (
     <div id="Menu">
-      <div className="container max-w-[1152px] mx-auto px-3 md:overflow-visible overflow-hidden">
+      <div className="container max-w-[1152px] mx-auto sm:px-6 px-5 md:overflow-visible overflow-hidden">
         <div className="flex flex-wrap items-center justify-center">
           <div className=" lg:w-1/2 px-3 lg:px-[-5%] relative flex justify-center">
             <Image

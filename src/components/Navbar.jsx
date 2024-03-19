@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className="z-10 lg:pt-[37px] pt-6 flex-grow-0 bg-light-white">
-      <div className="container max-w-[1164px] px-3 mx-auto">
+      <div className="container max-w-[1164px] sm:px-6 px-5 mx-auto">
         <div className="flex items-center justify-between max-w-[1152px] mx-auto ps-[22px] pe-[18px] sm:py-[18px] py-5 bg-white rounded-full shadow-navbarShadow">
           <Link href="#">
             <Logo />

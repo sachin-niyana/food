@@ -8,7 +8,7 @@ import ShowMoreBtn from "./ShowMoreBtn";
 const OurChef = () => {
   return (
     <div
-      className="container max-w-[1152px] mx-auto px-3 lg:py-[130px] md:py-20 sm:py-16 py-12"
+      className="container max-w-[1152px] mx-auto sm:px-6 px-5 lg:py-[130px] md:py-20 sm:py-16 py-12"
       id="Contact"
     >
       <div className="flex flex-col md:flex-row items-center md:justify-between pb-10 md:pb-4 lg:pb-10">
@@ -78,7 +78,11 @@ const OurChef = () => {
                       {value.master}
                     </p>
                   </div>
-                  <Link href="https://www.linkedin.com/" target="_blank" className="group-hover:scale-[1.2] hover:translate-y-[-8px] transition-all duration-300 ease-in-out">
+                  <Link
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    className="group-hover:scale-[1.2] hover:translate-y-[-8px] transition-all duration-300 ease-in-out"
+                  >
                     {value.icon}
                   </Link>
                 </div>

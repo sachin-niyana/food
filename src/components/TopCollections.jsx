@@ -5,7 +5,7 @@ import ShowMoreBtn from "./ShowMoreBtn";
 const TopCollections = () => {
   return (
     <div
-      className="container max-w-[1152px] mx-auto px-3 pb-[130px] pt-[130px]"
+      className="container max-w-[1152px] mx-auto sm:px-6 px-5 pb-[130px] pt-[130px]"
       id="Offers"
     >
       <div className="flex justify-center flex-col items-center">
@@ -41,7 +41,10 @@ const TopCollections = () => {
             >
               <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
                 <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                  <span className="absolute right-[12px] top-[12px]"> {value.icon} </span>
+                  <span className="absolute right-[12px] top-[12px]">
+                    {" "}
+                    {value.icon}{" "}
+                  </span>
                   <Image
                     className="group-hover:scale-110 transition-all ease-in-out duration-300"
                     src={value.image}
@@ -149,7 +152,6 @@ const TopCollections = () => {
         </div>
       </div>
 
-
       {/* Md screen cards shoew  4*/}
       <div className="hidden md:block lg:hidden">
         <div className="flex flex-wrap lg:grid max-[576px]:grid-cols-1 grid-cols-2 md:grid-cols-3 gap-6 mt-[40px] justify-center">
@@ -190,7 +192,6 @@ const TopCollections = () => {
           ))}
         </div>
       </div>
-
 
       {/* show button small screen */}
       <div className="justify-center items-center     md:mb-10 sm:hidden  lg:mt-0">
