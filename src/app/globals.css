@@ -33,7 +33,7 @@
   padding: 0;
 }
 
-.search:focus + .searchbutton {
+.search:focus+.searchbutton {
   transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
@@ -67,13 +67,19 @@
   padding: 0 16px 0 10px;
 }
 
-.slider_next_arrow:hover circle {
-  fill: black;
-}
 
 .slider_next_arrow:hover path {
   fill: black;
 }
+
+.slider_next_arrow path {
+  transition: all 300ms ease-in-out;
+}
+
+.slider_next_arrow {
+  transition: all 300ms ease-in-out;
+}
+
 
 .slider_next_arrow:hover rect {
   fill: #ffcd46;
@@ -82,11 +88,17 @@
 .slider_next_arrow:hover path {
   stroke: black;
 }
+
 .slider_prev_arrow:hover circle {
   fill: black;
 }
 
+.slider_prev_arrow path {
+  transition: all 300ms ease-in-out;
+}
+
 .slider_prev_arrow:hover path {
+  transition: all 300ms ease-in-out;
   fill: black;
 }
 
@@ -100,7 +112,12 @@
 
 .like_icon:hover path {
   transition: all 3ms linear !important;
-  stroke: red;
+  fill: white;
+}
+
+.like_icon:hover rect {
+  transition: all 3ms linear !important;
+  fill: #FFAA00
 }
 
 .aos-init {
