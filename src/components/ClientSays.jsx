@@ -47,7 +47,7 @@ const ClientSays = () => {
   };
   return (
     <div className="bg-redchilli bg-cover bg-no-repeat bg-center lg:mt-28 mt-16 overflow-hidden">
-      <div className="container max-w-[1152px] mx-auto pb-[180px] sm:pb-[150px] px-3 py-[150px]">
+      <div className="container max-w-[1152px] mx-auto pb-[180px] sm:pb-[150px] sm:px-6 px-5 py-[150px]">
         <div className="flex flex-col justify-center text-center items-center">
           <h2
             className="font-ClashDisplay text-[30px] md:text-2xl leading-[125%] font-semibold text-white text-center"

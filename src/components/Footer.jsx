@@ -16,7 +16,7 @@ const Footer = () => {
       className="min-[769px]:bg-footer-cartoon-bg bg-footer-cartoon-bg-2 sm:bg-center bg-right bg-cover bg-no-repeat"
       id="About"
     >
-      <div className="container mx-auto max-w-[1152px] px-3">
+      <div className="container mx-auto max-w-[1152px] sm:px-6 px-5">
         <div className="lg:pt-[51px] lg:pb-[38px] pb-[30px] sm:pt-[45px] pt-[65px] flex flex-wrap flex-col lg:flex-row items-center justify-between">
           <Link href="#" target="_blank">
             <Image
