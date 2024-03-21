@@ -52,9 +52,9 @@ const Header = () => {
         </div>
         <div className="lg:w-5/12 w-full flex justify-center xl:ps-0 lg:ps-5 lg:mt-0 sm:mt-[128px] mt-[61px] relative">
           <Image
-            className="max-w-[563px] w-full xl:translate-x-14 z-10"
-            src="/assets/images/header/scooter.webp"
-            width={565}
+            className="xl:min-w-[560px] max-w-[563px] w-full xl:translate-x-7 z-10"
+            src="/assets/images/header/svg/delivery.svg"
+            width={563}
             height={518}
             alt="scooter"
           />

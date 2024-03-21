@@ -6,7 +6,7 @@ TopCollections;
 
 const LimitedOffers = () => {
   return (
-    <div className="min-[770px]:bg-limited-bg bg-limited-bg-2  bg-center bg-cover bg-no-repeat">
+    <div className="min-[840px]:bg-limited-bg bg-limited-bg-2  bg-center bg-cover bg-no-repeat">
       <div className="container max-w-[1152px] mx-auto sm:px-6 px-5 pt-[161px] sm:pb-[143px] pb-[150px] lg:py-[137px]  xl:overflow-visible overflow-hidden">
         <div className="flex flex-wrap justify-center text-center md:justify-start md:text-start lg:my-5">
           <div className="w-full lg:w-2/4 flex flex-col justify-center items-center lg:items-start lg:justify-start md:mt-[23px]">

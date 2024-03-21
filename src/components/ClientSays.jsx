@@ -9,7 +9,7 @@ import { RattingStars, SliderNextArrow, SliderPrevArrow } from "./common/Icon";
 const ClientSays = () => {
   const CustomPrevArrow = ({ onClick }) => (
     <button
-      className="absolute top-[108%] right-[53%] md:top-[45%] md:left-[5%] lg:top-[108%] lg:left-[43%] xl:top-[45%] xl:left-[-4.8%] z-[10]"
+      className="absolute w-[38px] top-[108%] right-[53%] md:top-[45%] md:left-[5%] lg:top-[108%] lg:left-[43%] xl:top-[45%] xl:left-[-4.8%] z-[10]"
       onClick={onClick}
     >
       <SliderPrevArrow />
@@ -18,7 +18,7 @@ const ClientSays = () => {
   // ================== Slider Left Arrow ======================= //
   const CustomNextArrow = ({ onClick }) => (
     <button
-      className="absolute top-[108%] left-[53%] md:top-[45%] md:right-[5%] lg:top-[108%] lg:right-[43%] xl:top-[45%] xl:right-[-4.8%] z-[10] transform rotate-[180deg]"
+      className="absolute w-[38px] top-[108%] left-[53%] md:top-[45%] md:left-[90%] lg:top-[108%] lg:left-[53%] xl:top-[45%] xl:left-[102%] z-[10] transform rotate-[180deg]"
       onClick={onClick}
     >
       {" "}
