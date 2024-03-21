@@ -37,8 +37,8 @@ const OurFeauters = () => {
             data-aos-easing="linear"
             data-aos-duration="800"
           >
-            <div className="bg-light-white border border-black cursor-pointer w-full max-w-[400px] rounded-2xl flex-col">
-              <div className="border-b-4 border-Rich-Black py-7 rounded-xl top-[1px] border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+            <div className="bg-light-white border-[1px] border-black cursor-pointer w-full max-w-[400px] rounded-2xl flex-col">
+              <div className="border-b-4 border-Rich-Black py-7 rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
                 <div className="relative flex justify-center">
                   <Bgelipse />
                   <Image

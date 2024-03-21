@@ -59,32 +59,32 @@ const OurChef = () => {
               data-aos-duration="800"
               key={index}
             >
-              <div className="rounded-2xl p-5  group border group bg-white max-w-[360px]  border-black">
-                <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+              <div className="rounded-2xl  group border group bg-white max-w-[360px]  border-black">
+                <div className="border-b-4 border-Rich-Black p-5 rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
                   <Image
-                    className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                    className="rounded-2xl"
                     width={316}
                     height={315}
                     src={value.image}
                     alt="john-doe-chef-master"
                   />
-                </div>
-                <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
-                  <div>
-                    <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
-                      {value.title}
-                    </h3>
-                    <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
-                      {value.master}
-                    </p>
+                  <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                    <div>
+                      <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                        {value.title}
+                      </h3>
+                      <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                        {value.master}
+                      </p>
+                    </div>
+                    <Link
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      className="hover:translate-y-[-8px] transition-all duration-300 ease-in-out"
+                    >
+                      {value.icon}
+                    </Link>
                   </div>
-                  <Link
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    className="group-hover:scale-[1.2] hover:translate-y-[-8px] transition-all duration-300 ease-in-out"
-                  >
-                    {value.icon}
-                  </Link>
                 </div>
               </div>
             </div>
@@ -102,28 +102,32 @@ const OurChef = () => {
               data-aos-duration="800"
               key={index}
             >
-              <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
-                <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+              <div className="rounded-2xl  group border group bg-white max-w-[360px]  border-black">
+                <div className="border-b-4 border-Rich-Black p-5 rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
                   <Image
-                    className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                    className="rounded-2xl"
                     width={316}
                     height={315}
                     src={value.image}
                     alt="john-doe-chef-master"
                   />
-                </div>
-                <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
-                  <div>
-                    <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
-                      {value.title}
-                    </h3>
-                    <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
-                      {value.master}
-                    </p>
+                  <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                    <div>
+                      <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                        {value.title}
+                      </h3>
+                      <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                        {value.master}
+                      </p>
+                    </div>
+                    <Link
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      className="hover:translate-y-[-8px] transition-all duration-300 ease-in-out"
+                    >
+                      {value.icon}
+                    </Link>
                   </div>
-                  <Link href="https://www.linkedin.com/" target="_blank">
-                    {value.icon}
-                  </Link>
                 </div>
               </div>
             </div>
@@ -141,28 +145,32 @@ const OurChef = () => {
               data-aos-duration="800"
               key={index}
             >
-              <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
-                <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+              <div className="rounded-2xl  group border group bg-white max-w-[348px]  border-black">
+                <div className="border-b-4 border-Rich-Black p-5 rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
                   <Image
-                    className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                    className="rounded-2xl"
                     width={316}
                     height={315}
                     src={value.image}
                     alt="john-doe-chef-master"
                   />
-                </div>
-                <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
-                  <div>
-                    <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
-                      {value.title}
-                    </h3>
-                    <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
-                      {value.master}
-                    </p>
+                  <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                    <div>
+                      <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                        {value.title}
+                      </h3>
+                      <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                        {value.master}
+                      </p>
+                    </div>
+                    <Link
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      className="hover:translate-y-[-8px] transition-all duration-300 ease-in-out"
+                    >
+                      {value.icon}
+                    </Link>
                   </div>
-                  <Link href="https://www.linkedin.com/" target="_blank">
-                    {value.icon}
-                  </Link>
                 </div>
               </div>
             </div>
@@ -170,7 +178,7 @@ const OurChef = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center md:hidden mt-[30px] sm:mt-[10px]  mb-[82px] sm:mb-[40px] md:mt-6 md:mb-10 lg:hidden  lg:mt-0">
+      <div className="flex justify-center items-center md:hidden mt-[30px] mb-[82px] sm:mb-[40px] md:mt-6 md:mb-10 lg:hidden  lg:mt-0">
         <ShowMoreBtn
           data={
             <div className="lg:hidden">
@@ -182,28 +190,32 @@ const OurChef = () => {
                     data-aos-duration="800"
                     key={index}
                   >
-                    <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
-                      <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+                    <div className="rounded-2xl  group border group bg-white max-w-[360px] border-black">
+                      <div className="border-b-4 border-Rich-Black p-5 rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
                         <Image
-                          className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                          className="rounded-2xl"
                           width={316}
                           height={315}
                           src={value.image}
                           alt="john-doe-chef-master"
                         />
-                      </div>
-                      <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
-                        <div>
-                          <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
-                            {value.title}
-                          </h3>
-                          <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
-                            {value.master}
-                          </p>
+                        <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                          <div>
+                            <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                              {value.title}
+                            </h3>
+                            <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                              {value.master}
+                            </p>
+                          </div>
+                          <Link
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            className="hover:translate-y-[-8px] transition-all duration-300 ease-in-out"
+                          >
+                            {value.icon}
+                          </Link>
                         </div>
-                        <Link href="https://www.linkedin.com/" target="_blank">
-                          {value.icon}
-                        </Link>
                       </div>
                     </div>
                   </div>
@@ -225,28 +237,32 @@ const OurChef = () => {
                     data-aos-duration="800"
                     key={index}
                   >
-                    <div className="rounded-2xl p-5 border group bg-white max-w-[360px]  border-black">
-                      <div className="max-w-[310px] max-h-[310px] overflow-hidden rounded-2xl">
+                    <div className="rounded-2xl  group border group bg-white max-w-[360px]  border-black">
+                      <div className="border-b-4 border-Rich-Black p-5 rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
                         <Image
-                          className="rounded-2xl group-hover:scale-[1.04]  duration-300"
+                          className="rounded-2xl"
                           width={316}
                           height={315}
                           src={value.image}
                           alt="john-doe-chef-master"
                         />
-                      </div>
-                      <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
-                        <div>
-                          <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
-                            {value.title}
-                          </h3>
-                          <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
-                            {value.master}
-                          </p>
+                        <div className="flex justify-between lg:pr-4 items-center pt-[18px] ">
+                          <div>
+                            <h3 className="lg:text-lg md:text-md text-sm font-medium font-ClashDisplay text-Rich-Black">
+                              {value.title}
+                            </h3>
+                            <p className="text-Rich-Black opacity-70 font-Syne font-normal text-sm">
+                              {value.master}
+                            </p>
+                          </div>
+                          <Link
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            className="hover:translate-y-[-8px] transition-all duration-300 ease-in-out"
+                          >
+                            {value.icon}
+                          </Link>
                         </div>
-                        <Link href="https://www.linkedin.com/" target="_blank">
-                          {value.icon}
-                        </Link>
                       </div>
                     </div>
                   </div>

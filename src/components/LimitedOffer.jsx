@@ -55,7 +55,7 @@ const LimitedOffers = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
             >
-              <div className="text-white font-ClashDisplay !leading-[123%] max-h-[44px] font-medium text-xsm md:text-sm bg-[#2c2c2d] rounded-full py-3 min-[340px]:pe-[35px] pe-[13px] sm:pe-20 ps-[13px]  items-center flex justify-center md:items-start md:justify-start">
+              <div className="text-white font-ClashDisplay !leading-[123%] max-h-[44px] font-medium text-sm bg-[#2c2c2d] rounded-full py-3 min-[340px]:pe-[35px] pe-[13px] sm:pe-20 ps-[13px]  items-center flex justify-center md:items-start md:justify-start">
                 #burger10gy2ygv3y
               </div>
               <button className="bg-linear-gradient-btn hover:shadow-buttonShadow2 transition-all ease-in-out duration-300 flex items-center gap-1 font-ClashDisplay !leading-[123%] font-medium text-xsm md:text-sm text-black py-3 px-5 rounded-full">

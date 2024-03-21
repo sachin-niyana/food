@@ -39,32 +39,34 @@ const TopCollections = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
             >
-              <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
-                <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                  <span className="absolute right-[12px] top-[12px]">
-                    {" "}
-                    {value.icon}{" "}
-                  </span>
-                  <Image
-                    className="group-hover:scale-110 transition-all ease-in-out duration-300"
-                    src={value.image}
-                    width={284}
-                    height={189}
-                    alt="burger"
-                  />
-                </div>
-                <div className="flex items-center justify-between">
-                  <div className="mt-[20px]">
-                    <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
-                      {value.title}
-                    </h2>
-                    <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
-                      {value.burger}
-                    </p>
+              <div className="border-[1px] mx-auto like_icon bg-white max-w-[360px] border-black rounded-[16px]">
+                <div className="border-b-[3px] border-Rich-Black px-[24px] pt-[24px] pb-[20px] w-full rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+                  <div className="border-[1px] bg-white cursor-pointer sm:pt-[31px] pt-7 p-4 border-black rounded-[16px] relative">
+                    <span className="absolute right-[12px] top-[12px]">
+                      {" "}
+                      {value.icon}{" "}
+                    </span>
+                    <Image
+                      className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                      src={value.image}
+                      width={284}
+                      height={189}
+                      alt="burger"
+                    />
                   </div>
-                  <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
-                    {value.price}
-                  </h3>
+                  <div className="flex items-center justify-between">
+                    <div className="mt-[20px]">
+                      <h2 className="font-ClashDisplay text-md lg:text-lg leading-[123%] font-medium text-Rich-Black">
+                        {value.title}
+                      </h2>
+                      <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                        {value.burger}
+                      </p>
+                    </div>
+                    <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                      {value.price}
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -83,29 +85,34 @@ const TopCollections = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
             >
-              <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
-                <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                  <span className="absolute right-3"> {value.icon} </span>
-                  <Image
-                    className="group-hover:scale-110 transition-all ease-in-out duration-300"
-                    src={value.image}
-                    width={284}
-                    height={189}
-                    alt="burger"
-                  />
-                </div>
-                <div className="flex items-center justify-between">
-                  <div className="mt-[20px]">
-                    <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
-                      {value.title}
-                    </h2>
-                    <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
-                      {value.burger}
-                    </p>
+              <div className="border-[1px] mx-auto like_icon bg-white max-w-[360px] border-black rounded-[16px]">
+                <div className="border-b-[3px] border-Rich-Black px-[24px] pt-[24px] pb-[20px] w-full rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+                  <div className="border-[1px] bg-white cursor-pointer sm:pt-[31px] pt-7 p-4 border-black rounded-[16px] relative">
+                    <span className="absolute right-[12px] top-[12px]">
+                      {" "}
+                      {value.icon}{" "}
+                    </span>
+                    <Image
+                      className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                      src={value.image}
+                      width={284}
+                      height={189}
+                      alt="burger"
+                    />
                   </div>
-                  <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
-                    {value.price}
-                  </h3>
+                  <div className="flex items-center justify-between">
+                    <div className="mt-[20px]">
+                      <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                        {value.title}
+                      </h2>
+                      <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                        {value.burger}
+                      </p>
+                    </div>
+                    <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                      {value.price}
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -122,29 +129,34 @@ const TopCollections = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
             >
-              <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
-                <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                  <span className="absolute right-3"> {value.icon} </span>
-                  <Image
-                    className="group-hover:scale-110 transition-all ease-in-out duration-300"
-                    src={value.image}
-                    width={284}
-                    height={189}
-                    alt="burger"
-                  />
-                </div>
-                <div className="flex items-center justify-between">
-                  <div className="mt-[20px]">
-                    <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
-                      {value.title}
-                    </h2>
-                    <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
-                      {value.burger}
-                    </p>
+              <div className="border-[1px] mx-auto like_icon bg-white max-w-[360px] border-black rounded-[16px]">
+                <div className="border-b-[3px] border-Rich-Black px-[24px] pt-[24px] pb-[20px] w-full rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+                  <div className="border-[1px] bg-white cursor-pointer sm:pt-[31px] pt-7 p-4 border-black rounded-[16px] relative">
+                    <span className="absolute right-[12px] top-[12px]">
+                      {" "}
+                      {value.icon}{" "}
+                    </span>
+                    <Image
+                      className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                      src={value.image}
+                      width={284}
+                      height={189}
+                      alt="burger"
+                    />
                   </div>
-                  <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
-                    {value.price}
-                  </h3>
+                  <div className="flex items-center justify-between">
+                    <div className="mt-[20px]">
+                      <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                        {value.title}
+                      </h2>
+                      <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                        {value.burger}
+                      </p>
+                    </div>
+                    <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                      {value.price}
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -163,29 +175,34 @@ const TopCollections = () => {
               data-aos-easing="linear"
               data-aos-duration="800"
             >
-              <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
-                <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                  <span className="absolute right-3"> {value.icon} </span>
-                  <Image
-                    className="group-hover:scale-110 transition-all ease-in-out duration-300"
-                    src={value.image}
-                    width={284}
-                    height={189}
-                    alt="burger"
-                  />
-                </div>
-                <div className="flex items-center justify-between">
-                  <div className="mt-[20px]">
-                    <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
-                      {value.title}
-                    </h2>
-                    <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
-                      {value.burger}
-                    </p>
+              <div className="border-[1px] mx-auto like_icon bg-white max-w-[360px] border-black rounded-[16px]">
+                <div className="border-b-[3px] border-Rich-Black px-[24px] pt-[24px] pb-[20px] w-full rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+                  <div className="border-[1px] bg-white cursor-pointer sm:pt-[31px] pt-7 p-4 border-black rounded-[16px] relative">
+                    <span className="absolute right-[12px] top-[12px]">
+                      {" "}
+                      {value.icon}{" "}
+                    </span>
+                    <Image
+                      className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                      src={value.image}
+                      width={284}
+                      height={189}
+                      alt="burger"
+                    />
                   </div>
-                  <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
-                    {value.price}
-                  </h3>
+                  <div className="flex items-center justify-between">
+                    <div className="mt-[20px]">
+                      <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                        {value.title}
+                      </h2>
+                      <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                        {value.burger}
+                      </p>
+                    </div>
+                    <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                      {value.price}
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -207,29 +224,34 @@ const TopCollections = () => {
                     data-aos-easing="linear"
                     data-aos-duration="800"
                   >
-                    <div className="border-[1px] mx-auto like_icon bg-white px-4 sm:px-3 lg:px-[24px] pt-4 sm:pt-3 lg:pt-[24px] pb-4 lg:pb-[20px] max-w-[360px] border-black rounded-[16px]">
-                      <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                        <span className="absolute right-3"> {value.icon} </span>
-                        <Image
-                          className="group-hover:scale-110 transition-all ease-in-out duration-300"
-                          src={value.image}
-                          width={284}
-                          height={189}
-                          alt="burger"
-                        />
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <div className="mt-[20px]">
-                          <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
-                            {value.title}
-                          </h2>
-                          <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
-                            {value.burger}
-                          </p>
+                    <div className="border-[1px] mx-auto like_icon bg-white max-w-[360px] border-black rounded-[16px]">
+                      <div className="border-b-[3px] border-Rich-Black px-[24px] pt-[24px] pb-[20px] w-full rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+                        <div className="border-[1px] bg-white cursor-pointer sm:pt-[31px] pt-7 p-4 border-black rounded-[16px] relative">
+                          <span className="absolute right-[12px] top-[12px]">
+                            {" "}
+                            {value.icon}{" "}
+                          </span>
+                          <Image
+                            className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                            src={value.image}
+                            width={284}
+                            height={189}
+                            alt="burger"
+                          />
                         </div>
-                        <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
-                          {value.price}
-                        </h3>
+                        <div className="flex items-center justify-between">
+                          <div className="mt-[20px]">
+                            <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                              {value.title}
+                            </h2>
+                            <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                              {value.burger}
+                            </p>
+                          </div>
+                          <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                            {value.price}
+                          </h3>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -252,29 +274,34 @@ const TopCollections = () => {
                     data-aos-easing="linear"
                     data-aos-duration="800"
                   >
-                    <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
-                      <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                        <span className="absolute right-3"> {value.icon} </span>
-                        <Image
-                          className="group-hover:scale-110 transition-all ease-in-out duration-300"
-                          src={value.image}
-                          width={284}
-                          height={189}
-                          alt="burger"
-                        />
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <div className="mt-[20px]">
-                          <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
-                            {value.title}
-                          </h2>
-                          <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
-                            {value.burger}
-                          </p>
+                    <div className="border-[1px] mx-auto like_icon bg-white max-w-[360px] border-black rounded-[16px]">
+                      <div className="border-b-[3px] border-Rich-Black px-[24px] pt-[24px] pb-[20px] w-full rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+                        <div className="border-[1px] bg-white cursor-pointer sm:pt-[31px] pt-7 p-4 border-black rounded-[16px] relative">
+                          <span className="absolute right-[12px] top-[12px]">
+                            {" "}
+                            {value.icon}{" "}
+                          </span>
+                          <Image
+                            className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                            src={value.image}
+                            width={284}
+                            height={189}
+                            alt="burger"
+                          />
                         </div>
-                        <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
-                          {value.price}
-                        </h3>
+                        <div className="flex items-center justify-between">
+                          <div className="mt-[20px]">
+                            <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                              {value.title}
+                            </h2>
+                            <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                              {value.burger}
+                            </p>
+                          </div>
+                          <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                            {value.price}
+                          </h3>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -299,29 +326,34 @@ const TopCollections = () => {
                     data-aos-easing="linear"
                     data-aos-duration="800"
                   >
-                    <div className="border-[1px] mx-auto like_icon bg-white px-[24px] pt-[24px] pb-[20px] max-w-[360px] border-black rounded-[16px]">
-                      <div className="border-[1px] bg-white cursor-pointer p-2 md:p-4 border-black rounded-[16px] relative">
-                        <span className="absolute right-3"> {value.icon} </span>
-                        <Image
-                          className="group-hover:scale-110 transition-all ease-in-out duration-300"
-                          src={value.image}
-                          width={284}
-                          height={189}
-                          alt="burger"
-                        />
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <div className="mt-[20px]">
-                          <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
-                            {value.title}
-                          </h2>
-                          <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
-                            {value.burger}
-                          </p>
+                    <div className="border-[1px] mx-auto like_icon bg-white max-w-[360px] border-black rounded-[16px]">
+                      <div className="border-b-[3px] border-Rich-Black px-[24px] pt-[24px] pb-[20px] w-full rounded-xl border-opacity-0 hover:border-opacity-100 duration-300 ease-in-out">
+                        <div className="border-[1px] bg-white cursor-pointer sm:pt-[31px] pt-7 p-4 border-black rounded-[16px] relative">
+                          <span className="absolute right-[12px] top-[12px]">
+                            {" "}
+                            {value.icon}{" "}
+                          </span>
+                          <Image
+                            className="group-hover:scale-110 transition-all ease-in-out duration-300"
+                            src={value.image}
+                            width={284}
+                            height={189}
+                            alt="burger"
+                          />
                         </div>
-                        <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
-                          {value.price}
-                        </h3>
+                        <div className="flex items-center justify-between">
+                          <div className="mt-[20px]">
+                            <h2 className="font-ClashDisplay text-md lg:text-lg font-medium text-Rich-Black">
+                              {value.title}
+                            </h2>
+                            <p className="text-sm text-Rich-Black font-Syne opacity-70 mt-[2px]">
+                              {value.burger}
+                            </p>
+                          </div>
+                          <h3 className="font-ClashDisplay text-md lg:text-lg font-semibold mt-5 lg:me-5 text-Rich-Black">
+                            {value.price}
+                          </h3>
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -25,7 +25,7 @@ const BackToTop = () => {
       {isBackToTopVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-5 right-5 sm:w-[54px] sm:h-[54px] w-[40px] h-[40px] bg-green animate-bounce bg-linear-gradient-btn text-white flex justify-center items-center rounded-full z-50 transition-all duration-300 "
+          className="fixed bottom-5 right-5 sm:w-[54px] sm:h-[54px] w-[40px] h-[40px] bg-green animate-bounce bg-linear-gradient-btn text-white flex justify-center border-[4px] shadow-backToTopShadow border-white items-center rounded-full z-50 transition-all duration-300 "
         >
           <TiArrowUpThick className="sm:w-6 sm:h-6" />
         </button>

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="container max-w-[1152px] mx-auto sm:px-6 px-5 sm:pt-[71px] pt-[78px] xl:overflow-visible overflow-hidden">
       <div className="flex flex-row flex-wrap items-center">
-        <div className="lg:w-6/12 w-full flex justify-center flex-col">
+        <div className="lg:w-7/12 w-full flex justify-center flex-col">
           <div className="flex lg:justify-start justify-center">
             <div className="bg-light-brown flex items-center gap-0.5 py-1.5 px-[19px] max-w-[202px] rounded-full">
               <Image
@@ -21,7 +21,7 @@ const Header = () => {
               <div className="w-[42px] h-[1px] bg-yellow rounded-full mt-2"></div>
             </div>
           </div>
-          <h1 className="font-ClashDisplay font-semibold md:max-w-[728px] sm:max-w-[570px] max-w-[340px] xl:text-3xl lg:text-xxl md:text-3xl sm:text-3xl text-llg mx-auto leading-[121%] text-Rich-Black mt-1.5 lg:text-start text-center">
+          <h1 className="font-ClashDisplay font-semibold xl:max-w-[570px] lg:max-w-[470px] md:max-w-[700px] sm:max-w-[570px] max-w-[340px] xl:text-3xl lg:text-xxl md:text-3xl sm:text-3xl text-llg lg:mx-0 mx-auto leading-[121%] text-Rich-Black mt-1.5 lg:text-start text-center">
             Fastest and Flavourful Food Delivering at your{" "}
             <span className="relative">
               Doorstep{" "}
@@ -50,9 +50,9 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div className="lg:w-6/12 w-full flex justify-center xl:ps-0 lg:ps-5 lg:mt-0 sm:mt-[128px] mt-[61px] relative">
+        <div className="lg:w-5/12 w-full flex justify-center xl:ps-0 lg:ps-5 lg:mt-0 sm:mt-[128px] mt-[61px] relative">
           <Image
-            className="max-w-[563px] w-full xl:translate-x-12 z-10"
+            className="max-w-[563px] w-full xl:translate-x-14 z-10"
             src="/assets/images/header/scooter.webp"
             width={565}
             height={518}
